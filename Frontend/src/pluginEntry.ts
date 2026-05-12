@@ -1,10 +1,14 @@
 import DemoPage from './views/DemoPage.vue';
 import './style.css';
+import InstanceDropDownItemInject from './views/InstanceDropDownItemInject.vue';
+import {GitBranchIcon} from "tdesign-icons-vue-next";
+import InstanceCardInject from "./views/InstanceCardInject.vue";
 
 export const pluginConfig = {
     name: 'DemoMenuPlugin',
     version: '1.0.0',
 
+    // 注入路由
     routes: [
         // 插入新的一级菜单
         {
@@ -51,6 +55,19 @@ export const pluginConfig = {
             name: 'PluginNestedSetting',
             component: DemoPage,
             meta: { title: '插件子菜单', icon: 'control-platform', roleCode: ['admin', 'user'] },
+        }
+    ],
+    // 注入组件
+    extensions: [
+        {
+            slot: 'instance-console-dropdown', // 注入到实例控制台更多功能的下拉菜单
+            component: InstanceDropDownItemInject, // 弹窗组件
+            label: '插件弹窗', // 下拉子菜单名
+            icon: GitBranchIcon, // 下拉子菜单Icon
+        },
+        {
+            slot: 'instance-console-overview-bottom', // 注入到实例控制台玩家卡片下方
+            component: InstanceCardInject, // 组件
         }
     ]
 };

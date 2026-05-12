@@ -1,68 +1,68 @@
-(function(){"use strict";try{if(typeof document<"u"){var a=document.createElement("style");a.appendChild(document.createTextNode("@keyframes t-spin{0%{transform:rotate(0)}to{transform:rotate(360deg)}}.t-icon{display:inline-block;vertical-align:middle;width:1em;height:1em}.t-icon:before{font-family:unset}.t-icon-loading{animation:t-spin 1s linear infinite}.t-icon.t-size-s,i.t-size-s{font-size:14px}.t-icon.t-size-m,i.t-size-m{font-size:16px}.t-icon.t-size-l,i.t-size-l{font-size:18px}@unocss;.bg-primary-light[data-v-78cf48db]{background-color:color-mix(in srgb,var(--td-brand-color) 10%,transparent)}.bg-success-light[data-v-78cf48db]{background-color:color-mix(in srgb,var(--td-success-color) 10%,transparent)}.bg-warning-light[data-v-78cf48db]{background-color:color-mix(in srgb,var(--td-warning-color) 10%,transparent)}.bg-secondary-light[data-v-78cf48db]{background-color:color-mix(in srgb,var(--td-bg-color-secondarycontainer) 50%,transparent)}.list-item-anim[data-v-78cf48db]{animation:slideUp-78cf48db .6s cubic-bezier(.2,.8,.2,1) backwards}@keyframes slideUp-78cf48db{0%{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}.custom-scrollbar[data-v-78cf48db]::-webkit-scrollbar{width:8px;height:8px}.custom-scrollbar[data-v-78cf48db]::-webkit-scrollbar-track{background:#0000001a;border-radius:4px}.custom-scrollbar[data-v-78cf48db]::-webkit-scrollbar-thumb{background:#4a4a4a;border-radius:4px}.custom-scrollbar[data-v-78cf48db]::-webkit-scrollbar-thumb:hover{background:#666}.relative[data-v-78cf48db]{position:relative}.grid[data-v-78cf48db]{display:grid}.grid-cols-1[data-v-78cf48db]{grid-template-columns:repeat(1,minmax(0,1fr))}.m-0[data-v-78cf48db]{margin:0}.mx-auto[data-v-78cf48db]{margin-left:auto;margin-right:auto}.mb-1[data-v-78cf48db]{margin-bottom:.25rem}.mb-2[data-v-78cf48db]{margin-bottom:.5rem}.mb-3[data-v-78cf48db]{margin-bottom:.75rem}.mb-4\\![data-v-78cf48db]{margin-bottom:1rem!important}.mb-5[data-v-78cf48db]{margin-bottom:1.25rem}.ml-4[data-v-78cf48db]{margin-left:1rem}.ml-5\\![data-v-78cf48db]{margin-left:1.25rem!important}.ml-auto[data-v-78cf48db]{margin-left:auto}.mr-1[data-v-78cf48db]{margin-right:.25rem}.mr-6\\![data-v-78cf48db]{margin-right:1.5rem!important}.mt-1[data-v-78cf48db]{margin-top:.25rem}.mt-2[data-v-78cf48db]{margin-top:.5rem}.mt-8[data-v-78cf48db]{margin-top:2rem}.h-1\\.5[data-v-78cf48db]{height:.375rem}.h-12[data-v-78cf48db]{height:3rem}.h-3[data-v-78cf48db]{height:.75rem}.h-6[data-v-78cf48db]{height:1.5rem}.h-full[data-v-78cf48db]{height:100%}.max-w-3xl[data-v-78cf48db]{max-width:48rem}.min-h-\\[260px\\][data-v-78cf48db]{min-height:260px}.w-1\\.5[data-v-78cf48db]{width:.375rem}.w-12[data-v-78cf48db]{width:3rem}.w-3[data-v-78cf48db]{width:.75rem}.w-full[data-v-78cf48db]{width:100%}.flex[data-v-78cf48db]{display:flex}.shrink-0[data-v-78cf48db]{flex-shrink:0}.flex-grow[data-v-78cf48db]{flex-grow:1}.flex-col[data-v-78cf48db]{flex-direction:column}.hover\\:-translate-y-1[data-v-78cf48db]:hover{--un-translate-y:-.25rem;transform:translate(var(--un-translate-x)) translateY(var(--un-translate-y)) translateZ(var(--un-translate-z)) rotate(var(--un-rotate)) rotateX(var(--un-rotate-x)) rotateY(var(--un-rotate-y)) rotate(var(--un-rotate-z)) skew(var(--un-skew-x)) skewY(var(--un-skew-y)) scaleX(var(--un-scale-x)) scaleY(var(--un-scale-y)) scaleZ(var(--un-scale-z))}.transform[data-v-78cf48db]{transform:translate(var(--un-translate-x)) translateY(var(--un-translate-y)) translateZ(var(--un-translate-z)) rotate(var(--un-rotate)) rotateX(var(--un-rotate-x)) rotateY(var(--un-rotate-y)) rotate(var(--un-rotate-z)) skew(var(--un-skew-x)) skewY(var(--un-skew-y)) scaleX(var(--un-scale-x)) scaleY(var(--un-scale-y)) scaleZ(var(--un-scale-z))}.cursor-pointer[data-v-78cf48db]{cursor:pointer}.items-start[data-v-78cf48db]{align-items:flex-start}.items-center[data-v-78cf48db]{align-items:center}.justify-center[data-v-78cf48db]{justify-content:center}.justify-between[data-v-78cf48db]{justify-content:space-between}.gap-1\\.5[data-v-78cf48db]{gap:.375rem}.gap-2[data-v-78cf48db]{gap:.5rem}.gap-3[data-v-78cf48db]{gap:.75rem}.gap-4[data-v-78cf48db]{gap:1rem}.gap-6[data-v-78cf48db]{gap:1.5rem}.overflow-hidden[data-v-78cf48db]{overflow:hidden}.overflow-x-auto[data-v-78cf48db]{overflow-x:auto}.border[data-v-78cf48db]{border-width:1px}.border-4[data-v-78cf48db]{border-width:4px}.border-b[data-v-78cf48db]{border-bottom-width:1px}.border-\\[\\#404040\\][data-v-78cf48db]{--un-border-opacity:1;border-color:rgb(64 64 64 / var(--un-border-opacity))}.border-\\[var\\(--color-primary\\)\\][data-v-78cf48db]{border-color:var(--color-primary)}.border-\\[var\\(--td-border-level-2-color\\)\\][data-v-78cf48db]{border-color:var(--td-border-level-2-color)}.border-\\[var\\(--td-component-border\\)\\][data-v-78cf48db]{border-color:var(--td-component-border)}.rounded[data-v-78cf48db]{border-radius:.25rem}.rounded-2xl[data-v-78cf48db]{border-radius:1rem}.rounded-full[data-v-78cf48db]{border-radius:9999px}.rounded-xl[data-v-78cf48db]{border-radius:.75rem}.border-dashed[data-v-78cf48db]{border-style:dashed}.bg-\\[\\#1e1e1e\\][data-v-78cf48db]{--un-bg-opacity:1;background-color:rgb(30 30 30 / var(--un-bg-opacity))}.bg-\\[\\#27c93f\\][data-v-78cf48db]{--un-bg-opacity:1;background-color:rgb(39 201 63 / var(--un-bg-opacity))}.bg-\\[\\#2d2d2d\\][data-v-78cf48db]{--un-bg-opacity:1;background-color:rgb(45 45 45 / var(--un-bg-opacity))}.bg-\\[\\#ff5f56\\][data-v-78cf48db]{--un-bg-opacity:1;background-color:rgb(255 95 86 / var(--un-bg-opacity))}.bg-\\[\\#ffbd2e\\][data-v-78cf48db]{--un-bg-opacity:1;background-color:rgb(255 189 46 / var(--un-bg-opacity))}.bg-\\[var\\(--color-primary\\)\\][data-v-78cf48db]{background-color:var(--color-primary)}.bg-\\[var\\(--color-success\\)\\][data-v-78cf48db]{background-color:var(--color-success)}.bg-\\[var\\(--color-warning\\)\\][data-v-78cf48db]{background-color:var(--color-warning)}.hover\\:bg-\\[var\\(--td-bg-color-container\\)\\][data-v-78cf48db]:hover{background-color:var(--td-bg-color-container)}.p-4[data-v-78cf48db]{padding:1rem}.p-5[data-v-78cf48db]{padding:1.25rem}.p-6[data-v-78cf48db]{padding:1.5rem}.p-8[data-v-78cf48db]{padding:2rem}.px-2[data-v-78cf48db]{padding-left:.5rem;padding-right:.5rem}.px-4[data-v-78cf48db]{padding-left:1rem;padding-right:1rem}.py-0\\.5[data-v-78cf48db]{padding-top:.125rem;padding-bottom:.125rem}.py-2\\.5[data-v-78cf48db]{padding-top:.625rem;padding-bottom:.625rem}.pb-4[data-v-78cf48db]{padding-bottom:1rem}.pb-8[data-v-78cf48db]{padding-bottom:2rem}.pt-6[data-v-78cf48db]{padding-top:1.5rem}.text-center[data-v-78cf48db]{text-align:center}.text-\\[13px\\][data-v-78cf48db]{font-size:13px}.text-2xl[data-v-78cf48db]{font-size:1.5rem;line-height:2rem}.text-base[data-v-78cf48db]{font-size:1rem;line-height:1.5rem}.text-lg[data-v-78cf48db]{font-size:1.125rem;line-height:1.75rem}.text-sm[data-v-78cf48db]{font-size:.875rem;line-height:1.25rem}.text-xs[data-v-78cf48db]{font-size:.75rem;line-height:1rem}.text-\\[\\#56b6c2\\][data-v-78cf48db]{--un-text-opacity:1;color:rgb(86 182 194 / var(--un-text-opacity))}.text-\\[\\#858585\\][data-v-78cf48db]{--un-text-opacity:1;color:rgb(133 133 133 / var(--un-text-opacity))}.text-\\[\\#d4d4d4\\][data-v-78cf48db]{--un-text-opacity:1;color:rgb(212 212 212 / var(--un-text-opacity))}.text-\\[var\\(--color-danger\\)\\][data-v-78cf48db]{color:var(--color-danger)}.text-\\[var\\(--color-primary\\)\\][data-v-78cf48db]{color:var(--color-primary)}.text-\\[var\\(--color-success\\)\\][data-v-78cf48db]{color:var(--color-success)}.text-\\[var\\(--color-warning\\)\\][data-v-78cf48db]{color:var(--color-warning)}.text-\\[var\\(--td-text-color-primary\\)\\][data-v-78cf48db]{color:var(--td-text-color-primary)}.text-\\[var\\(--td-text-color-secondary\\)\\][data-v-78cf48db]{color:var(--td-text-color-secondary)}.hover\\:text-\\[var\\(--color-primary\\)\\][data-v-78cf48db]:hover{color:var(--color-primary)}.font-bold[data-v-78cf48db]{font-weight:700}.font-extrabold[data-v-78cf48db]{font-weight:800}.font-medium[data-v-78cf48db]{font-weight:500}.leading-normal[data-v-78cf48db]{line-height:1.5}.leading-relaxed[data-v-78cf48db]{line-height:1.625}.tracking-wide[data-v-78cf48db]{letter-spacing:.025em}.tracking-widest[data-v-78cf48db]{letter-spacing:.1em}.font-mono[data-v-78cf48db]{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}.uppercase[data-v-78cf48db]{text-transform:uppercase}.opacity-60[data-v-78cf48db]{opacity:.6}.opacity-90[data-v-78cf48db]{opacity:.9}.shadow-\\[0_0_8px_var\\(--color-primary-light\\)\\][data-v-78cf48db]{--un-shadow:0 0 8px var(--un-shadow-color, var(--color-primary-light));box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.shadow-\\[0_0_8px_var\\(--color-warning-light\\)\\][data-v-78cf48db]{--un-shadow:0 0 8px var(--un-shadow-color, var(--color-warning-light));box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.shadow-inner[data-v-78cf48db]{--un-shadow:inset 0 2px 4px 0 var(--un-shadow-color, rgb(0 0 0 / .05));box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.shadow-md[data-v-78cf48db]{--un-shadow:var(--un-shadow-inset) 0 4px 6px -1px var(--un-shadow-color, rgb(0 0 0 / .1)),var(--un-shadow-inset) 0 2px 4px -2px var(--un-shadow-color, rgb(0 0 0 / .1));box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.shadow-sm[data-v-78cf48db]{--un-shadow:var(--un-shadow-inset) 0 1px 2px 0 var(--un-shadow-color, rgb(0 0 0 / .05));box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.hover\\:shadow-md[data-v-78cf48db]:hover{--un-shadow:var(--un-shadow-inset) 0 4px 6px -1px var(--un-shadow-color, rgb(0 0 0 / .1)),var(--un-shadow-inset) 0 2px 4px -2px var(--un-shadow-color, rgb(0 0 0 / .1));box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.light .light-outline[data-v-78cf48db],.outline[data-v-78cf48db]{outline-style:solid}.transition-all[data-v-78cf48db]{transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-colors[data-v-78cf48db]{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}@media(min-width:768px){.md\\:grid-cols-3[data-v-78cf48db]{grid-template-columns:repeat(3,minmax(0,1fr))}.md\\:mb-0[data-v-78cf48db]{margin-bottom:0}.md\\:flex-row[data-v-78cf48db]{flex-direction:row}.md\\:items-start[data-v-78cf48db]{align-items:flex-start}.md\\:items-center[data-v-78cf48db]{align-items:center}.md\\:justify-start[data-v-78cf48db]{justify-content:flex-start}.md\\:text-left[data-v-78cf48db]{text-align:left}}@media(min-width:1024px){.lg\\:col-span-2[data-v-78cf48db]{grid-column:span 2/span 2}.lg\\:col-span-3[data-v-78cf48db]{grid-column:span 3/span 3}.lg\\:grid-cols-5[data-v-78cf48db]{grid-template-columns:repeat(5,minmax(0,1fr))}}")),document.head.appendChild(a)}}catch(t){console.error("vite-plugin-css-injected-by-js",t)}})();
-function G(e) {
+(function(){"use strict";try{if(typeof document<"u"){var a=document.createElement("style");a.appendChild(document.createTextNode("@keyframes t-spin{0%{transform:rotate(0)}to{transform:rotate(360deg)}}.t-icon{display:inline-block;vertical-align:middle;width:1em;height:1em}.t-icon:before{font-family:unset}.t-icon-loading{animation:t-spin 1s linear infinite}.t-icon.t-size-s,i.t-size-s{font-size:14px}.t-icon.t-size-m,i.t-size-m{font-size:16px}.t-icon.t-size-l,i.t-size-l{font-size:18px}@unocss;.bg-primary-light[data-v-070657da]{background-color:color-mix(in srgb,var(--td-brand-color) 10%,transparent)}.bg-success-light[data-v-070657da]{background-color:color-mix(in srgb,var(--td-success-color) 10%,transparent)}.bg-warning-light[data-v-070657da]{background-color:color-mix(in srgb,var(--td-warning-color) 10%,transparent)}.bg-secondary-light[data-v-070657da]{background-color:color-mix(in srgb,var(--td-bg-color-secondarycontainer) 50%,transparent)}.list-item-anim[data-v-070657da]{animation:slideUp-070657da .6s cubic-bezier(.2,.8,.2,1) backwards}@keyframes slideUp-070657da{0%{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}.custom-scrollbar[data-v-070657da]::-webkit-scrollbar{width:8px;height:8px}.custom-scrollbar[data-v-070657da]::-webkit-scrollbar-track{background:#0000001a;border-radius:4px}.custom-scrollbar[data-v-070657da]::-webkit-scrollbar-thumb{background:#4a4a4a;border-radius:4px}.custom-scrollbar[data-v-070657da]::-webkit-scrollbar-thumb:hover{background:#666}.relative[data-v-070657da]{position:relative}.grid[data-v-070657da]{display:grid}.grid-cols-1[data-v-070657da]{grid-template-columns:repeat(1,minmax(0,1fr))}.m-0[data-v-070657da]{margin:0}.mx-auto[data-v-070657da]{margin-left:auto;margin-right:auto}.mb-1[data-v-070657da]{margin-bottom:.25rem}.mb-2[data-v-070657da]{margin-bottom:.5rem}.mb-3[data-v-070657da]{margin-bottom:.75rem}.mb-4\\![data-v-070657da]{margin-bottom:1rem!important}.mb-5[data-v-070657da]{margin-bottom:1.25rem}.ml-4[data-v-070657da]{margin-left:1rem}.ml-5\\![data-v-070657da]{margin-left:1.25rem!important}.ml-auto[data-v-070657da]{margin-left:auto}.mr-1[data-v-070657da]{margin-right:.25rem}.mr-6\\![data-v-070657da]{margin-right:1.5rem!important}.mt-1[data-v-070657da]{margin-top:.25rem}.mt-2[data-v-070657da]{margin-top:.5rem}.mt-8[data-v-070657da]{margin-top:2rem}.h-1\\.5[data-v-070657da]{height:.375rem}.h-12[data-v-070657da]{height:3rem}.h-3[data-v-070657da]{height:.75rem}.h-6[data-v-070657da]{height:1.5rem}.h-full[data-v-070657da]{height:100%}.max-w-3xl[data-v-070657da]{max-width:48rem}.min-h-\\[260px\\][data-v-070657da]{min-height:260px}.w-1\\.5[data-v-070657da]{width:.375rem}.w-12[data-v-070657da]{width:3rem}.w-3[data-v-070657da]{width:.75rem}.w-full[data-v-070657da]{width:100%}.flex[data-v-070657da]{display:flex}.shrink-0[data-v-070657da]{flex-shrink:0}.flex-grow[data-v-070657da]{flex-grow:1}.flex-col[data-v-070657da]{flex-direction:column}.hover\\:-translate-y-1[data-v-070657da]:hover{--un-translate-y:-.25rem;transform:translate(var(--un-translate-x)) translateY(var(--un-translate-y)) translateZ(var(--un-translate-z)) rotate(var(--un-rotate)) rotateX(var(--un-rotate-x)) rotateY(var(--un-rotate-y)) rotate(var(--un-rotate-z)) skew(var(--un-skew-x)) skewY(var(--un-skew-y)) scaleX(var(--un-scale-x)) scaleY(var(--un-scale-y)) scaleZ(var(--un-scale-z))}.transform[data-v-070657da]{transform:translate(var(--un-translate-x)) translateY(var(--un-translate-y)) translateZ(var(--un-translate-z)) rotate(var(--un-rotate)) rotateX(var(--un-rotate-x)) rotateY(var(--un-rotate-y)) rotate(var(--un-rotate-z)) skew(var(--un-skew-x)) skewY(var(--un-skew-y)) scaleX(var(--un-scale-x)) scaleY(var(--un-scale-y)) scaleZ(var(--un-scale-z))}.cursor-pointer[data-v-070657da]{cursor:pointer}.items-start[data-v-070657da]{align-items:flex-start}.items-center[data-v-070657da]{align-items:center}.justify-center[data-v-070657da]{justify-content:center}.justify-between[data-v-070657da]{justify-content:space-between}.gap-1\\.5[data-v-070657da]{gap:.375rem}.gap-2[data-v-070657da]{gap:.5rem}.gap-3[data-v-070657da]{gap:.75rem}.gap-4[data-v-070657da]{gap:1rem}.gap-6[data-v-070657da]{gap:1.5rem}.overflow-hidden[data-v-070657da]{overflow:hidden}.overflow-x-auto[data-v-070657da]{overflow-x:auto}.border[data-v-070657da]{border-width:1px}.border-4[data-v-070657da]{border-width:4px}.border-b[data-v-070657da]{border-bottom-width:1px}.border-\\[\\#404040\\][data-v-070657da]{--un-border-opacity:1;border-color:rgb(64 64 64 / var(--un-border-opacity))}.border-\\[var\\(--color-primary\\)\\][data-v-070657da]{border-color:var(--color-primary)}.border-\\[var\\(--td-border-level-2-color\\)\\][data-v-070657da]{border-color:var(--td-border-level-2-color)}.border-\\[var\\(--td-component-border\\)\\][data-v-070657da]{border-color:var(--td-component-border)}.rounded[data-v-070657da]{border-radius:.25rem}.rounded-2xl[data-v-070657da]{border-radius:1rem}.rounded-full[data-v-070657da]{border-radius:9999px}.rounded-xl[data-v-070657da]{border-radius:.75rem}.border-dashed[data-v-070657da]{border-style:dashed}.bg-\\[\\#1e1e1e\\][data-v-070657da]{--un-bg-opacity:1;background-color:rgb(30 30 30 / var(--un-bg-opacity))}.bg-\\[\\#27c93f\\][data-v-070657da]{--un-bg-opacity:1;background-color:rgb(39 201 63 / var(--un-bg-opacity))}.bg-\\[\\#2d2d2d\\][data-v-070657da]{--un-bg-opacity:1;background-color:rgb(45 45 45 / var(--un-bg-opacity))}.bg-\\[\\#ff5f56\\][data-v-070657da]{--un-bg-opacity:1;background-color:rgb(255 95 86 / var(--un-bg-opacity))}.bg-\\[\\#ffbd2e\\][data-v-070657da]{--un-bg-opacity:1;background-color:rgb(255 189 46 / var(--un-bg-opacity))}.bg-\\[var\\(--color-primary\\)\\][data-v-070657da]{background-color:var(--color-primary)}.bg-\\[var\\(--color-success\\)\\][data-v-070657da]{background-color:var(--color-success)}.bg-\\[var\\(--color-warning\\)\\][data-v-070657da]{background-color:var(--color-warning)}.hover\\:bg-\\[var\\(--td-bg-color-container\\)\\][data-v-070657da]:hover{background-color:var(--td-bg-color-container)}.p-4[data-v-070657da]{padding:1rem}.p-5[data-v-070657da]{padding:1.25rem}.p-6[data-v-070657da]{padding:1.5rem}.p-8[data-v-070657da]{padding:2rem}.px-2[data-v-070657da]{padding-left:.5rem;padding-right:.5rem}.px-4[data-v-070657da]{padding-left:1rem;padding-right:1rem}.py-0\\.5[data-v-070657da]{padding-top:.125rem;padding-bottom:.125rem}.py-2\\.5[data-v-070657da]{padding-top:.625rem;padding-bottom:.625rem}.pb-4[data-v-070657da]{padding-bottom:1rem}.pb-8[data-v-070657da]{padding-bottom:2rem}.pt-6[data-v-070657da]{padding-top:1.5rem}.text-center[data-v-070657da]{text-align:center}.text-\\[13px\\][data-v-070657da]{font-size:13px}.text-2xl[data-v-070657da]{font-size:1.5rem;line-height:2rem}.text-base[data-v-070657da]{font-size:1rem;line-height:1.5rem}.text-lg[data-v-070657da]{font-size:1.125rem;line-height:1.75rem}.text-sm[data-v-070657da]{font-size:.875rem;line-height:1.25rem}.text-xs[data-v-070657da]{font-size:.75rem;line-height:1rem}.text-\\[\\#56b6c2\\][data-v-070657da]{--un-text-opacity:1;color:rgb(86 182 194 / var(--un-text-opacity))}.text-\\[\\#858585\\][data-v-070657da]{--un-text-opacity:1;color:rgb(133 133 133 / var(--un-text-opacity))}.text-\\[\\#d4d4d4\\][data-v-070657da]{--un-text-opacity:1;color:rgb(212 212 212 / var(--un-text-opacity))}.text-\\[var\\(--color-danger\\)\\][data-v-070657da]{color:var(--color-danger)}.text-\\[var\\(--color-primary\\)\\][data-v-070657da]{color:var(--color-primary)}.text-\\[var\\(--color-success\\)\\][data-v-070657da]{color:var(--color-success)}.text-\\[var\\(--color-warning\\)\\][data-v-070657da]{color:var(--color-warning)}.text-\\[var\\(--td-text-color-primary\\)\\][data-v-070657da]{color:var(--td-text-color-primary)}.text-\\[var\\(--td-text-color-secondary\\)\\][data-v-070657da]{color:var(--td-text-color-secondary)}.hover\\:text-\\[var\\(--color-primary\\)\\][data-v-070657da]:hover{color:var(--color-primary)}.font-bold[data-v-070657da]{font-weight:700}.font-extrabold[data-v-070657da]{font-weight:800}.font-medium[data-v-070657da]{font-weight:500}.leading-normal[data-v-070657da]{line-height:1.5}.leading-relaxed[data-v-070657da]{line-height:1.625}.tracking-wide[data-v-070657da]{letter-spacing:.025em}.tracking-widest[data-v-070657da]{letter-spacing:.1em}.font-mono[data-v-070657da]{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}.uppercase[data-v-070657da]{text-transform:uppercase}.opacity-60[data-v-070657da]{opacity:.6}.opacity-90[data-v-070657da]{opacity:.9}.shadow-\\[0_0_8px_var\\(--color-primary-light\\)\\][data-v-070657da]{--un-shadow:0 0 8px var(--un-shadow-color, var(--color-primary-light));box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.shadow-\\[0_0_8px_var\\(--color-warning-light\\)\\][data-v-070657da]{--un-shadow:0 0 8px var(--un-shadow-color, var(--color-warning-light));box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.shadow-inner[data-v-070657da]{--un-shadow:inset 0 2px 4px 0 var(--un-shadow-color, rgb(0 0 0 / .05));box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.shadow-md[data-v-070657da]{--un-shadow:var(--un-shadow-inset) 0 4px 6px -1px var(--un-shadow-color, rgb(0 0 0 / .1)),var(--un-shadow-inset) 0 2px 4px -2px var(--un-shadow-color, rgb(0 0 0 / .1));box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.shadow-sm[data-v-070657da]{--un-shadow:var(--un-shadow-inset) 0 1px 2px 0 var(--un-shadow-color, rgb(0 0 0 / .05));box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.hover\\:shadow-md[data-v-070657da]:hover{--un-shadow:var(--un-shadow-inset) 0 4px 6px -1px var(--un-shadow-color, rgb(0 0 0 / .1)),var(--un-shadow-inset) 0 2px 4px -2px var(--un-shadow-color, rgb(0 0 0 / .1));box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.light .light-outline[data-v-070657da],.outline[data-v-070657da]{outline-style:solid}.transition-all[data-v-070657da]{transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-colors[data-v-070657da]{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}@media(min-width:768px){.md\\:grid-cols-3[data-v-070657da]{grid-template-columns:repeat(3,minmax(0,1fr))}.md\\:mb-0[data-v-070657da]{margin-bottom:0}.md\\:flex-row[data-v-070657da]{flex-direction:row}.md\\:items-start[data-v-070657da]{align-items:flex-start}.md\\:items-center[data-v-070657da]{align-items:center}.md\\:justify-start[data-v-070657da]{justify-content:flex-start}.md\\:text-left[data-v-070657da]{text-align:left}}@media(min-width:1024px){.lg\\:col-span-2[data-v-070657da]{grid-column:span 2/span 2}.lg\\:col-span-3[data-v-070657da]{grid-column:span 3/span 3}.lg\\:grid-cols-5[data-v-070657da]{grid-template-columns:repeat(5,minmax(0,1fr))}}.visible[data-v-8b0d65ea]{visibility:visible}.flex[data-v-8b0d65ea]{display:flex}.flex-col[data-v-8b0d65ea]{flex-direction:column}.cursor-pointer[data-v-8b0d65ea]{cursor:pointer}.gap-4[data-v-8b0d65ea]{gap:1rem}.rounded[data-v-8b0d65ea]{border-radius:.25rem}.rounded-md[data-v-8b0d65ea]{border-radius:.375rem}.bg-blue-500[data-v-8b0d65ea]{--un-bg-opacity:1;background-color:rgb(59 130 246 / var(--un-bg-opacity))}.bg-gray-100[data-v-8b0d65ea]{--un-bg-opacity:1;background-color:rgb(243 244 246 / var(--un-bg-opacity))}.hover\\:bg-blue-600[data-v-8b0d65ea]:hover{--un-bg-opacity:1;background-color:rgb(37 99 235 / var(--un-bg-opacity))}.p-3[data-v-8b0d65ea]{padding:.75rem}.px-4[data-v-8b0d65ea]{padding-left:1rem;padding-right:1rem}.py-2[data-v-8b0d65ea]{padding-top:.5rem;padding-bottom:.5rem}.text-lg[data-v-8b0d65ea]{font-size:1.125rem;line-height:1.75rem}.text-sm[data-v-8b0d65ea]{font-size:.875rem;line-height:1.25rem}.text-blue-500[data-v-8b0d65ea]{--un-text-opacity:1;color:rgb(59 130 246 / var(--un-text-opacity))}.text-gray-700[data-v-8b0d65ea]{--un-text-opacity:1;color:rgb(55 65 81 / var(--un-text-opacity))}.text-red-500[data-v-8b0d65ea]{--un-text-opacity:1;color:rgb(239 68 68 / var(--un-text-opacity))}.text-white[data-v-8b0d65ea]{--un-text-opacity:1;color:rgb(255 255 255 / var(--un-text-opacity))}.font-bold[data-v-8b0d65ea]{font-weight:700}.font-mono[data-v-8b0d65ea]{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}.transition-colors[data-v-8b0d65ea]{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.absolute[data-v-d339962d]{position:absolute}.relative[data-v-d339962d]{position:relative}.inset-0[data-v-d339962d]{inset:0}.z-10[data-v-d339962d]{z-index:10}.m-0[data-v-d339962d]{margin:0}.mb-4[data-v-d339962d]{margin-bottom:1rem}.min-h-\\[40px\\][data-v-d339962d]{min-height:40px}.flex[data-v-d339962d]{display:flex}.inline-flex[data-v-d339962d]{display:inline-flex}.flex-1[data-v-d339962d]{flex:1 1 0%}.flex-col[data-v-d339962d]{flex-direction:column}.cursor-pointer[data-v-d339962d]{cursor:pointer}.items-center[data-v-d339962d]{align-items:center}.justify-center[data-v-d339962d]{justify-content:center}.justify-between[data-v-d339962d]{justify-content:space-between}.gap-1\\.5[data-v-d339962d]{gap:.375rem}.gap-2[data-v-d339962d]{gap:.5rem}.overflow-hidden[data-v-d339962d]{overflow:hidden}.border[data-v-d339962d]{border-width:1px}.border-b[data-v-d339962d]{border-bottom-width:1px}.border-\\[var\\(--td-component-border\\)\\][data-v-d339962d]{border-color:var(--td-component-border)}.border-zinc-200[data-v-d339962d]{--un-border-opacity:1;border-color:rgb(228 228 231 / var(--un-border-opacity))}.border-zinc-200\\/60[data-v-d339962d]{border-color:#e4e4e799}.dark .dark\\:border-zinc-700[data-v-d339962d]{--un-border-opacity:1;border-color:rgb(63 63 70 / var(--un-border-opacity))}.dark .dark\\:border-zinc-700\\/60[data-v-d339962d]{border-color:#3f3f4699}.rounded[data-v-d339962d]{border-radius:.25rem}.rounded-md[data-v-d339962d]{border-radius:.375rem}.rounded-xl[data-v-d339962d]{border-radius:.75rem}.border-none[data-v-d339962d]{border-style:none}.bg-\\[var\\(--color-primary\\)\\][data-v-d339962d]{background-color:var(--color-primary)}.bg-\\[var\\(--td-bg-color-container\\)\\]\\/80[data-v-d339962d]{background-color:var(--td-bg-color-container)}.bg-transparent[data-v-d339962d]{background-color:transparent}.bg-zinc-100[data-v-d339962d]{--un-bg-opacity:1;background-color:rgb(244 244 245 / var(--un-bg-opacity))}.dark .dark\\:bg-zinc-800[data-v-d339962d]{--un-bg-opacity:1;background-color:rgb(39 39 42 / var(--un-bg-opacity))}.hover\\:bg-\\[var\\(--color-primary\\)\\]\\/10[data-v-d339962d]:hover{background-color:var(--color-primary)}.p-3[data-v-d339962d]{padding:.75rem}.p-5[data-v-d339962d]{padding:1.25rem}.px-1\\.5[data-v-d339962d]{padding-left:.375rem;padding-right:.375rem}.px-2[data-v-d339962d]{padding-left:.5rem;padding-right:.5rem}.py-0\\.5[data-v-d339962d]{padding-top:.125rem;padding-bottom:.125rem}.py-1[data-v-d339962d]{padding-top:.25rem;padding-bottom:.25rem}.py-4[data-v-d339962d]{padding-top:1rem;padding-bottom:1rem}.pb-4[data-v-d339962d]{padding-bottom:1rem}.text-2xl[data-v-d339962d]{font-size:1.5rem;line-height:2rem}.text-base[data-v-d339962d]{font-size:1rem;line-height:1.5rem}.text-sm[data-v-d339962d]{font-size:.875rem;line-height:1.25rem}.text-xs[data-v-d339962d]{font-size:.75rem;line-height:1rem}.dark .dark\\:text-zinc-400[data-v-d339962d]{--un-text-opacity:1;color:rgb(161 161 170 / var(--un-text-opacity))}.text-\\[var\\(--color-primary\\)\\][data-v-d339962d]{color:var(--color-primary)}.text-\\[var\\(--td-text-color-primary\\)\\][data-v-d339962d]{color:var(--td-text-color-primary)}.text-\\[var\\(--td-text-color-secondary\\)\\][data-v-d339962d]{color:var(--td-text-color-secondary)}.text-zinc-600[data-v-d339962d]{--un-text-opacity:1;color:rgb(82 82 91 / var(--un-text-opacity))}.font-bold[data-v-d339962d]{font-weight:700}.font-medium[data-v-d339962d]{font-weight:500}.leading-none[data-v-d339962d]{line-height:1}.leading-relaxed[data-v-d339962d]{line-height:1.625}.font-mono[data-v-d339962d]{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}.opacity-10[data-v-d339962d]{opacity:.1}.opacity-50[data-v-d339962d]{opacity:.5}.shadow-sm[data-v-d339962d]{--un-shadow:var(--un-shadow-inset) 0 1px 2px 0 var(--un-shadow-color, rgb(0 0 0 / .05));box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.transition-colors[data-v-d339962d]{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}")),document.head.appendChild(a)}}catch(t){console.error("vite-plugin-css-injected-by-js",t)}})();
+function re(e) {
   return e && e.__esModule && Object.prototype.hasOwnProperty.call(e, "default") ? e.default : e;
 }
 var O, j;
-function Q() {
+function te() {
   return j || (j = 1, O = Vue), O;
 }
-var r = Q(), w, V;
-function ee() {
-  return V || (V = 1, w = TDesign), w;
+var r = te(), N, A;
+function oe() {
+  return A || (A = 1, N = TDesign), N;
 }
-var p = ee();
-function b(e) {
+var b = oe();
+function h(e) {
   "@babel/helpers - typeof";
-  return b = typeof Symbol == "function" && typeof Symbol.iterator == "symbol" ? function(o) {
-    return typeof o;
-  } : function(o) {
-    return o && typeof Symbol == "function" && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o;
-  }, b(e);
+  return h = typeof Symbol == "function" && typeof Symbol.iterator == "symbol" ? function(l) {
+    return typeof l;
+  } : function(l) {
+    return l && typeof Symbol == "function" && l.constructor === Symbol && l !== Symbol.prototype ? "symbol" : typeof l;
+  }, h(e);
 }
-function re(e, o) {
-  if (b(e) != "object" || !e) return e;
+function le(e, l) {
+  if (h(e) != "object" || !e) return e;
   var t = e[Symbol.toPrimitive];
   if (t !== void 0) {
-    var l = t.call(e, o);
-    if (b(l) != "object") return l;
+    var o = t.call(e, l);
+    if (h(o) != "object") return o;
     throw new TypeError("@@toPrimitive must return a primitive value.");
   }
-  return (o === "string" ? String : Number)(e);
+  return (l === "string" ? String : Number)(e);
 }
-function te(e) {
-  var o = re(e, "string");
-  return b(o) == "symbol" ? o : o + "";
+function ae(e) {
+  var l = le(e, "string");
+  return h(l) == "symbol" ? l : l + "";
 }
-function k(e, o, t) {
-  return (o = te(o)) in e ? Object.defineProperty(e, o, {
+function k(e, l, t) {
+  return (l = ae(l)) in e ? Object.defineProperty(e, l, {
     value: t,
     enumerable: !0,
     configurable: !0,
     writable: !0
-  }) : e[o] = t, e;
+  }) : e[l] = t, e;
 }
-var A = (e) => {
-  var o = ["strokeLinecap", "fillRule", "clipRule", "strokeWidth"];
-  return o.includes(e) ? e.replace(/([a-z0-9]|(?=[A-Z]))([A-Z])/g, "$1-$2").toLowerCase() : e;
-}, g = (e, o) => {
+var P = (e) => {
+  var l = ["strokeLinecap", "fillRule", "clipRule", "strokeWidth"];
+  return l.includes(e) ? e.replace(/([a-z0-9]|(?=[A-Z]))([A-Z])/g, "$1-$2").toLowerCase() : e;
+}, g = (e, l) => {
   var t = {};
   if (e.attrs)
-    for (var [l, n] of Object.entries(e.attrs))
+    for (var [o, n] of Object.entries(e.attrs))
       if (typeof n == "string" && n.startsWith("props.")) {
         var s = n.split(".")[1];
-        t[A(l)] = o[s];
+        t[P(o)] = l[s];
       } else
-        t[A(l)] = n;
-  e.tag === "svg" && (t.class = o.class, t.style = o.style, t.onClick = o.onClick);
-  var d = e.children ? e.children.map((u) => g(u, o)) : [];
+        t[P(o)] = n;
+  e.tag === "svg" && (t.class = l.class, t.style = l.style, t.onClick = l.onClick);
+  var d = e.children ? e.children.map((u) => g(u, l)) : [];
   return r.h(e.tag, t, d);
-}, oe = "t", le = {
-  classPrefix: oe
+}, ne = "t", ie = {
+  classPrefix: ne
 };
-function ae() {
+function se() {
   var {
     classPrefix: e
-  } = le;
+  } = ie;
   return {
     SIZE: {
       default: "",
@@ -91,37 +91,37 @@ function ae() {
     }
   };
 }
-function h(e) {
-  var o = ae().SIZE, t = r.computed(() => e.value in o ? o[e.value] : ""), l = r.computed(() => e.value === void 0 || e.value in o ? {} : {
+function p(e) {
+  var l = se().SIZE, t = r.computed(() => e.value in l ? l[e.value] : ""), o = r.computed(() => e.value === void 0 || e.value in l ? {} : {
     fontSize: e.value
   });
   return {
-    style: l,
+    style: o,
     className: t
   };
 }
-function P(e, o) {
+function S(e, l) {
   var t = Object.keys(e);
   if (Object.getOwnPropertySymbols) {
-    var l = Object.getOwnPropertySymbols(e);
-    o && (l = l.filter(function(n) {
+    var o = Object.getOwnPropertySymbols(e);
+    l && (o = o.filter(function(n) {
       return Object.getOwnPropertyDescriptor(e, n).enumerable;
-    })), t.push.apply(t, l);
+    })), t.push.apply(t, o);
   }
   return t;
 }
-function S(e) {
-  for (var o = 1; o < arguments.length; o++) {
-    var t = arguments[o] != null ? arguments[o] : {};
-    o % 2 ? P(Object(t), !0).forEach(function(l) {
-      k(e, l, t[l]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : P(Object(t)).forEach(function(l) {
-      Object.defineProperty(e, l, Object.getOwnPropertyDescriptor(t, l));
+function E(e) {
+  for (var l = 1; l < arguments.length; l++) {
+    var t = arguments[l] != null ? arguments[l] : {};
+    l % 2 ? S(Object(t), !0).forEach(function(o) {
+      k(e, o, t[o]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : S(Object(t)).forEach(function(o) {
+      Object.defineProperty(e, o, Object.getOwnPropertyDescriptor(t, o));
     });
   }
   return e;
 }
-var ne = {
+var ce = {
   tag: "svg",
   attrs: {
     fill: "none",
@@ -146,7 +146,7 @@ var ne = {
       }
     }]
   }]
-}, ie = r.defineComponent({
+}, de = r.defineComponent({
   name: "ApiIcon",
   props: {
     size: {
@@ -165,21 +165,21 @@ var ne = {
       type: Number
     }
   },
-  setup(e, o) {
+  setup(e, l) {
     var {
       attrs: t
-    } = o, l = r.computed(() => e.size), n = r.computed(() => e.strokeColor ? Array.isArray(e.strokeColor) ? e.strokeColor[0] : e.strokeColor : "currentColor"), s = r.computed(() => {
+    } = l, o = r.computed(() => e.size), n = r.computed(() => e.strokeColor ? Array.isArray(e.strokeColor) ? e.strokeColor[0] : e.strokeColor : "currentColor"), s = r.computed(() => {
       var a;
       return e.strokeColor ? Array.isArray(e.strokeColor) ? (a = e.strokeColor[1]) !== null && a !== void 0 ? a : e.strokeColor[0] : e.strokeColor : "currentColor";
     }), d = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "transparent"), u = r.computed(() => {
       var a;
       return e.fillColor ? Array.isArray(e.fillColor) ? (a = e.fillColor[1]) !== null && a !== void 0 ? a : e.fillColor[0] : e.fillColor : "transparent";
-    }), C = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "currentColor"), {
+    }), f = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "currentColor"), {
       className: v,
       style: c
-    } = h(l), y = r.computed(() => ["t-icon", "t-icon-api", v.value]), m = r.computed(() => S(S({
+    } = p(o), y = r.computed(() => ["t-icon", "t-icon-api", v.value]), m = r.computed(() => E(E({
       fill: "none"
-    }, c.value), t.style)), f = r.computed(() => ({
+    }, c.value), t.style)), C = r.computed(() => ({
       class: y.value,
       style: m.value,
       onClick: (a) => {
@@ -193,33 +193,33 @@ var ne = {
       fillColor1: d.value,
       fillColor2: u.value,
       strokeWidth: e.strokeWidth || 2,
-      filledColor: C.value
+      filledColor: f.value
     }));
-    return () => g(ne, f.value);
+    return () => g(ce, C.value);
   }
 });
-function E(e, o) {
+function _(e, l) {
   var t = Object.keys(e);
   if (Object.getOwnPropertySymbols) {
-    var l = Object.getOwnPropertySymbols(e);
-    o && (l = l.filter(function(n) {
+    var o = Object.getOwnPropertySymbols(e);
+    l && (o = o.filter(function(n) {
       return Object.getOwnPropertyDescriptor(e, n).enumerable;
-    })), t.push.apply(t, l);
+    })), t.push.apply(t, o);
   }
   return t;
 }
-function _(e) {
-  for (var o = 1; o < arguments.length; o++) {
-    var t = arguments[o] != null ? arguments[o] : {};
-    o % 2 ? E(Object(t), !0).forEach(function(l) {
-      k(e, l, t[l]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : E(Object(t)).forEach(function(l) {
-      Object.defineProperty(e, l, Object.getOwnPropertyDescriptor(t, l));
+function $(e) {
+  for (var l = 1; l < arguments.length; l++) {
+    var t = arguments[l] != null ? arguments[l] : {};
+    l % 2 ? _(Object(t), !0).forEach(function(o) {
+      k(e, o, t[o]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : _(Object(t)).forEach(function(o) {
+      Object.defineProperty(e, o, Object.getOwnPropertyDescriptor(t, o));
     });
   }
   return e;
 }
-var se = {
+var ue = {
   tag: "svg",
   attrs: {
     fill: "none",
@@ -300,7 +300,7 @@ var se = {
       }
     }]
   }]
-}, ce = r.defineComponent({
+}, fe = r.defineComponent({
   name: "AppIcon",
   props: {
     size: {
@@ -319,21 +319,21 @@ var se = {
       type: Number
     }
   },
-  setup(e, o) {
+  setup(e, l) {
     var {
       attrs: t
-    } = o, l = r.computed(() => e.size), n = r.computed(() => e.strokeColor ? Array.isArray(e.strokeColor) ? e.strokeColor[0] : e.strokeColor : "currentColor"), s = r.computed(() => {
+    } = l, o = r.computed(() => e.size), n = r.computed(() => e.strokeColor ? Array.isArray(e.strokeColor) ? e.strokeColor[0] : e.strokeColor : "currentColor"), s = r.computed(() => {
       var a;
       return e.strokeColor ? Array.isArray(e.strokeColor) ? (a = e.strokeColor[1]) !== null && a !== void 0 ? a : e.strokeColor[0] : e.strokeColor : "currentColor";
     }), d = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "transparent"), u = r.computed(() => {
       var a;
       return e.fillColor ? Array.isArray(e.fillColor) ? (a = e.fillColor[1]) !== null && a !== void 0 ? a : e.fillColor[0] : e.fillColor : "transparent";
-    }), C = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "currentColor"), {
+    }), f = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "currentColor"), {
       className: v,
       style: c
-    } = h(l), y = r.computed(() => ["t-icon", "t-icon-app", v.value]), m = r.computed(() => _(_({
+    } = p(o), y = r.computed(() => ["t-icon", "t-icon-app", v.value]), m = r.computed(() => $($({
       fill: "none"
-    }, c.value), t.style)), f = r.computed(() => ({
+    }, c.value), t.style)), C = r.computed(() => ({
       class: y.value,
       style: m.value,
       onClick: (a) => {
@@ -347,33 +347,33 @@ var se = {
       fillColor1: d.value,
       fillColor2: u.value,
       strokeWidth: e.strokeWidth || 2,
-      filledColor: C.value
+      filledColor: f.value
     }));
-    return () => g(se, f.value);
+    return () => g(ue, C.value);
   }
 });
-function $(e, o) {
+function M(e, l) {
   var t = Object.keys(e);
   if (Object.getOwnPropertySymbols) {
-    var l = Object.getOwnPropertySymbols(e);
-    o && (l = l.filter(function(n) {
+    var o = Object.getOwnPropertySymbols(e);
+    l && (o = o.filter(function(n) {
       return Object.getOwnPropertyDescriptor(e, n).enumerable;
-    })), t.push.apply(t, l);
+    })), t.push.apply(t, o);
   }
   return t;
 }
 function W(e) {
-  for (var o = 1; o < arguments.length; o++) {
-    var t = arguments[o] != null ? arguments[o] : {};
-    o % 2 ? $(Object(t), !0).forEach(function(l) {
-      k(e, l, t[l]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : $(Object(t)).forEach(function(l) {
-      Object.defineProperty(e, l, Object.getOwnPropertyDescriptor(t, l));
+  for (var l = 1; l < arguments.length; l++) {
+    var t = arguments[l] != null ? arguments[l] : {};
+    l % 2 ? M(Object(t), !0).forEach(function(o) {
+      k(e, o, t[o]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : M(Object(t)).forEach(function(o) {
+      Object.defineProperty(e, o, Object.getOwnPropertyDescriptor(t, o));
     });
   }
   return e;
 }
-var de = {
+var Ce = {
   tag: "svg",
   attrs: {
     fill: "none",
@@ -404,7 +404,7 @@ var de = {
       }
     }]
   }]
-}, ue = r.defineComponent({
+}, ve = r.defineComponent({
   name: "ChatIcon",
   props: {
     size: {
@@ -423,21 +423,21 @@ var de = {
       type: Number
     }
   },
-  setup(e, o) {
+  setup(e, l) {
     var {
       attrs: t
-    } = o, l = r.computed(() => e.size), n = r.computed(() => e.strokeColor ? Array.isArray(e.strokeColor) ? e.strokeColor[0] : e.strokeColor : "currentColor"), s = r.computed(() => {
+    } = l, o = r.computed(() => e.size), n = r.computed(() => e.strokeColor ? Array.isArray(e.strokeColor) ? e.strokeColor[0] : e.strokeColor : "currentColor"), s = r.computed(() => {
       var a;
       return e.strokeColor ? Array.isArray(e.strokeColor) ? (a = e.strokeColor[1]) !== null && a !== void 0 ? a : e.strokeColor[0] : e.strokeColor : "currentColor";
     }), d = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "transparent"), u = r.computed(() => {
       var a;
       return e.fillColor ? Array.isArray(e.fillColor) ? (a = e.fillColor[1]) !== null && a !== void 0 ? a : e.fillColor[0] : e.fillColor : "transparent";
-    }), C = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "currentColor"), {
+    }), f = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "currentColor"), {
       className: v,
       style: c
-    } = h(l), y = r.computed(() => ["t-icon", "t-icon-chat", v.value]), m = r.computed(() => W(W({
+    } = p(o), y = r.computed(() => ["t-icon", "t-icon-chat", v.value]), m = r.computed(() => W(W({
       fill: "none"
-    }, c.value), t.style)), f = r.computed(() => ({
+    }, c.value), t.style)), C = r.computed(() => ({
       class: y.value,
       style: m.value,
       onClick: (a) => {
@@ -451,33 +451,33 @@ var de = {
       fillColor1: d.value,
       fillColor2: u.value,
       strokeWidth: e.strokeWidth || 2,
-      filledColor: C.value
+      filledColor: f.value
     }));
-    return () => g(de, f.value);
+    return () => g(Ce, C.value);
   }
 });
-function M(e, o) {
+function D(e, l) {
   var t = Object.keys(e);
   if (Object.getOwnPropertySymbols) {
-    var l = Object.getOwnPropertySymbols(e);
-    o && (l = l.filter(function(n) {
+    var o = Object.getOwnPropertySymbols(e);
+    l && (o = o.filter(function(n) {
       return Object.getOwnPropertyDescriptor(e, n).enumerable;
-    })), t.push.apply(t, l);
+    })), t.push.apply(t, o);
   }
   return t;
 }
 function L(e) {
-  for (var o = 1; o < arguments.length; o++) {
-    var t = arguments[o] != null ? arguments[o] : {};
-    o % 2 ? M(Object(t), !0).forEach(function(l) {
-      k(e, l, t[l]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : M(Object(t)).forEach(function(l) {
-      Object.defineProperty(e, l, Object.getOwnPropertyDescriptor(t, l));
+  for (var l = 1; l < arguments.length; l++) {
+    var t = arguments[l] != null ? arguments[l] : {};
+    l % 2 ? D(Object(t), !0).forEach(function(o) {
+      k(e, o, t[o]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : D(Object(t)).forEach(function(o) {
+      Object.defineProperty(e, o, Object.getOwnPropertyDescriptor(t, o));
     });
   }
   return e;
 }
-var fe = {
+var me = {
   tag: "svg",
   attrs: {
     fill: "none",
@@ -510,7 +510,7 @@ var fe = {
       }
     }]
   }]
-}, Ce = r.defineComponent({
+}, ye = r.defineComponent({
   name: "CodeIcon",
   props: {
     size: {
@@ -529,21 +529,21 @@ var fe = {
       type: Number
     }
   },
-  setup(e, o) {
+  setup(e, l) {
     var {
       attrs: t
-    } = o, l = r.computed(() => e.size), n = r.computed(() => e.strokeColor ? Array.isArray(e.strokeColor) ? e.strokeColor[0] : e.strokeColor : "currentColor"), s = r.computed(() => {
+    } = l, o = r.computed(() => e.size), n = r.computed(() => e.strokeColor ? Array.isArray(e.strokeColor) ? e.strokeColor[0] : e.strokeColor : "currentColor"), s = r.computed(() => {
       var a;
       return e.strokeColor ? Array.isArray(e.strokeColor) ? (a = e.strokeColor[1]) !== null && a !== void 0 ? a : e.strokeColor[0] : e.strokeColor : "currentColor";
     }), d = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "transparent"), u = r.computed(() => {
       var a;
       return e.fillColor ? Array.isArray(e.fillColor) ? (a = e.fillColor[1]) !== null && a !== void 0 ? a : e.fillColor[0] : e.fillColor : "transparent";
-    }), C = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "currentColor"), {
+    }), f = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "currentColor"), {
       className: v,
       style: c
-    } = h(l), y = r.computed(() => ["t-icon", "t-icon-code", v.value]), m = r.computed(() => L(L({
+    } = p(o), y = r.computed(() => ["t-icon", "t-icon-code", v.value]), m = r.computed(() => L(L({
       fill: "none"
-    }, c.value), t.style)), f = r.computed(() => ({
+    }, c.value), t.style)), C = r.computed(() => ({
       class: y.value,
       style: m.value,
       onClick: (a) => {
@@ -557,33 +557,33 @@ var fe = {
       fillColor1: d.value,
       fillColor2: u.value,
       strokeWidth: e.strokeWidth || 2,
-      filledColor: C.value
+      filledColor: f.value
     }));
-    return () => g(fe, f.value);
+    return () => g(me, C.value);
   }
 });
-function D(e, o) {
+function z(e, l) {
   var t = Object.keys(e);
   if (Object.getOwnPropertySymbols) {
-    var l = Object.getOwnPropertySymbols(e);
-    o && (l = l.filter(function(n) {
+    var o = Object.getOwnPropertySymbols(e);
+    l && (o = o.filter(function(n) {
       return Object.getOwnPropertyDescriptor(e, n).enumerable;
-    })), t.push.apply(t, l);
+    })), t.push.apply(t, o);
   }
   return t;
 }
-function z(e) {
-  for (var o = 1; o < arguments.length; o++) {
-    var t = arguments[o] != null ? arguments[o] : {};
-    o % 2 ? D(Object(t), !0).forEach(function(l) {
-      k(e, l, t[l]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : D(Object(t)).forEach(function(l) {
-      Object.defineProperty(e, l, Object.getOwnPropertyDescriptor(t, l));
+function I(e) {
+  for (var l = 1; l < arguments.length; l++) {
+    var t = arguments[l] != null ? arguments[l] : {};
+    l % 2 ? z(Object(t), !0).forEach(function(o) {
+      k(e, o, t[o]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : z(Object(t)).forEach(function(o) {
+      Object.defineProperty(e, o, Object.getOwnPropertyDescriptor(t, o));
     });
   }
   return e;
 }
-var ve = {
+var ge = {
   tag: "svg",
   attrs: {
     fill: "none",
@@ -623,7 +623,7 @@ var ve = {
       }
     }]
   }]
-}, me = r.defineComponent({
+}, ke = r.defineComponent({
   name: "DashboardIcon",
   props: {
     size: {
@@ -642,21 +642,21 @@ var ve = {
       type: Number
     }
   },
-  setup(e, o) {
+  setup(e, l) {
     var {
       attrs: t
-    } = o, l = r.computed(() => e.size), n = r.computed(() => e.strokeColor ? Array.isArray(e.strokeColor) ? e.strokeColor[0] : e.strokeColor : "currentColor"), s = r.computed(() => {
+    } = l, o = r.computed(() => e.size), n = r.computed(() => e.strokeColor ? Array.isArray(e.strokeColor) ? e.strokeColor[0] : e.strokeColor : "currentColor"), s = r.computed(() => {
       var a;
       return e.strokeColor ? Array.isArray(e.strokeColor) ? (a = e.strokeColor[1]) !== null && a !== void 0 ? a : e.strokeColor[0] : e.strokeColor : "currentColor";
     }), d = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "transparent"), u = r.computed(() => {
       var a;
       return e.fillColor ? Array.isArray(e.fillColor) ? (a = e.fillColor[1]) !== null && a !== void 0 ? a : e.fillColor[0] : e.fillColor : "transparent";
-    }), C = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "currentColor"), {
+    }), f = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "currentColor"), {
       className: v,
       style: c
-    } = h(l), y = r.computed(() => ["t-icon", "t-icon-dashboard", v.value]), m = r.computed(() => z(z({
+    } = p(o), y = r.computed(() => ["t-icon", "t-icon-dashboard", v.value]), m = r.computed(() => I(I({
       fill: "none"
-    }, c.value), t.style)), f = r.computed(() => ({
+    }, c.value), t.style)), C = r.computed(() => ({
       class: y.value,
       style: m.value,
       onClick: (a) => {
@@ -670,33 +670,154 @@ var ve = {
       fillColor1: d.value,
       fillColor2: u.value,
       strokeWidth: e.strokeWidth || 2,
-      filledColor: C.value
+      filledColor: f.value
     }));
-    return () => g(ve, f.value);
+    return () => g(ge, C.value);
   }
 });
-function T(e, o) {
+function B(e, l) {
   var t = Object.keys(e);
   if (Object.getOwnPropertySymbols) {
-    var l = Object.getOwnPropertySymbols(e);
-    o && (l = l.filter(function(n) {
+    var o = Object.getOwnPropertySymbols(e);
+    l && (o = o.filter(function(n) {
       return Object.getOwnPropertyDescriptor(e, n).enumerable;
-    })), t.push.apply(t, l);
+    })), t.push.apply(t, o);
   }
   return t;
 }
-function Z(e) {
-  for (var o = 1; o < arguments.length; o++) {
-    var t = arguments[o] != null ? arguments[o] : {};
-    o % 2 ? T(Object(t), !0).forEach(function(l) {
-      k(e, l, t[l]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : T(Object(t)).forEach(function(l) {
-      Object.defineProperty(e, l, Object.getOwnPropertyDescriptor(t, l));
+function T(e) {
+  for (var l = 1; l < arguments.length; l++) {
+    var t = arguments[l] != null ? arguments[l] : {};
+    l % 2 ? B(Object(t), !0).forEach(function(o) {
+      k(e, o, t[o]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : B(Object(t)).forEach(function(o) {
+      Object.defineProperty(e, o, Object.getOwnPropertyDescriptor(t, o));
     });
   }
   return e;
 }
-var ye = {
+var pe = {
+  tag: "svg",
+  attrs: {
+    fill: "none",
+    viewBox: "0 0 24 24",
+    width: "1em",
+    height: "1em"
+  },
+  children: [{
+    tag: "g",
+    attrs: {
+      id: "git-branch"
+    },
+    children: [{
+      tag: "g",
+      attrs: {
+        id: "fill1"
+      },
+      children: [{
+        tag: "path",
+        attrs: {
+          fill: "props.fillColor1",
+          d: "M21 6C21 4.61929 19.8807 3.5 18.5 3.5C17.1193 3.5 16 4.61929 16 6C16 7.38071 17.1193 8.5 18.5 8.5C19.8807 8.5 21 7.38071 21 6Z"
+        }
+      }, {
+        tag: "path",
+        attrs: {
+          fill: "props.fillColor1",
+          d: "M8 6C8 4.61929 6.88071 3.5 5.5 3.5C4.11929 3.5 3 4.61929 3 6C3 7.38071 4.11929 8.5 5.5 8.5C6.88071 8.5 8 7.38071 8 6Z"
+        }
+      }, {
+        tag: "path",
+        attrs: {
+          fill: "props.fillColor1",
+          d: "M8 18C8 16.6193 6.88071 15.5 5.5 15.5C4.11929 15.5 3 16.6193 3 18C3 19.3807 4.11929 20.5 5.5 20.5C6.88071 20.5 8 19.3807 8 18Z"
+        }
+      }]
+    }, {
+      tag: "path",
+      attrs: {
+        id: "stroke1",
+        stroke: "props.strokeColor1",
+        d: "M5.5 15V9M18.5 8.5V9.5C18.5 11.1569 17.1569 12.5 15.5 12.5H8.5C6.84315 12.5 5.5 13.8431 5.5 15.5M18.5 8.5C17.1193 8.5 16 7.38071 16 6C16 4.61929 17.1193 3.5 18.5 3.5C19.8807 3.5 21 4.61929 21 6C21 7.38071 19.8807 8.5 18.5 8.5ZM5.5 15.5C6.88071 15.5 8 16.6193 8 18C8 19.3807 6.88071 20.5 5.5 20.5C4.11929 20.5 3 19.3807 3 18C3 16.6193 4.11929 15.5 5.5 15.5ZM8 6C8 4.61929 6.88071 3.5 5.5 3.5C4.11929 3.5 3 4.61929 3 6C3 7.38071 4.11929 8.5 5.5 8.5C6.88071 8.5 8 7.38071 8 6Z",
+        strokeLinecap: "square",
+        strokeWidth: "props.strokeWidth"
+      }
+    }]
+  }]
+}, be = r.defineComponent({
+  name: "GitBranchIcon",
+  props: {
+    size: {
+      type: String
+    },
+    onClick: {
+      type: Function
+    },
+    fillColor: {
+      type: [Array, String]
+    },
+    strokeColor: {
+      type: [Array, String]
+    },
+    strokeWidth: {
+      type: Number
+    }
+  },
+  setup(e, l) {
+    var {
+      attrs: t
+    } = l, o = r.computed(() => e.size), n = r.computed(() => e.strokeColor ? Array.isArray(e.strokeColor) ? e.strokeColor[0] : e.strokeColor : "currentColor"), s = r.computed(() => {
+      var a;
+      return e.strokeColor ? Array.isArray(e.strokeColor) ? (a = e.strokeColor[1]) !== null && a !== void 0 ? a : e.strokeColor[0] : e.strokeColor : "currentColor";
+    }), d = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "transparent"), u = r.computed(() => {
+      var a;
+      return e.fillColor ? Array.isArray(e.fillColor) ? (a = e.fillColor[1]) !== null && a !== void 0 ? a : e.fillColor[0] : e.fillColor : "transparent";
+    }), f = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "currentColor"), {
+      className: v,
+      style: c
+    } = p(o), y = r.computed(() => ["t-icon", "t-icon-git-branch", v.value]), m = r.computed(() => T(T({
+      fill: "none"
+    }, c.value), t.style)), C = r.computed(() => ({
+      class: y.value,
+      style: m.value,
+      onClick: (a) => {
+        var i;
+        return (i = e.onClick) === null || i === void 0 ? void 0 : i.call(e, {
+          e: a
+        });
+      },
+      strokeColor1: n.value,
+      strokeColor2: s.value,
+      fillColor1: d.value,
+      fillColor2: u.value,
+      strokeWidth: e.strokeWidth || 2,
+      filledColor: f.value
+    }));
+    return () => g(pe, C.value);
+  }
+});
+function Z(e, l) {
+  var t = Object.keys(e);
+  if (Object.getOwnPropertySymbols) {
+    var o = Object.getOwnPropertySymbols(e);
+    l && (o = o.filter(function(n) {
+      return Object.getOwnPropertyDescriptor(e, n).enumerable;
+    })), t.push.apply(t, o);
+  }
+  return t;
+}
+function q(e) {
+  for (var l = 1; l < arguments.length; l++) {
+    var t = arguments[l] != null ? arguments[l] : {};
+    l % 2 ? Z(Object(t), !0).forEach(function(o) {
+      k(e, o, t[o]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : Z(Object(t)).forEach(function(o) {
+      Object.defineProperty(e, o, Object.getOwnPropertyDescriptor(t, o));
+    });
+  }
+  return e;
+}
+var he = {
   tag: "svg",
   attrs: {
     fill: "none",
@@ -734,7 +855,7 @@ var ye = {
       }
     }]
   }]
-}, B = r.defineComponent({
+}, H = r.defineComponent({
   name: "LayersIcon",
   props: {
     size: {
@@ -753,21 +874,21 @@ var ye = {
       type: Number
     }
   },
-  setup(e, o) {
+  setup(e, l) {
     var {
       attrs: t
-    } = o, l = r.computed(() => e.size), n = r.computed(() => e.strokeColor ? Array.isArray(e.strokeColor) ? e.strokeColor[0] : e.strokeColor : "currentColor"), s = r.computed(() => {
+    } = l, o = r.computed(() => e.size), n = r.computed(() => e.strokeColor ? Array.isArray(e.strokeColor) ? e.strokeColor[0] : e.strokeColor : "currentColor"), s = r.computed(() => {
       var a;
       return e.strokeColor ? Array.isArray(e.strokeColor) ? (a = e.strokeColor[1]) !== null && a !== void 0 ? a : e.strokeColor[0] : e.strokeColor : "currentColor";
     }), d = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "transparent"), u = r.computed(() => {
       var a;
       return e.fillColor ? Array.isArray(e.fillColor) ? (a = e.fillColor[1]) !== null && a !== void 0 ? a : e.fillColor[0] : e.fillColor : "transparent";
-    }), C = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "currentColor"), {
+    }), f = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "currentColor"), {
       className: v,
       style: c
-    } = h(l), y = r.computed(() => ["t-icon", "t-icon-layers", v.value]), m = r.computed(() => Z(Z({
+    } = p(o), y = r.computed(() => ["t-icon", "t-icon-layers", v.value]), m = r.computed(() => q(q({
       fill: "none"
-    }, c.value), t.style)), f = r.computed(() => ({
+    }, c.value), t.style)), C = r.computed(() => ({
       class: y.value,
       style: m.value,
       onClick: (a) => {
@@ -781,33 +902,33 @@ var ye = {
       fillColor1: d.value,
       fillColor2: u.value,
       strokeWidth: e.strokeWidth || 2,
-      filledColor: C.value
+      filledColor: f.value
     }));
-    return () => g(ye, f.value);
+    return () => g(he, C.value);
   }
 });
-function q(e, o) {
+function R(e, l) {
   var t = Object.keys(e);
   if (Object.getOwnPropertySymbols) {
-    var l = Object.getOwnPropertySymbols(e);
-    o && (l = l.filter(function(n) {
+    var o = Object.getOwnPropertySymbols(e);
+    l && (o = o.filter(function(n) {
       return Object.getOwnPropertyDescriptor(e, n).enumerable;
-    })), t.push.apply(t, l);
+    })), t.push.apply(t, o);
   }
   return t;
 }
-function H(e) {
-  for (var o = 1; o < arguments.length; o++) {
-    var t = arguments[o] != null ? arguments[o] : {};
-    o % 2 ? q(Object(t), !0).forEach(function(l) {
-      k(e, l, t[l]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : q(Object(t)).forEach(function(l) {
-      Object.defineProperty(e, l, Object.getOwnPropertyDescriptor(t, l));
+function K(e) {
+  for (var l = 1; l < arguments.length; l++) {
+    var t = arguments[l] != null ? arguments[l] : {};
+    l % 2 ? R(Object(t), !0).forEach(function(o) {
+      k(e, o, t[o]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : R(Object(t)).forEach(function(o) {
+      Object.defineProperty(e, o, Object.getOwnPropertyDescriptor(t, o));
     });
   }
   return e;
 }
-var ge = {
+var xe = {
   tag: "svg",
   attrs: {
     fill: "none",
@@ -858,7 +979,7 @@ var ge = {
       }]
     }]
   }]
-}, ke = r.defineComponent({
+}, Oe = r.defineComponent({
   name: "NotificationIcon",
   props: {
     size: {
@@ -877,21 +998,21 @@ var ge = {
       type: Number
     }
   },
-  setup(e, o) {
+  setup(e, l) {
     var {
       attrs: t
-    } = o, l = r.computed(() => e.size), n = r.computed(() => e.strokeColor ? Array.isArray(e.strokeColor) ? e.strokeColor[0] : e.strokeColor : "currentColor"), s = r.computed(() => {
+    } = l, o = r.computed(() => e.size), n = r.computed(() => e.strokeColor ? Array.isArray(e.strokeColor) ? e.strokeColor[0] : e.strokeColor : "currentColor"), s = r.computed(() => {
       var a;
       return e.strokeColor ? Array.isArray(e.strokeColor) ? (a = e.strokeColor[1]) !== null && a !== void 0 ? a : e.strokeColor[0] : e.strokeColor : "currentColor";
     }), d = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "transparent"), u = r.computed(() => {
       var a;
       return e.fillColor ? Array.isArray(e.fillColor) ? (a = e.fillColor[1]) !== null && a !== void 0 ? a : e.fillColor[0] : e.fillColor : "transparent";
-    }), C = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "currentColor"), {
+    }), f = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "currentColor"), {
       className: v,
       style: c
-    } = h(l), y = r.computed(() => ["t-icon", "t-icon-notification", v.value]), m = r.computed(() => H(H({
+    } = p(o), y = r.computed(() => ["t-icon", "t-icon-notification", v.value]), m = r.computed(() => K(K({
       fill: "none"
-    }, c.value), t.style)), f = r.computed(() => ({
+    }, c.value), t.style)), C = r.computed(() => ({
       class: y.value,
       style: m.value,
       onClick: (a) => {
@@ -905,33 +1026,33 @@ var ge = {
       fillColor1: d.value,
       fillColor2: u.value,
       strokeWidth: e.strokeWidth || 2,
-      filledColor: C.value
+      filledColor: f.value
     }));
-    return () => g(ge, f.value);
+    return () => g(xe, C.value);
   }
 });
-function I(e, o) {
+function F(e, l) {
   var t = Object.keys(e);
   if (Object.getOwnPropertySymbols) {
-    var l = Object.getOwnPropertySymbols(e);
-    o && (l = l.filter(function(n) {
+    var o = Object.getOwnPropertySymbols(e);
+    l && (o = o.filter(function(n) {
       return Object.getOwnPropertyDescriptor(e, n).enumerable;
-    })), t.push.apply(t, l);
+    })), t.push.apply(t, o);
   }
   return t;
 }
-function R(e) {
-  for (var o = 1; o < arguments.length; o++) {
-    var t = arguments[o] != null ? arguments[o] : {};
-    o % 2 ? I(Object(t), !0).forEach(function(l) {
-      k(e, l, t[l]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : I(Object(t)).forEach(function(l) {
-      Object.defineProperty(e, l, Object.getOwnPropertyDescriptor(t, l));
+function U(e) {
+  for (var l = 1; l < arguments.length; l++) {
+    var t = arguments[l] != null ? arguments[l] : {};
+    l % 2 ? F(Object(t), !0).forEach(function(o) {
+      k(e, o, t[o]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : F(Object(t)).forEach(function(o) {
+      Object.defineProperty(e, o, Object.getOwnPropertyDescriptor(t, o));
     });
   }
   return e;
 }
-var he = {
+var Ne = {
   tag: "svg",
   attrs: {
     fill: "none",
@@ -958,7 +1079,7 @@ var he = {
       }
     }]
   }]
-}, pe = r.defineComponent({
+}, we = r.defineComponent({
   name: "PlayCircleIcon",
   props: {
     size: {
@@ -977,21 +1098,21 @@ var he = {
       type: Number
     }
   },
-  setup(e, o) {
+  setup(e, l) {
     var {
       attrs: t
-    } = o, l = r.computed(() => e.size), n = r.computed(() => e.strokeColor ? Array.isArray(e.strokeColor) ? e.strokeColor[0] : e.strokeColor : "currentColor"), s = r.computed(() => {
+    } = l, o = r.computed(() => e.size), n = r.computed(() => e.strokeColor ? Array.isArray(e.strokeColor) ? e.strokeColor[0] : e.strokeColor : "currentColor"), s = r.computed(() => {
       var a;
       return e.strokeColor ? Array.isArray(e.strokeColor) ? (a = e.strokeColor[1]) !== null && a !== void 0 ? a : e.strokeColor[0] : e.strokeColor : "currentColor";
     }), d = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "transparent"), u = r.computed(() => {
       var a;
       return e.fillColor ? Array.isArray(e.fillColor) ? (a = e.fillColor[1]) !== null && a !== void 0 ? a : e.fillColor[0] : e.fillColor : "transparent";
-    }), C = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "currentColor"), {
+    }), f = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "currentColor"), {
       className: v,
       style: c
-    } = h(l), y = r.computed(() => ["t-icon", "t-icon-play-circle", v.value]), m = r.computed(() => R(R({
+    } = p(o), y = r.computed(() => ["t-icon", "t-icon-play-circle", v.value]), m = r.computed(() => U(U({
       fill: "none"
-    }, c.value), t.style)), f = r.computed(() => ({
+    }, c.value), t.style)), C = r.computed(() => ({
       class: y.value,
       style: m.value,
       onClick: (a) => {
@@ -1005,33 +1126,33 @@ var he = {
       fillColor1: d.value,
       fillColor2: u.value,
       strokeWidth: e.strokeWidth || 2,
-      filledColor: C.value
+      filledColor: f.value
     }));
-    return () => g(he, f.value);
+    return () => g(Ne, C.value);
   }
 });
-function K(e, o) {
+function X(e, l) {
   var t = Object.keys(e);
   if (Object.getOwnPropertySymbols) {
-    var l = Object.getOwnPropertySymbols(e);
-    o && (l = l.filter(function(n) {
+    var o = Object.getOwnPropertySymbols(e);
+    l && (o = o.filter(function(n) {
       return Object.getOwnPropertyDescriptor(e, n).enumerable;
-    })), t.push.apply(t, l);
+    })), t.push.apply(t, o);
   }
   return t;
 }
-function F(e) {
-  for (var o = 1; o < arguments.length; o++) {
-    var t = arguments[o] != null ? arguments[o] : {};
-    o % 2 ? K(Object(t), !0).forEach(function(l) {
-      k(e, l, t[l]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : K(Object(t)).forEach(function(l) {
-      Object.defineProperty(e, l, Object.getOwnPropertyDescriptor(t, l));
+function J(e) {
+  for (var l = 1; l < arguments.length; l++) {
+    var t = arguments[l] != null ? arguments[l] : {};
+    l % 2 ? X(Object(t), !0).forEach(function(o) {
+      k(e, o, t[o]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : X(Object(t)).forEach(function(o) {
+      Object.defineProperty(e, o, Object.getOwnPropertyDescriptor(t, o));
     });
   }
   return e;
 }
-var be = {
+var Ve = {
   tag: "svg",
   attrs: {
     fill: "none",
@@ -1055,7 +1176,7 @@ var be = {
       }
     }]
   }]
-}, xe = r.defineComponent({
+}, je = r.defineComponent({
   name: "SlashIcon",
   props: {
     size: {
@@ -1074,21 +1195,21 @@ var be = {
       type: Number
     }
   },
-  setup(e, o) {
+  setup(e, l) {
     var {
       attrs: t
-    } = o, l = r.computed(() => e.size), n = r.computed(() => e.strokeColor ? Array.isArray(e.strokeColor) ? e.strokeColor[0] : e.strokeColor : "currentColor"), s = r.computed(() => {
+    } = l, o = r.computed(() => e.size), n = r.computed(() => e.strokeColor ? Array.isArray(e.strokeColor) ? e.strokeColor[0] : e.strokeColor : "currentColor"), s = r.computed(() => {
       var a;
       return e.strokeColor ? Array.isArray(e.strokeColor) ? (a = e.strokeColor[1]) !== null && a !== void 0 ? a : e.strokeColor[0] : e.strokeColor : "currentColor";
     }), d = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "transparent"), u = r.computed(() => {
       var a;
       return e.fillColor ? Array.isArray(e.fillColor) ? (a = e.fillColor[1]) !== null && a !== void 0 ? a : e.fillColor[0] : e.fillColor : "transparent";
-    }), C = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "currentColor"), {
+    }), f = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "currentColor"), {
       className: v,
       style: c
-    } = h(l), y = r.computed(() => ["t-icon", "t-icon-slash", v.value]), m = r.computed(() => F(F({
+    } = p(o), y = r.computed(() => ["t-icon", "t-icon-slash", v.value]), m = r.computed(() => J(J({
       fill: "none"
-    }, c.value), t.style)), f = r.computed(() => ({
+    }, c.value), t.style)), C = r.computed(() => ({
       class: y.value,
       style: m.value,
       onClick: (a) => {
@@ -1102,33 +1223,33 @@ var be = {
       fillColor1: d.value,
       fillColor2: u.value,
       strokeWidth: e.strokeWidth || 2,
-      filledColor: C.value
+      filledColor: f.value
     }));
-    return () => g(be, f.value);
+    return () => g(Ve, C.value);
   }
 });
-function U(e, o) {
+function G(e, l) {
   var t = Object.keys(e);
   if (Object.getOwnPropertySymbols) {
-    var l = Object.getOwnPropertySymbols(e);
-    o && (l = l.filter(function(n) {
+    var o = Object.getOwnPropertySymbols(e);
+    l && (o = o.filter(function(n) {
       return Object.getOwnPropertyDescriptor(e, n).enumerable;
-    })), t.push.apply(t, l);
+    })), t.push.apply(t, o);
   }
   return t;
 }
-function X(e) {
-  for (var o = 1; o < arguments.length; o++) {
-    var t = arguments[o] != null ? arguments[o] : {};
-    o % 2 ? U(Object(t), !0).forEach(function(l) {
-      k(e, l, t[l]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : U(Object(t)).forEach(function(l) {
-      Object.defineProperty(e, l, Object.getOwnPropertyDescriptor(t, l));
+function Y(e) {
+  for (var l = 1; l < arguments.length; l++) {
+    var t = arguments[l] != null ? arguments[l] : {};
+    l % 2 ? G(Object(t), !0).forEach(function(o) {
+      k(e, o, t[o]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : G(Object(t)).forEach(function(o) {
+      Object.defineProperty(e, o, Object.getOwnPropertyDescriptor(t, o));
     });
   }
   return e;
 }
-var Oe = {
+var Ae = {
   tag: "svg",
   attrs: {
     fill: "none",
@@ -1203,7 +1324,7 @@ var Oe = {
       }
     }]
   }]
-}, we = r.defineComponent({
+}, Pe = r.defineComponent({
   name: "UserCircleIcon",
   props: {
     size: {
@@ -1222,21 +1343,21 @@ var Oe = {
       type: Number
     }
   },
-  setup(e, o) {
+  setup(e, l) {
     var {
       attrs: t
-    } = o, l = r.computed(() => e.size), n = r.computed(() => e.strokeColor ? Array.isArray(e.strokeColor) ? e.strokeColor[0] : e.strokeColor : "currentColor"), s = r.computed(() => {
+    } = l, o = r.computed(() => e.size), n = r.computed(() => e.strokeColor ? Array.isArray(e.strokeColor) ? e.strokeColor[0] : e.strokeColor : "currentColor"), s = r.computed(() => {
       var a;
       return e.strokeColor ? Array.isArray(e.strokeColor) ? (a = e.strokeColor[1]) !== null && a !== void 0 ? a : e.strokeColor[0] : e.strokeColor : "currentColor";
     }), d = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "transparent"), u = r.computed(() => {
       var a;
       return e.fillColor ? Array.isArray(e.fillColor) ? (a = e.fillColor[1]) !== null && a !== void 0 ? a : e.fillColor[0] : e.fillColor : "transparent";
-    }), C = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "currentColor"), {
+    }), f = r.computed(() => e.fillColor ? Array.isArray(e.fillColor) ? e.fillColor[0] : e.fillColor : "currentColor"), {
       className: v,
       style: c
-    } = h(l), y = r.computed(() => ["t-icon", "t-icon-user-circle", v.value]), m = r.computed(() => X(X({
+    } = p(o), y = r.computed(() => ["t-icon", "t-icon-user-circle", v.value]), m = r.computed(() => Y(Y({
       fill: "none"
-    }, c.value), t.style)), f = r.computed(() => ({
+    }, c.value), t.style)), C = r.computed(() => ({
       class: y.value,
       style: m.value,
       onClick: (a) => {
@@ -1250,54 +1371,54 @@ var Oe = {
       fillColor1: d.value,
       fillColor2: u.value,
       strokeWidth: e.strokeWidth || 2,
-      filledColor: C.value
+      filledColor: f.value
     }));
-    return () => g(Oe, f.value);
+    return () => g(Ae, C.value);
   }
-}), N, J;
-function Ne() {
-  return J || (J = 1, N = mslxRequest), N;
+}), w, Q;
+function Se() {
+  return Q || (Q = 1, w = mslxRequest), w;
 }
-var je = Ne();
-const Y = /* @__PURE__ */ G(je), Ve = /* @__PURE__ */ r.defineComponent({
+var Ee = Se();
+const ee = /* @__PURE__ */ re(Ee), _e = /* @__PURE__ */ r.defineComponent({
   __name: "DemoPage",
   setup(e) {
-    const t = window.MSLX_Stores?.getUserStore?.(), l = r.computed(() => t?.userInfo || { name: "未登录", avatar: "" }), n = r.ref(!1), s = r.ref(`// 点击上方按钮发起请求
+    const t = window.MSLX_Stores?.getUserStore?.(), o = r.computed(() => t?.userInfo || { name: "未登录", avatar: "" }), n = r.ref(!1), s = r.ref(`// 点击上方按钮发起请求
 // 结果将在此处以 JSON 格式打印...`), d = async () => {
-      if (!Y) {
-        p.MessagePlugin.error("未检测到宿主的请求实例"), s.value = JSON.stringify({ error: "mslx-request not found on window" }, null, 2);
+      if (!ee) {
+        b.MessagePlugin.error("未检测到宿主的请求实例"), s.value = JSON.stringify({ error: "mslx-request not found on window" }, null, 2);
         return;
       }
       try {
         n.value = !0, s.value = `// 正在通过宿主 Axios 拦截器拉取数据...
 // 自动携带 Token 中...`;
-        const c = await Y.get({
+        const c = await ee.get({
           url: "/api/plugins/mslx-plugin-demo/demo"
         });
-        s.value = JSON.stringify(c, null, 2), p.MessagePlugin.success("数据流拉取成功！");
+        s.value = JSON.stringify(c, null, 2), b.MessagePlugin.success("数据流拉取成功！");
       } catch (c) {
         console.error("[Plugin Request Error]", c), s.value = JSON.stringify({ error: c.message || "请求失败，请检查网络" }, null, 2);
       } finally {
         n.value = !1;
       }
     }, u = () => {
-      p.MessagePlugin.success("这是一条来自插件的 Message！完全复用了主项目的样式和层级。");
-    }, C = () => {
-      p.NotifyPlugin.info({
+      b.MessagePlugin.success("这是一条来自插件的 Message！完全复用了主项目的样式和层级。");
+    }, f = () => {
+      b.NotifyPlugin.info({
         title: "原生状态通知",
         content: "通过共享 TDesign 上下文，插件发出的通知能与主项目完美队列，绝不遮挡。",
         duration: 3e3,
         closeBtn: !0
       });
     }, v = () => {
-      const c = p.DialogPlugin.confirm({
+      const c = b.DialogPlugin.confirm({
         header: "危险操作预警 (模拟)",
         body: "此弹窗由外部 ESM 插件强行唤起。即便插件的 DOM 被销毁，该弹窗依然能稳定存在于 Body 顶层。",
         theme: "danger",
         confirmBtn: "确认销毁",
         cancelBtn: "取消",
         onConfirm: () => {
-          p.MessagePlugin.success("操作已执行"), c.destroy();
+          b.MessagePlugin.success("操作已执行"), c.destroy();
         },
         onClose: () => {
           c.destroy();
@@ -1308,23 +1429,23 @@ const Y = /* @__PURE__ */ G(je), Ve = /* @__PURE__ */ r.defineComponent({
       });
     };
     return (c, y) => {
-      const m = r.resolveComponent("t-avatar"), f = r.resolveComponent("t-tag"), a = r.resolveComponent("t-button"), i = r.resolveComponent("t-loading");
+      const m = r.resolveComponent("t-avatar"), C = r.resolveComponent("t-tag"), a = r.resolveComponent("t-button"), i = r.resolveComponent("t-loading");
       return r.openBlock(), r.createElementBlock("div", { class: "mx-auto flex flex-col gap-6 text-[var(--td-text-color-primary)] pb-8 pt-6" }, [
         r.createElementVNode("div", { class: "design-card rounded-2xl glass-card border border-[var(--td-component-border)] shadow-sm p-8 flex flex-col md:flex-row items-center md:items-start" }, [
           r.createVNode(m, {
-            image: l.value.avatar,
+            image: o.value.avatar,
             size: "84px",
             class: "shrink-0 mr-6! mb-4! md:mb-0 border-4 border-[var(--color-primary)] shadow-md"
           }, {
             icon: r.withCtx(() => [
-              r.createVNode(r.unref(we))
+              r.createVNode(r.unref(Pe))
             ]),
             _: 1
           }, 8, ["image"]),
           r.createElementVNode("div", { class: "flex-grow text-center md:text-left flex flex-col justify-center ml-5!" }, [
             r.createElementVNode("div", { class: "flex flex-col md:flex-row md:items-center gap-3 mb-2" }, [
-              r.createElementVNode("h1", { class: "text-2xl font-extrabold m-0 tracking-wide flex items-center justify-center md:justify-start gap-2" }, " 欢迎回来，" + r.toDisplayString(l.value.name), 1),
-              r.unref(t) ? (r.openBlock(), r.createBlock(f, {
+              r.createElementVNode("h1", { class: "text-2xl font-extrabold m-0 tracking-wide flex items-center justify-center md:justify-start gap-2" }, " 欢迎回来，" + r.toDisplayString(o.value.name), 1),
+              r.unref(t) ? (r.openBlock(), r.createBlock(C, {
                 key: 0,
                 theme: "success",
                 variant: "light-outline",
@@ -1338,7 +1459,7 @@ const Y = /* @__PURE__ */ G(je), Ve = /* @__PURE__ */ r.defineComponent({
                   r.createTextVNode(" 状态已同步 ")
                 ]),
                 _: 1
-              })) : (r.openBlock(), r.createBlock(f, {
+              })) : (r.openBlock(), r.createBlock(C, {
                 key: 1,
                 theme: "danger",
                 variant: "light",
@@ -1352,7 +1473,7 @@ const Y = /* @__PURE__ */ G(je), Ve = /* @__PURE__ */ r.defineComponent({
               }))
             ]),
             r.createElementVNode("div", { class: "flex items-center justify-center md:justify-start gap-2 mb-3 text-[var(--color-primary)] font-bold tracking-widest text-xs uppercase" }, [
-              r.createVNode(r.unref(me)),
+              r.createVNode(r.unref(ke)),
               r.createTextVNode(" MSLX Plugin SDK v1.0 • 开发者工作台 ")
             ]),
             r.createElementVNode("p", { class: "text-[var(--td-text-color-secondary)] max-w-3xl m-0 leading-relaxed text-sm" }, [
@@ -1368,7 +1489,7 @@ const Y = /* @__PURE__ */ G(je), Ve = /* @__PURE__ */ r.defineComponent({
             style: { "animation-delay": "0s" }
           }, [
             r.createElementVNode("div", { class: "w-12 h-12 shrink-0 flex items-center justify-center rounded-xl bg-primary-light text-[var(--color-primary)]" }, [
-              r.createVNode(r.unref(xe), { size: "24px" })
+              r.createVNode(r.unref(je), { size: "24px" })
             ]),
             r.createElementVNode("div", null, [
               r.createElementVNode("h3", { class: "font-bold text-base m-0 mb-1" }, "极致轻量"),
@@ -1380,7 +1501,7 @@ const Y = /* @__PURE__ */ G(je), Ve = /* @__PURE__ */ r.defineComponent({
             style: { "animation-delay": "0.1s" }
           }, [
             r.createElementVNode("div", { class: "w-12 h-12 shrink-0 flex items-center justify-center rounded-xl bg-success-light text-[var(--color-success)]" }, [
-              r.createVNode(r.unref(B), { size: "24px" })
+              r.createVNode(r.unref(H), { size: "24px" })
             ]),
             r.createElementVNode("div", null, [
               r.createElementVNode("h3", { class: "font-bold text-base m-0 mb-1" }, "生态共享"),
@@ -1396,7 +1517,7 @@ const Y = /* @__PURE__ */ G(je), Ve = /* @__PURE__ */ r.defineComponent({
             style: { "animation-delay": "0.2s" }
           }, [
             r.createElementVNode("div", { class: "w-12 h-12 shrink-0 flex items-center justify-center rounded-xl bg-warning-light text-[var(--color-warning)]" }, [
-              r.createVNode(r.unref(ie), { size: "24px" })
+              r.createVNode(r.unref(de), { size: "24px" })
             ]),
             r.createElementVNode("div", null, [
               r.createElementVNode("h3", { class: "font-bold text-base m-0 mb-1" }, "无缝鉴权"),
@@ -1428,7 +1549,7 @@ const Y = /* @__PURE__ */ G(je), Ve = /* @__PURE__ */ r.defineComponent({
                 shape: "round"
               }, {
                 icon: r.withCtx(() => [
-                  r.createVNode(r.unref(pe))
+                  r.createVNode(r.unref(we))
                 ]),
                 default: r.withCtx(() => [
                   r.createTextVNode(" 发起请求 ")
@@ -1437,7 +1558,7 @@ const Y = /* @__PURE__ */ G(je), Ve = /* @__PURE__ */ r.defineComponent({
               }, 8, ["loading"])
             ]),
             r.createElementVNode("div", { class: "mb-3 flex items-center gap-2 text-sm text-[var(--td-text-color-primary)] font-bold" }, [
-              r.createVNode(r.unref(Ce), { class: "text-[var(--color-primary)]" }),
+              r.createVNode(r.unref(ye), { class: "text-[var(--color-primary)]" }),
               r.createElementVNode("span", { class: "bg-primary-light text-[var(--color-primary)] px-2 py-0.5 rounded text-xs font-mono" }, "GET"),
               r.createTextVNode(" /api/plugins/mslx-plugin-demo/demo 原始响应 ")
             ]),
@@ -1487,7 +1608,7 @@ const Y = /* @__PURE__ */ G(je), Ve = /* @__PURE__ */ r.defineComponent({
               r.createElementVNode("div", { class: "group relative bg-secondary-light border border-[var(--td-component-border)] p-4 rounded-xl hover:bg-[var(--td-bg-color-container)] transition-colors" }, [
                 r.createElementVNode("div", { class: "flex justify-between items-center mb-3" }, [
                   r.createElementVNode("span", { class: "font-bold flex items-center gap-2 text-sm" }, [
-                    r.createVNode(r.unref(ue), { class: "text-[var(--color-primary)]" }),
+                    r.createVNode(r.unref(ve), { class: "text-[var(--color-primary)]" }),
                     r.createTextVNode(" Message 提示")
                   ]),
                   r.createVNode(a, {
@@ -1506,13 +1627,13 @@ const Y = /* @__PURE__ */ G(je), Ve = /* @__PURE__ */ r.defineComponent({
               r.createElementVNode("div", { class: "group relative bg-secondary-light border border-[var(--td-component-border)] p-4 rounded-xl hover:bg-[var(--td-bg-color-container)] transition-colors" }, [
                 r.createElementVNode("div", { class: "flex justify-between items-center mb-3" }, [
                   r.createElementVNode("span", { class: "font-bold flex items-center gap-2 text-sm" }, [
-                    r.createVNode(r.unref(ke), { class: "text-[var(--color-success)]" }),
+                    r.createVNode(r.unref(Oe), { class: "text-[var(--color-success)]" }),
                     r.createTextVNode(" Notification 通知")
                   ]),
                   r.createVNode(a, {
                     size: "small",
                     variant: "outline",
-                    onClick: C
+                    onClick: f
                   }, {
                     default: r.withCtx(() => [
                       r.createTextVNode("触发")
@@ -1525,7 +1646,7 @@ const Y = /* @__PURE__ */ G(je), Ve = /* @__PURE__ */ r.defineComponent({
               r.createElementVNode("div", { class: "group relative bg-secondary-light border border-[var(--td-component-border)] p-4 rounded-xl hover:bg-[var(--td-bg-color-container)] transition-colors" }, [
                 r.createElementVNode("div", { class: "flex justify-between items-center mb-3" }, [
                   r.createElementVNode("span", { class: "font-bold flex items-center gap-2 text-sm" }, [
-                    r.createVNode(r.unref(B), { class: "text-[var(--color-danger)]" }),
+                    r.createVNode(r.unref(H), { class: "text-[var(--color-danger)]" }),
                     r.createTextVNode(" Dialog 弹窗")
                   ]),
                   r.createVNode(a, {
@@ -1547,21 +1668,120 @@ const Y = /* @__PURE__ */ G(je), Ve = /* @__PURE__ */ r.defineComponent({
         ]),
         r.createElementVNode("div", { class: "mt-8 flex justify-center opacity-60" }, [
           r.createElementVNode("div", { class: "flex items-center gap-2 text-xs font-mono text-[var(--td-text-color-secondary)] uppercase tracking-widest hover:text-[var(--color-primary)] transition-colors cursor-pointer" }, [
-            r.createVNode(r.unref(ce)),
+            r.createVNode(r.unref(fe)),
             r.createTextVNode(" MSLX Plugin Architecture v1.0 ")
           ])
         ])
       ]);
     };
   }
-}), Ae = (e, o) => {
+}), V = (e, l) => {
   const t = e.__vccOpts || e;
-  for (const [l, n] of o)
-    t[l] = n;
+  for (const [o, n] of l)
+    t[o] = n;
   return t;
-}, x = /* @__PURE__ */ Ae(Ve, [["__scopeId", "data-v-78cf48db"]]), Pe = {
+}, x = /* @__PURE__ */ V(_e, [["__scopeId", "data-v-070657da"]]), $e = {
+  __name: "InstanceDropDownItemInject",
+  props: {
+    serverId: Number
+  },
+  setup(e, { expose: l }) {
+    const t = e, o = r.ref(!1), n = () => {
+      b.MessagePlugin.info(`逻辑执行成功！正在处理实例: ${t.serverId}`), o.value = !1;
+    };
+    return l({
+      open: () => {
+        console.log("👉 [插件内部] open 方法被成功触发！"), o.value = !0;
+      }
+    }), (s, d) => {
+      const u = r.resolveComponent("t-dialog");
+      return r.openBlock(), r.createElementBlock("div", null, [
+        r.createVNode(u, {
+          visible: o.value,
+          "onUpdate:visible": d[0] || (d[0] = (f) => o.value = f),
+          header: "测试插件弹窗",
+          attach: "body",
+          footer: !1
+        }, {
+          default: r.withCtx(() => [
+            r.createElementVNode("div", { class: "flex flex-col gap-4" }, [
+              r.createElementVNode("div", { class: "text-lg font-bold text-blue-500" }, " 🎉 恭喜！这是一个插件弹窗 "),
+              r.createElementVNode("div", { class: "bg-gray-100 p-3 rounded-md text-sm text-gray-700" }, [
+                r.createTextVNode(" 当前接收到的 Server ID: "),
+                r.createElementVNode("span", { class: "text-red-500 font-mono font-bold" }, r.toDisplayString(e.serverId), 1)
+              ]),
+              r.createElementVNode("button", {
+                class: "bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition-colors cursor-pointer",
+                onClick: n
+              }, " 点击执行测试逻辑 ")
+            ])
+          ]),
+          _: 1
+        }, 8, ["visible"])
+      ]);
+    };
+  }
+}, Me = /* @__PURE__ */ V($e, [["__scopeId", "data-v-8b0d65ea"]]), We = {
+  __name: "InstanceCardInject",
+  props: {
+    serverId: {
+      type: Number,
+      required: !0
+    },
+    status: {
+      type: Number,
+      default: 0
+    }
+  },
+  setup(e) {
+    const l = e, t = () => {
+      b.MessagePlugin.info(`我是插件内部的逻辑！当前操作的服务器 ID 是: ${l.serverId}`);
+    };
+    return (o, n) => (r.openBlock(), r.createElementBlock("div", { class: "design-card flex flex-col bg-[var(--td-bg-color-container)]/80 rounded-xl border border-[var(--td-component-border)] shadow-sm p-5" }, [
+      r.createElementVNode("div", { class: "flex justify-between items-center mb-4 pb-4 border-b border-zinc-200/60 dark:border-zinc-700/60" }, [
+        r.createElementVNode("div", { class: "flex items-center gap-1.5 font-bold text-sm text-[var(--td-text-color-primary)] m-0" }, [
+          r.createElementVNode("span", { class: "text-[var(--td-text-color-secondary)] text-base leading-none" }, "🧩"),
+          r.createTextVNode(" 插件扩充面板 "),
+          r.createElementVNode("span", { class: "relative inline-flex px-1.5 py-0.5 rounded text-xs font-medium text-[var(--color-primary)] overflow-hidden" }, [
+            r.createElementVNode("span", { class: "absolute inset-0 bg-[var(--color-primary)] opacity-10" }),
+            r.createElementVNode("span", { class: "relative z-10" }, "Plus")
+          ])
+        ]),
+        r.createElementVNode("button", {
+          class: "text-xs font-medium text-[var(--color-primary)] hover:bg-[var(--color-primary)]/10 bg-transparent border-none px-2 py-1 rounded transition-colors cursor-pointer",
+          onClick: t
+        }, " 测试按钮 ")
+      ]),
+      r.createElementVNode("div", { class: "flex-1 min-h-[40px]" }, [
+        e.status === 2 ? (r.openBlock(), r.createElementBlock("div", {
+          key: 0,
+          class: "flex flex-col gap-2"
+        }, [
+          r.createElementVNode("div", { class: "text-sm font-medium text-[var(--td-text-color-secondary)]" }, [
+            r.createTextVNode(" 当前绑定实例："),
+            r.createElementVNode("span", { class: "font-mono font-bold text-[var(--td-text-color-primary)]" }, r.toDisplayString(e.serverId), 1)
+          ]),
+          r.createElementVNode("div", { class: "p-3 bg-zinc-100 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 rounded-md text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed shadow-sm" }, [
+            r.createTextVNode(" 这是通过万能插槽 "),
+            r.createElementVNode("code", { class: "text-[var(--color-primary)] font-mono" }, "PluginSlot"),
+            r.createTextVNode(" 动态渲染出来的外部卡片！ 它继承了宿主传来的 "),
+            r.createElementVNode("span", { class: "font-bold" }, "status (" + r.toDisplayString(e.status) + ")", 1),
+            r.createTextVNode(" 和样式上下文。 ")
+          ])
+        ])) : (r.openBlock(), r.createElementBlock("div", {
+          key: 1,
+          class: "py-4 flex flex-col items-center justify-center gap-2 text-[var(--td-text-color-secondary)]"
+        }, [
+          r.createElementVNode("span", { class: "text-2xl opacity-50" }, "💤"),
+          r.createElementVNode("span", { class: "text-xs font-medium" }, "实例休眠中，插件统计已暂停")
+        ]))
+      ])
+    ]));
+  }
+}, De = /* @__PURE__ */ V(We, [["__scopeId", "data-v-d339962d"]]), Le = {
   name: "DemoMenuPlugin",
   version: "1.0.0",
+  // 注入路由
   routes: [
     // 插入新的一级菜单
     {
@@ -1607,8 +1827,27 @@ const Y = /* @__PURE__ */ G(je), Ve = /* @__PURE__ */ r.defineComponent({
       component: x,
       meta: { title: "插件子菜单", icon: "control-platform", roleCode: ["admin", "user"] }
     }
+  ],
+  // 注入组件
+  extensions: [
+    {
+      slot: "instance-console-dropdown",
+      // 注入到实例控制台更多功能的下拉菜单
+      component: Me,
+      // 弹窗组件
+      label: "插件弹窗",
+      // 下拉子菜单名
+      icon: be
+      // 下拉子菜单Icon
+    },
+    {
+      slot: "instance-console-overview-bottom",
+      // 注入到实例控制台玩家卡片下方
+      component: De
+      // 组件
+    }
   ]
 };
 export {
-  Pe as pluginConfig
+  Le as pluginConfig
 };
