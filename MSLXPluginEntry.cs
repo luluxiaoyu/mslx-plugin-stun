@@ -1,4 +1,6 @@
 ﻿using MSLX.SDK;
+using MSLX.SDK.Interfaces;
+using Newtonsoft.Json.Linq;
 
 namespace MSLX.Plugin.Demo;
 
@@ -31,6 +33,27 @@ public class MSLXPluginEntry : IPlugin
         
         var allConfig = this.Config().ReadConfig();
         
+        
+        // get请求示例
+        var response = await SDK.MSLX.Http.GetAsync("https://api.mslmc.cn/v3/query/notice?query=id");
+        
+        if (response.IsSuccessStatusCode)
+        {
+            JObject jobj = JObject.Parse(response.Content ?? "{}");
+            string content = jobj["data"]?["noticeID"]?.ToString() ?? "";
+            
+            SDK.MSLX.Logger.Info($"获取到的MSL公告编号: {content}");
+        }
+
+        // post
+        /***
+        var postResponse = await SDK.MSLX.Http.PostAsync(
+            "https://example.cn/post-api",
+            PluginHttpContentType.Json,
+            new { username = "admin", action = "start" }
+        ); ***/
+        
+        
         // ===== 下载器调用示例 ===== 
         SDK.MSLX.Logger.Info("准备下载文件...");
         string targetPath = Path.Combine(this.Config().GetDataPath(), "server.jar");
@@ -55,7 +78,6 @@ public class MSLXPluginEntry : IPlugin
         {
             SDK.MSLX.Logger.Error($"下载失败: {result.ErrorMessage}");
         }
-        
     }
 
     public void OnUnload() {
