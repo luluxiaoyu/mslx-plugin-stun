@@ -6,6 +6,7 @@ namespace MSLX.Plugin.Demo;
 
 public class MSLXPluginEntry : IPlugin
 {
+    public static MSLXPluginEntry Instance { get; private set; }
     public string Id => "mslx-plugin-demo"; 
     public string Name => "MSLX 示例插件";
     public string Description => "这是MSLX的示例插件，简单演示了一些插件可实现的功能，可以前往Github查看具体实现~";
@@ -18,20 +19,22 @@ public class MSLXPluginEntry : IPlugin
 
     public async void OnLoad()
     {
+        Instance = this;
+        
         SDK.MSLX.Logger.Info("mslx-plugin-demo 载入成功~");
         SDK.MSLX.Logger.Info("当前存在实例数量：" + SDK.MSLX.Config.Servers.GetServerList().Count.ToString());
         
         // ===== 配置读写示例 =====
-        string dataDir = this.Config().GetDataPath();
+        string dataDir = MSLXPluginEntry.Instance.Config().GetDataPath();
         SDK.MSLX.Logger.Info("使用的数据目录："+dataDir);
         
-        this.Config().WriteConfigKey("author", "xiaoyu");
-        this.Config().WriteConfigKey("magicNumber", 1027);
+        MSLXPluginEntry.Instance.Config().WriteConfigKey("author", "xiaoyu");
+        MSLXPluginEntry.Instance.Config().WriteConfigKey("magicNumber", 1027);
         
-        int count = (int?)this.Config().ReadConfigKey("magicNumber") ?? 0;
+        int count = (int?)MSLXPluginEntry.Instance.Config().ReadConfigKey("magicNumber") ?? 0;
         SDK.MSLX.Logger.Info("从配置文件读取magicNumber：" + count.ToString());
         
-        var allConfig = this.Config().ReadConfig();
+        var allConfig = MSLXPluginEntry.Instance.Config().ReadConfig();
         
         
         // get请求示例
@@ -56,7 +59,7 @@ public class MSLXPluginEntry : IPlugin
         
         // ===== 下载器调用示例 ===== 
         SDK.MSLX.Logger.Info("准备下载文件...");
-        string targetPath = Path.Combine(this.Config().GetDataPath(), "server.jar");
+        string targetPath = Path.Combine(MSLXPluginEntry.Instance.Config().GetDataPath(), "server.jar");
         if (File.Exists(targetPath))
         {
             return;
