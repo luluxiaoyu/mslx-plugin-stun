@@ -7,15 +7,15 @@ namespace MSLX.Plugin.Demo;
 public class MSLXPluginEntry : IPlugin
 {
     public static MSLXPluginEntry Instance { get; private set; }
-    public string Id => "mslx-plugin-demo"; 
-    public string Name => "MSLX 示例插件";
-    public string Description => "这是MSLX的示例插件，简单演示了一些插件可实现的功能，可以前往Github查看具体实现~";
-    public string Version => "1.1.0";
+    public string Id => "mslx-plugin-stun"; 
+    public string Name => "STUN 隧道";
+    public string Description => "利用STUN技术，在NAT1环境下获取一个公网端口用于游戏/联机。";
+    public string Version => "1.0.0";
     public string Icon => "icon.png";
-    public string MinSDKVersion => "1.4.0";
+    public string MinSDKVersion => "1.4.3";
     public string Developer => "luluxiaoyu";
-    public string AuthorUrl => "https://mslx.mslmc.cn/plugin-dev/init/start/";
-    public string PluginUrl => "https://github.com/MSLTeam/mslx-plugin-demo";
+    public string AuthorUrl => "https://github.com/luluxiaoyu";
+    public string PluginUrl => "https://github.com/luluxiaoyu/mslx-plugin-stun";
 
     public async void OnLoad()
     {

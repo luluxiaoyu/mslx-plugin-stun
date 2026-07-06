@@ -1,5 +1,5 @@
 {
-  "name": "mslx-plugin-demo",
+  "name": "mslx-plugin-stun",
   "private": true,
   "version": "0.0.0",
   "type": "module",
