@@ -11,6 +11,7 @@
     "dev:plugin": "concurrently -n \"BUILD,SERVE\" -c \"blue,green\" \"pnpm build:watch\" \"pnpm preview\""
   },
   "dependencies": {
+    "@microsoft/signalr": "^10.0.0",
     "vue": "^3.5.32"
   },
   "devDependencies": {
