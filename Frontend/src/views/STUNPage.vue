@@ -10,12 +10,16 @@ import {
   EditIcon,
   WifiIcon
 } from 'tdesign-icons-vue-next';
-import * as signalR from '@microsoft/signalr'; // 根据实际宿主环境调整
+import * as signalR from '@microsoft/signalr';
 import {
   apiGetTunnels, apiCreateTunnel, apiUpdateTunnel,
   apiDeleteTunnel, apiStartTunnel, apiStopTunnel,
   type TunnelConfig, type TunnelItem, type TunnelStats
 } from '../api/api.ts';
+
+// --- 宿主状态 ---
+const stores = (window as any).MSLX_Stores;
+const userStore = stores?.getUserStore?.();
 
 // --- 状态管理 ---
 const loading = ref(false);
@@ -62,7 +66,7 @@ const fetchTunnels = async () => {
   try {
     loading.value = true;
     const res: any = await apiGetTunnels();
-    if (res?.data) tunnels.value = res.data;
+    if (res) tunnels.value = res;
   } catch (err: any) {
     MessagePlugin.error(`拉取隧道列表失败: ${err.message}`);
   } finally {
@@ -148,9 +152,15 @@ const openConsole = async (item: TunnelConfig) => {
   consoleVisible.value = true;
 
   try {
-    // 建立 SignalR 连接 (路径请按需修改)
+    const { baseUrl, token } = userStore || {};
+
+    const hubUrl = new URL('/api/hubs/stun', baseUrl || window.location.origin);
+    if (token) {
+      hubUrl.searchParams.append('x-user-token', token);
+    }
+
     hubConnection = new signalR.HubConnectionBuilder()
-        .withUrl('/api/hubs/stun')
+        .withUrl(hubUrl.href)
         .withAutomaticReconnect()
         .build();
 
@@ -196,7 +206,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div class="mx-auto flex flex-col gap-6 text-[var(--td-text-color-primary)] pb-8 pt-6">
+  <div class="mx-auto flex flex-col gap-6 text-[var(--td-text-color-primary)]">
 
     <div class="design-card rounded-2xl glass-card border border-[var(--td-component-border)] shadow-sm p-6 flex flex-col md:flex-row justify-between items-center gap-4">
       <div class="flex items-center gap-4">

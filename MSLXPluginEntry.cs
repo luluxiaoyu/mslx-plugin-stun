@@ -23,7 +23,7 @@ public class MSLXPluginEntry : IPlugin
         SDK.MSLX.Logger.Info("[STUN] 隧道插件开始初始化...");
 
         // 初始化数据目录和配置
-        string dataDir = Config().GetDataPath();
+        string dataDir = this.Config().GetDataPath();
         if (!Directory.Exists(dataDir)) Directory.CreateDirectory(dataDir);
 
         StunTunnelManager.Instance.Initialize(dataDir);
