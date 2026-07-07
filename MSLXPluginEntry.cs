@@ -1,4 +1,5 @@
-﻿using MSLX.Plugin.Stun.Managers;
+﻿using MSLX.Plugin.Stun.Hubs;
+using MSLX.Plugin.Stun.Managers;
 using MSLX.SDK;
 using MSLX.SDK.Interfaces;
 
@@ -12,7 +13,7 @@ public class MSLXPluginEntry : IPlugin
     public string Description => "利用 STUN 技术，在 NAT1 环境下获取公网端口，支持多开与流量监控。";
     public string Version => "1.0.0";
     public string Icon => "icon.png";
-    public string MinSDKVersion => "1.4.3";
+    public string MinSDKVersion => "1.4.9";
     public string Developer => "xiaoyu";
     public string AuthorUrl => "https://github.com/luluxiaoyu";
     public string PluginUrl => "https://github.com/luluxiaoyu/mslx-plugin-stun";
@@ -34,5 +35,10 @@ public class MSLXPluginEntry : IPlugin
     {
         StunTunnelManager.Instance.StopAll();
         SDK.MSLX.Logger.Info("[STUN] 插件卸载，所有隧道已释放。");
+    }
+
+    public void OnRegisterEndpoints(IEndpointRouteBuilder endpoints)
+    {
+        endpoints.MapHub<StunHub>("/api/hubs/plugins/mslx-plugin-stun/stun");
     }
 }

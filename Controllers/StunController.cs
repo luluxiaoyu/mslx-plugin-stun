@@ -68,14 +68,26 @@ public class StunController : ControllerBase
     }
 
     [HttpPost("start")]
-    public async Task<IActionResult> StartTunnel([FromQuery] string id)
+    public IActionResult StartTunnel([FromQuery] string id)
     {
         if (string.IsNullOrEmpty(id))
         {
             return BadRequest(new ApiResponse<object> { Code = 400, Message = "启动失败：缺少隧道ID" });
         }
 
-        await StunTunnelManager.Instance.StartTunnel(id);
+        _ = Task.Run(async () =>
+        {
+            try
+            {
+                SDK.MSLX.Logger.Info($"[STUN] 正在启动隧道 {id}...");
+                await StunTunnelManager.Instance.StartTunnel(id);
+            }
+            catch (Exception ex)
+            {
+                SDK.MSLX.Logger.Error($"[STUN] 后台启动隧道 {id} 异常: {ex.Message}");
+            }
+        });
+
         return Ok(new ApiResponse<object> { Code = 200, Message = "启动指令已下发" });
     }
 
