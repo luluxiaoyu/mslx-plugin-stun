@@ -203,14 +203,19 @@ public class StunTunnel
 
     private async Task HandleTcpSocketForward(TcpClient inboundClient, CancellationToken token)
     {
+        string remoteEpStr = inboundClient.Client.RemoteEndPoint?.ToString() ?? "未知客户端";
+
+        Log($"[CONN] 收到来自 [{remoteEpStr}] 的连接请求。");
+
         using (inboundClient)
         using (TcpClient localBackendClient = new TcpClient())
         {
             try
             {
-                var result = localBackendClient.BeginConnect("127.0.0.1", Config.LocalPort, null, null);
+                var result = localBackendClient.BeginConnect(Config.LocalIp, Config.LocalPort, null, null);
                 if (!result.AsyncWaitHandle.WaitOne(TimeSpan.FromSeconds(3)))
                 {
+                    Log($"[CONN] 转发失败：无法连接到本地游戏后端 {Config.LocalIp}:{Config.LocalPort}");
                     return;
                 }
                 localBackendClient.EndConnect(result);
@@ -221,25 +226,35 @@ public class StunTunnel
                     if (Config.EnableProxyProtocolV2)
                     {
                         var remoteEp = inboundClient.Client.RemoteEndPoint as IPEndPoint;
-                        var localEp = (localBackendClient.Client.LocalEndPoint as IPEndPoint)
-                                          ?? new IPEndPoint(IPAddress.Parse(Config.LocalIp), Config.LocalPort);
+
+                        var destinationEp = OuterEndPoint
+                                            ?? new IPEndPoint(IPAddress.Parse(Config.LocalIp), Config.LocalPort);
 
                         if (remoteEp != null)
                         {
-                            byte[] proxyHeader = BuildProxyProtocolV2Header(remoteEp, localEp);
+                            byte[] proxyHeader = BuildProxyProtocolV2Header(remoteEp, destinationEp);
 
                             await localStream.WriteAsync(proxyHeader, 0, proxyHeader.Length, token);
                             await localStream.FlushAsync(token);
                         }
                     }
 
-                    // 挂起双向数据流动管道
+                    Log($"[CONN] [{remoteEpStr}] 已成功连上隧道服务。");
+
                     Task extToLocal = CopySocketStreamAsync(extStream, localStream, false, token);
                     Task localToExt = CopySocketStreamAsync(localStream, extStream, true, token);
+
                     await Task.WhenAny(extToLocal, localToExt);
                 }
             }
-            catch { }
+            catch (Exception ex)
+            {
+                Log($"[CONN] [{remoteEpStr}] 连接异常断开: {ex.Message}");
+            }
+            finally
+            {
+                Log($"[CONN] [{remoteEpStr}] 释放连接。");
+            }
         }
     }
 

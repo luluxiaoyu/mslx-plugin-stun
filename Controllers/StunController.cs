@@ -97,7 +97,7 @@ public class StunController : ControllerBase
         {
             return BadRequest(new ApiResponse<object> { Code = 400, Message = "停止失败：缺少隧道ID" });
         }
-
+        SDK.MSLX.Logger.Info($"[STUN] 正在关闭隧道 {id}...");
         StunTunnelManager.Instance.StopTunnel(id);
         return Ok(new ApiResponse<object> { Code = 200, Message = "已停止" });
     }

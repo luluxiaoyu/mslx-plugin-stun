@@ -59,7 +59,7 @@ public class StunTunnelManager
 
     private void LogToSignalR(string tunnelId, string formattedLog)
     {
-        SDK.MSLX.Logger.Debug(formattedLog);
+        SDK.MSLX.Logger.Info(formattedLog);
         _hubContext?.Clients.Group(tunnelId).SendAsync("ReceiveLog", formattedLog);
     }
 
