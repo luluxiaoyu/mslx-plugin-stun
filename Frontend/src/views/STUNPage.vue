@@ -344,7 +344,7 @@ onBeforeUnmount(() => {
             </div>
 
             <div class="flex items-center gap-2 mt-2">
-              <t-tag v-if="item.config.enableProxyProtocolV2" theme="warning" variant="light-outline" size="small" class="!text-[10px] font-black italic tracking-tighter">PROXY V2</t-tag>
+              <t-tag v-if="item.config.enableProxyProtocolV2" theme="warning" variant="light-outline" size="small" class="!text-[10px] font-black italic tracking-tighter">Proxy Protocol V2</t-tag>
               <t-tag theme="default" variant="light-outline" size="small" class="!text-[10px] font-black tracking-tighter">最大连接数: {{ item.config.maxConnections }}</t-tag>
             </div>
           </div>
@@ -400,7 +400,7 @@ onBeforeUnmount(() => {
               <t-popup placement="top" content="传递玩家真实IP。仅限后端服务端(如 Velocity / Paper / 插件或模组)支持并开启 Proxy Protocol 时使用，否则会导致玩家无法连接！">
                 <info-circle-icon class="text-[var(--td-text-color-placeholder)] cursor-help hover:text-[var(--td-brand-color)] transition-colors" />
               </t-popup>
-              请确认服务端支持，否则会无法连接游戏。
+              Proxy Protocol V2协议，请确认服务端支持，否则会无法连接游戏。
             </div>
           </t-form-item>
         </t-form>
@@ -409,29 +409,72 @@ onBeforeUnmount(() => {
 
     <t-dialog
         v-model:visible="consoleVisible"
-        :header="`终端 - ${activeTunnel?.name || '未知'}`"
+        :header="`隧道监控 - ${activeTunnel?.name || '未知'}`"
         placement="center"
         width="800px"
         :footer="false"
         @close="closeConsole"
     >
-      <div class="flex flex-col h-[500px] mt-2">
-        <div class="grid grid-cols-4 gap-3 mb-4">
-          <div class="bg-[var(--td-bg-color-secondarycontainer)] p-3 rounded-xl border border-[var(--td-component-border)]">
-            <div class="text-xs text-[var(--td-text-color-secondary)] mb-1 font-bold">上行速度</div>
-            <div class="font-mono font-bold text-[var(--color-primary)]">{{ consoleStats ? formatTraffic(consoleStats.speedUpload) : '0 B' }}/s</div>
+      <div class="flex flex-col h-[520px] mt-2 gap-4">
+
+        <div class="flex items-center justify-between px-4 py-2.5 bg-[var(--td-bg-color-secondarycontainer)] rounded-xl border border-[var(--td-component-border)] text-xs font-mono">
+          <div class="flex flex-col gap-0.5">
+            <span class="text-[var(--td-text-color-secondary)] font-sans scale-95 origin-left">本地目标</span>
+            <span class="text-[var(--td-text-color-primary)] font-bold">
+              {{ activeTunnel?.localIp }}:{{ activeTunnel?.localPort }}
+            </span>
           </div>
-          <div class="bg-[var(--td-bg-color-secondarycontainer)] p-3 rounded-xl border border-[var(--td-component-border)]">
-            <div class="text-xs text-[var(--td-text-color-secondary)] mb-1 font-bold">下行速度</div>
-            <div class="font-mono font-bold text-[var(--color-success)]">{{ consoleStats ? formatTraffic(consoleStats.speedDownload) : '0 B' }}/s</div>
+
+          <div class="flex-grow flex items-center justify-center px-4 opacity-40">
+            <div class="h-[1px] bg-[var(--td-text-color-placeholder)] flex-grow relative">
+              <div class="absolute right-0 top-1/2 -translate-y-1/2 border-t-4 border-b-4 border-l-4 border-transparent border-l-[var(--td-text-color-placeholder)]"></div>
+            </div>
           </div>
-          <div class="bg-[var(--td-bg-color-secondarycontainer)] p-3 rounded-xl border border-[var(--td-component-border)]">
-            <div class="text-xs text-[var(--td-text-color-secondary)] mb-1 font-bold">活跃连接</div>
-            <div class="font-mono font-bold text-[var(--color-warning)]">{{ consoleStats?.activeConnections || 0 }} / {{ activeTunnel?.maxConnections || 128 }}</div>
+
+          <div class="flex flex-col gap-0.5 text-right">
+            <span class="text-[var(--td-text-color-secondary)] font-sans scale-95 origin-right">公网直连</span>
+            <span class="font-bold text-[var(--color-primary)]">
+              {{ consoleStats?.outerAddress || '分配中...' }}
+            </span>
           </div>
-          <div class="bg-[var(--td-bg-color-secondarycontainer)] p-3 rounded-xl border border-[var(--td-component-border)]">
-            <div class="text-xs text-[var(--td-text-color-secondary)] mb-1 font-bold">总流量</div>
-            <div class="font-mono font-bold text-[var(--td-text-color-primary)]">{{ consoleStats ? formatTraffic(consoleStats.totalUpload + consoleStats.totalDownload) : '0 B' }}</div>
+        </div>
+
+        <div class="grid grid-cols-4 gap-3">
+          <div class="bg-[var(--td-bg-color-secondarycontainer)] p-3 rounded-xl border border-[var(--td-component-border)] flex flex-col justify-between">
+            <div class="text-xs text-[var(--td-text-color-secondary)] font-bold mb-1">上行速度</div>
+            <div class="font-mono font-bold text-[var(--color-primary)] text-sm">
+              {{ consoleStats ? formatTraffic(consoleStats.speedUpload) : '0 B' }}/s
+            </div>
+          </div>
+          <div class="bg-[var(--td-bg-color-secondarycontainer)] p-3 rounded-xl border border-[var(--td-component-border)] flex flex-col justify-between">
+            <div class="text-xs text-[var(--td-text-color-secondary)] font-bold mb-1">下行速度</div>
+            <div class="font-mono font-bold text-[var(--color-success)] text-sm">
+              {{ consoleStats ? formatTraffic(consoleStats.speedDownload) : '0 B' }}/s
+            </div>
+          </div>
+          <div class="bg-[var(--td-bg-color-secondarycontainer)] p-3 rounded-xl border border-[var(--td-component-border)] flex flex-col justify-between">
+            <div class="text-xs text-[var(--td-text-color-secondary)] font-bold mb-1">活跃连接</div>
+            <div class="font-mono font-bold text-[var(--color-warning)] text-sm">
+              {{ consoleStats?.activeConnections || 0 }} / {{ activeTunnel?.maxConnections || 128 }}
+            </div>
+          </div>
+
+          <div class="bg-[var(--td-bg-color-secondarycontainer)] p-3 rounded-xl border border-[var(--td-component-border)] flex flex-col justify-between gap-1">
+            <div class="flex items-center justify-between">
+              <span class="text-xs text-[var(--td-text-color-secondary)] font-bold">总流量</span>
+              <t-tag
+                  v-if="activeTunnel?.enableProxyProtocolV2"
+                  theme="warning"
+                  variant="light"
+                  size="small"
+                  class="!border-none !text-[9px] !h-4 !px-1.5"
+              >
+                Proxy V2
+              </t-tag>
+            </div>
+            <div class="font-mono font-bold text-[var(--td-text-color-primary)] text-sm truncate">
+              {{ consoleStats ? formatTraffic(consoleStats.totalUpload + consoleStats.totalDownload) : '0 B' }}
+            </div>
           </div>
         </div>
 
@@ -454,6 +497,7 @@ onBeforeUnmount(() => {
             </div>
           </div>
         </div>
+
       </div>
     </t-dialog>
 

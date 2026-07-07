@@ -1,16 +1,16 @@
-(function(){"use strict";try{if(typeof document<"u"){var a=document.createElement("style");a.appendChild(document.createTextNode("@keyframes t-spin{0%{transform:rotate(0)}to{transform:rotate(360deg)}}.t-icon{display:inline-block;vertical-align:middle;width:1em;height:1em}.t-icon:before{font-family:unset}.t-icon-loading{animation:t-spin 1s linear infinite}.t-icon.t-size-s,i.t-size-s{font-size:14px}.t-icon.t-size-m,i.t-size-m{font-size:16px}.t-icon.t-size-l,i.t-size-l{font-size:18px}@unocss;.list-item-anim[data-v-91375417]{animation:slideUp-91375417 .4s cubic-bezier(.2,.8,.2,1) backwards;will-change:transform,opacity}@keyframes slideUp-91375417{0%{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}[data-v-91375417] .t-dialog{@apply !rounded-2xl shadow-2xl;}.custom-scrollbar[data-v-91375417]::-webkit-scrollbar{width:8px;height:8px}.custom-scrollbar[data-v-91375417]::-webkit-scrollbar-track{background:#0000001a;border-radius:4px}.custom-scrollbar[data-v-91375417]::-webkit-scrollbar-thumb{background:#4a4a4a;border-radius:4px}.custom-scrollbar[data-v-91375417]::-webkit-scrollbar-thumb:hover{background:#666}.absolute[data-v-91375417]{position:absolute}.relative[data-v-91375417]{position:relative}.grid[data-v-91375417]{display:grid}.grid-cols-1[data-v-91375417]{grid-template-columns:repeat(1,minmax(0,1fr))}.grid-cols-4[data-v-91375417]{grid-template-columns:repeat(4,minmax(0,1fr))}.m-0[data-v-91375417]{margin:0}.mx-auto[data-v-91375417]{margin-left:auto;margin-right:auto}.mb[data-v-91375417],.mb-4[data-v-91375417]{margin-bottom:1rem}.mb-1[data-v-91375417]{margin-bottom:.25rem}.mb-2[data-v-91375417]{margin-bottom:.5rem}.mb-3[data-v-91375417]{margin-bottom:.75rem}.ml-4[data-v-91375417]{margin-left:1rem}.ml-auto[data-v-91375417]{margin-left:auto}.mt-2[data-v-91375417]{margin-top:.5rem}.mt-auto[data-v-91375417]{margin-top:auto}.block[data-v-91375417]{display:block}.inline-block[data-v-91375417]{display:inline-block}.h-\\[500px\\][data-v-91375417]{height:500px}.h-2[data-v-91375417]{height:.5rem}.h-2\\.5[data-v-91375417]{height:.625rem}.h-3[data-v-91375417]{height:.75rem}.h-full[data-v-91375417]{height:100%}.min-h-\\[400px\\][data-v-91375417]{min-height:400px}.min-w-0[data-v-91375417]{min-width:0}.w-2[data-v-91375417]{width:.5rem}.w-2\\.5[data-v-91375417]{width:.625rem}.w-3[data-v-91375417]{width:.75rem}.w-fit[data-v-91375417]{width:fit-content}.w-full[data-v-91375417]{width:100%}.flex[data-v-91375417]{display:flex}.flex-1[data-v-91375417]{flex:1 1 0%}.shrink-0[data-v-91375417]{flex-shrink:0}.flex-grow[data-v-91375417]{flex-grow:1}.flex-col[data-v-91375417]{flex-direction:column}.flex-wrap[data-v-91375417]{flex-wrap:wrap}.transform[data-v-91375417]{transform:translate(var(--un-translate-x)) translateY(var(--un-translate-y)) translateZ(var(--un-translate-z)) rotate(var(--un-rotate)) rotateX(var(--un-rotate-x)) rotateY(var(--un-rotate-y)) rotate(var(--un-rotate-z)) skew(var(--un-skew-x)) skewY(var(--un-skew-y)) scaleX(var(--un-scale-x)) scaleY(var(--un-scale-y)) scaleZ(var(--un-scale-z))}@keyframes ping-91375417{0%{transform:scale(1);opacity:1}75%,to{transform:scale(2);opacity:0}}@keyframes pulse-91375417{0%,to{opacity:1}50%{opacity:.5}}.animate-ping[data-v-91375417]{animation:ping-91375417 1s cubic-bezier(0,0,.2,1) infinite}.animate-pulse[data-v-91375417]{animation:pulse-91375417 2s cubic-bezier(.4,0,.6,1) infinite}.cursor-help[data-v-91375417]{cursor:help}.cursor-pointer[data-v-91375417]{cursor:pointer}.items-start[data-v-91375417]{align-items:flex-start}.items-center[data-v-91375417]{align-items:center}.justify-center[data-v-91375417]{justify-content:center}.justify-between[data-v-91375417]{justify-content:space-between}.gap-1[data-v-91375417]{gap:.25rem}.gap-1\\.5[data-v-91375417]{gap:.375rem}.gap-2[data-v-91375417]{gap:.5rem}.gap-2\\.5[data-v-91375417]{gap:.625rem}.gap-3[data-v-91375417]{gap:.75rem}.gap-4[data-v-91375417]{gap:1rem}.gap-5[data-v-91375417]{gap:1.25rem}.gap-6[data-v-91375417]{gap:1.5rem}.overflow-hidden[data-v-91375417]{overflow:hidden}.overflow-y-auto[data-v-91375417]{overflow-y:auto}.truncate[data-v-91375417]{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.whitespace-pre-wrap[data-v-91375417]{white-space:pre-wrap}.border[data-v-91375417]{border-width:1px}.border-2[data-v-91375417]{border-width:2px}.border-b[data-v-91375417]{border-bottom-width:1px}.border-t[data-v-91375417]{border-top-width:1px}.border-\\[\\#404040\\][data-v-91375417]{--un-border-opacity:1;border-color:rgb(64 64 64 / var(--un-border-opacity))}.border-\\[var\\(--td-border-level-2-color\\)\\][data-v-91375417]{border-color:var(--td-border-level-2-color)}.border-\\[var\\(--td-component-border\\)\\][data-v-91375417]{border-color:var(--td-component-border)}.border-\\[var\\(--td-error-color\\)\\][data-v-91375417]{border-color:var(--td-error-color)}.hover\\:border-\\[var\\(--color-primary\\)\\][data-v-91375417]:hover{border-color:var(--color-primary)}.\\!rounded-2xl[data-v-91375417]{border-radius:1rem!important}.rounded[data-v-91375417]{border-radius:.25rem}.rounded-2xl[data-v-91375417]{border-radius:1rem}.rounded-full[data-v-91375417]{border-radius:9999px}.rounded-xl[data-v-91375417]{border-radius:.75rem}.border-dashed[data-v-91375417]{border-style:dashed}.bg-\\[\\#1e1e1e\\][data-v-91375417]{--un-bg-opacity:1;background-color:rgb(30 30 30 / var(--un-bg-opacity))}.bg-\\[\\#27c93f\\][data-v-91375417]{--un-bg-opacity:1;background-color:rgb(39 201 63 / var(--un-bg-opacity))}.bg-\\[\\#2d2d2d\\][data-v-91375417]{--un-bg-opacity:1;background-color:rgb(45 45 45 / var(--un-bg-opacity))}.bg-\\[\\#34c759\\][data-v-91375417]{--un-bg-opacity:1;background-color:rgb(52 199 89 / var(--un-bg-opacity))}.bg-\\[\\#ff5f56\\][data-v-91375417]{--un-bg-opacity:1;background-color:rgb(255 95 86 / var(--un-bg-opacity))}.bg-\\[\\#ffbd2e\\][data-v-91375417]{--un-bg-opacity:1;background-color:rgb(255 189 46 / var(--un-bg-opacity))}.bg-\\[var\\(--td-bg-color-container\\)\\][data-v-91375417]{background-color:var(--td-bg-color-container)}.bg-\\[var\\(--td-bg-color-secondarycontainer\\)\\][data-v-91375417]{background-color:var(--td-bg-color-secondarycontainer)}.bg-\\[var\\(--td-text-color-placeholder\\)\\][data-v-91375417]{background-color:var(--td-text-color-placeholder)}.p-3[data-v-91375417]{padding:.75rem}.p-4[data-v-91375417]{padding:1rem}.p-5[data-v-91375417]{padding:1.25rem}.px-2[data-v-91375417]{padding-left:.5rem;padding-right:.5rem}.px-3[data-v-91375417]{padding-left:.75rem;padding-right:.75rem}.px-4[data-v-91375417]{padding-left:1rem;padding-right:1rem}.py-1[data-v-91375417]{padding-top:.25rem;padding-bottom:.25rem}.py-16[data-v-91375417]{padding-top:4rem;padding-bottom:4rem}.py-2\\.5[data-v-91375417]{padding-top:.625rem;padding-bottom:.625rem}.py-24[data-v-91375417]{padding-top:6rem;padding-bottom:6rem}.pb-2[data-v-91375417]{padding-bottom:.5rem}.pb-5[data-v-91375417]{padding-bottom:1.25rem}.pt-4[data-v-91375417]{padding-top:1rem}.text-left[data-v-91375417]{text-align:left}.\\!text-\\[10px\\][data-v-91375417]{font-size:10px!important}.text-\\[10px\\][data-v-91375417]{font-size:10px}.text-\\[13px\\][data-v-91375417]{font-size:13px}.text-base[data-v-91375417]{font-size:1rem;line-height:1.5rem}.text-lg[data-v-91375417]{font-size:1.125rem;line-height:1.75rem}.text-sm[data-v-91375417]{font-size:.875rem;line-height:1.25rem}.text-xs[data-v-91375417]{font-size:.75rem;line-height:1rem}.text-\\[\\#34c759\\][data-v-91375417]{--un-text-opacity:1;color:rgb(52 199 89 / var(--un-text-opacity))}.text-\\[\\#56b6c2\\][data-v-91375417]{--un-text-opacity:1;color:rgb(86 182 194 / var(--un-text-opacity))}.text-\\[\\#858585\\][data-v-91375417]{--un-text-opacity:1;color:rgb(133 133 133 / var(--un-text-opacity))}.text-\\[\\#d4d4d4\\][data-v-91375417]{--un-text-opacity:1;color:rgb(212 212 212 / var(--un-text-opacity))}.text-\\[var\\(--color-primary\\)\\][data-v-91375417]{color:var(--color-primary)}.text-\\[var\\(--color-success\\)\\][data-v-91375417]{color:var(--color-success)}.text-\\[var\\(--color-warning\\)\\][data-v-91375417]{color:var(--color-warning)}.text-\\[var\\(--td-error-color\\)\\][data-v-91375417]{color:var(--td-error-color)}.text-\\[var\\(--td-text-color-placeholder\\)\\][data-v-91375417]{color:var(--td-text-color-placeholder)}.text-\\[var\\(--td-text-color-primary\\)\\][data-v-91375417]{color:var(--td-text-color-primary)}.text-\\[var\\(--td-text-color-secondary\\)\\][data-v-91375417]{color:var(--td-text-color-secondary)}.hover\\:text-\\[var\\(--td-brand-color\\)\\][data-v-91375417]:hover{color:var(--td-brand-color)}.font-black[data-v-91375417]{font-weight:900}.font-bold[data-v-91375417]{font-weight:700}.leading-relaxed[data-v-91375417]{line-height:1.625}.tracking-tight[data-v-91375417]{letter-spacing:-.025em}.tracking-tighter[data-v-91375417]{letter-spacing:-.05em}.tracking-widest[data-v-91375417]{letter-spacing:.1em}.font-mono[data-v-91375417]{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}.uppercase[data-v-91375417]{text-transform:uppercase}.italic[data-v-91375417]{font-style:italic}.opacity-70[data-v-91375417]{opacity:.7}.hover\\:opacity-100[data-v-91375417]:hover{opacity:1}.shadow-2xl[data-v-91375417]{--un-shadow:var(--un-shadow-inset) 0 25px 50px -12px var(--un-shadow-color, rgb(0 0 0 / .25));box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.shadow-inner[data-v-91375417]{--un-shadow:inset 0 2px 4px 0 var(--un-shadow-color, rgb(0 0 0 / .05));box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.shadow-sm[data-v-91375417]{--un-shadow:var(--un-shadow-inset) 0 1px 2px 0 var(--un-shadow-color, rgb(0 0 0 / .05));box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.hover\\:shadow-md[data-v-91375417]:hover{--un-shadow:var(--un-shadow-inset) 0 4px 6px -1px var(--un-shadow-color, rgb(0 0 0 / .1)),var(--un-shadow-inset) 0 2px 4px -2px var(--un-shadow-color, rgb(0 0 0 / .1));box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.light .light-outline[data-v-91375417],.outline[data-v-91375417]{outline-style:solid}.transition-all[data-v-91375417]{transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-colors[data-v-91375417]{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.duration-300[data-v-91375417]{transition-duration:.3s}@media(min-width:640px){.sm\\:grid-cols-2[data-v-91375417]{grid-template-columns:repeat(2,minmax(0,1fr))}.sm\\:flex-row[data-v-91375417]{flex-direction:row}.sm\\:items-center[data-v-91375417]{align-items:center}.sm\\:gap-3[data-v-91375417]{gap:.75rem}}@media(min-width:1024px){.lg\\:grid-cols-3[data-v-91375417]{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(min-width:1536px){.\\32xl\\:grid-cols-4[data-v-91375417]{grid-template-columns:repeat(4,minmax(0,1fr))}}")),document.head.appendChild(a)}}catch(t){console.error("vite-plugin-css-injected-by-js",t)}})();
+(function(){"use strict";try{if(typeof document<"u"){var a=document.createElement("style");a.appendChild(document.createTextNode('@keyframes t-spin{0%{transform:rotate(0)}to{transform:rotate(360deg)}}.t-icon{display:inline-block;vertical-align:middle;width:1em;height:1em}.t-icon:before{font-family:unset}.t-icon-loading{animation:t-spin 1s linear infinite}.t-icon.t-size-s,i.t-size-s{font-size:14px}.t-icon.t-size-m,i.t-size-m{font-size:16px}.t-icon.t-size-l,i.t-size-l{font-size:18px}@unocss;.list-item-anim[data-v-0aa89a86]{animation:slideUp-0aa89a86 .4s cubic-bezier(.2,.8,.2,1) backwards;will-change:transform,opacity}@keyframes slideUp-0aa89a86{0%{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}[data-v-0aa89a86] .t-dialog{@apply !rounded-2xl shadow-2xl;}.custom-scrollbar[data-v-0aa89a86]::-webkit-scrollbar{width:8px;height:8px}.custom-scrollbar[data-v-0aa89a86]::-webkit-scrollbar-track{background:#0000001a;border-radius:4px}.custom-scrollbar[data-v-0aa89a86]::-webkit-scrollbar-thumb{background:#4a4a4a;border-radius:4px}.custom-scrollbar[data-v-0aa89a86]::-webkit-scrollbar-thumb:hover{background:#666}.absolute[data-v-0aa89a86]{position:absolute}.relative[data-v-0aa89a86]{position:relative}.right-0[data-v-0aa89a86]{right:0}.top-1\\/2[data-v-0aa89a86]{top:50%}.grid[data-v-0aa89a86]{display:grid}.grid-cols-1[data-v-0aa89a86]{grid-template-columns:repeat(1,minmax(0,1fr))}.grid-cols-4[data-v-0aa89a86]{grid-template-columns:repeat(4,minmax(0,1fr))}.m-0[data-v-0aa89a86]{margin:0}.mx-auto[data-v-0aa89a86]{margin-left:auto;margin-right:auto}.mb[data-v-0aa89a86],.mb-4[data-v-0aa89a86]{margin-bottom:1rem}.mb-1[data-v-0aa89a86]{margin-bottom:.25rem}.mb-2[data-v-0aa89a86]{margin-bottom:.5rem}.mb-3[data-v-0aa89a86]{margin-bottom:.75rem}.ml-4[data-v-0aa89a86]{margin-left:1rem}.ml-auto[data-v-0aa89a86]{margin-left:auto}.mt-2[data-v-0aa89a86]{margin-top:.5rem}.mt-auto[data-v-0aa89a86]{margin-top:auto}.block[data-v-0aa89a86]{display:block}.inline-block[data-v-0aa89a86]{display:inline-block}.\\!h-4[data-v-0aa89a86]{height:1rem!important}.h-\\[1px\\][data-v-0aa89a86]{height:1px}.h-\\[520px\\][data-v-0aa89a86]{height:520px}.h-2[data-v-0aa89a86]{height:.5rem}.h-2\\.5[data-v-0aa89a86]{height:.625rem}.h-3[data-v-0aa89a86]{height:.75rem}.h-full[data-v-0aa89a86]{height:100%}.min-h-\\[400px\\][data-v-0aa89a86]{min-height:400px}.min-w-0[data-v-0aa89a86]{min-width:0}.w-2[data-v-0aa89a86]{width:.5rem}.w-2\\.5[data-v-0aa89a86]{width:.625rem}.w-3[data-v-0aa89a86]{width:.75rem}.w-fit[data-v-0aa89a86]{width:fit-content}.w-full[data-v-0aa89a86]{width:100%}.flex[data-v-0aa89a86]{display:flex}.flex-1[data-v-0aa89a86]{flex:1 1 0%}.shrink-0[data-v-0aa89a86]{flex-shrink:0}.flex-grow[data-v-0aa89a86]{flex-grow:1}.flex-col[data-v-0aa89a86]{flex-direction:column}.flex-wrap[data-v-0aa89a86]{flex-wrap:wrap}.origin-left[data-v-0aa89a86]{transform-origin:left}.origin-right[data-v-0aa89a86]{transform-origin:right}.-translate-y-1\\/2[data-v-0aa89a86]{--un-translate-y:-50%;transform:translate(var(--un-translate-x)) translateY(var(--un-translate-y)) translateZ(var(--un-translate-z)) rotate(var(--un-rotate)) rotateX(var(--un-rotate-x)) rotateY(var(--un-rotate-y)) rotate(var(--un-rotate-z)) skew(var(--un-skew-x)) skewY(var(--un-skew-y)) scaleX(var(--un-scale-x)) scaleY(var(--un-scale-y)) scaleZ(var(--un-scale-z))}.scale-95[data-v-0aa89a86]{--un-scale-x:.95;--un-scale-y:.95;transform:translate(var(--un-translate-x)) translateY(var(--un-translate-y)) translateZ(var(--un-translate-z)) rotate(var(--un-rotate)) rotateX(var(--un-rotate-x)) rotateY(var(--un-rotate-y)) rotate(var(--un-rotate-z)) skew(var(--un-skew-x)) skewY(var(--un-skew-y)) scaleX(var(--un-scale-x)) scaleY(var(--un-scale-y)) scaleZ(var(--un-scale-z))}.transform[data-v-0aa89a86]{transform:translate(var(--un-translate-x)) translateY(var(--un-translate-y)) translateZ(var(--un-translate-z)) rotate(var(--un-rotate)) rotateX(var(--un-rotate-x)) rotateY(var(--un-rotate-y)) rotate(var(--un-rotate-z)) skew(var(--un-skew-x)) skewY(var(--un-skew-y)) scaleX(var(--un-scale-x)) scaleY(var(--un-scale-y)) scaleZ(var(--un-scale-z))}@keyframes ping-0aa89a86{0%{transform:scale(1);opacity:1}75%,to{transform:scale(2);opacity:0}}@keyframes pulse-0aa89a86{0%,to{opacity:1}50%{opacity:.5}}.animate-ping[data-v-0aa89a86]{animation:ping-0aa89a86 1s cubic-bezier(0,0,.2,1) infinite}.animate-pulse[data-v-0aa89a86]{animation:pulse-0aa89a86 2s cubic-bezier(.4,0,.6,1) infinite}.cursor-help[data-v-0aa89a86]{cursor:help}.cursor-pointer[data-v-0aa89a86]{cursor:pointer}.items-start[data-v-0aa89a86]{align-items:flex-start}.items-center[data-v-0aa89a86]{align-items:center}.justify-center[data-v-0aa89a86]{justify-content:center}.justify-between[data-v-0aa89a86]{justify-content:space-between}.gap-0\\.5[data-v-0aa89a86]{gap:.125rem}.gap-1[data-v-0aa89a86]{gap:.25rem}.gap-1\\.5[data-v-0aa89a86]{gap:.375rem}.gap-2[data-v-0aa89a86]{gap:.5rem}.gap-2\\.5[data-v-0aa89a86]{gap:.625rem}.gap-3[data-v-0aa89a86]{gap:.75rem}.gap-4[data-v-0aa89a86]{gap:1rem}.gap-5[data-v-0aa89a86]{gap:1.25rem}.gap-6[data-v-0aa89a86]{gap:1.5rem}.overflow-hidden[data-v-0aa89a86]{overflow:hidden}.overflow-y-auto[data-v-0aa89a86]{overflow-y:auto}.truncate[data-v-0aa89a86]{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.whitespace-pre-wrap[data-v-0aa89a86]{white-space:pre-wrap}.border[data-v-0aa89a86]{border-width:1px}.border-2[data-v-0aa89a86]{border-width:2px}.border-b[data-v-0aa89a86]{border-bottom-width:1px}.border-b-4[data-v-0aa89a86]{border-bottom-width:4px}.border-l-4[data-v-0aa89a86]{border-left-width:4px}.border-t[data-v-0aa89a86]{border-top-width:1px}.border-t-4[data-v-0aa89a86]{border-top-width:4px}.border-\\[\\#404040\\][data-v-0aa89a86]{--un-border-opacity:1;border-color:rgb(64 64 64 / var(--un-border-opacity))}.border-\\[var\\(--td-border-level-2-color\\)\\][data-v-0aa89a86]{border-color:var(--td-border-level-2-color)}.border-\\[var\\(--td-component-border\\)\\][data-v-0aa89a86]{border-color:var(--td-component-border)}.border-\\[var\\(--td-error-color\\)\\][data-v-0aa89a86]{border-color:var(--td-error-color)}.border-transparent[data-v-0aa89a86]{border-color:transparent}.hover\\:border-\\[var\\(--color-primary\\)\\][data-v-0aa89a86]:hover{border-color:var(--color-primary)}.border-l-\\[var\\(--td-text-color-placeholder\\)\\][data-v-0aa89a86]{border-left-color:var(--td-text-color-placeholder)}.\\!rounded-2xl[data-v-0aa89a86]{border-radius:1rem!important}.rounded[data-v-0aa89a86]{border-radius:.25rem}.rounded-2xl[data-v-0aa89a86]{border-radius:1rem}.rounded-full[data-v-0aa89a86]{border-radius:9999px}.rounded-xl[data-v-0aa89a86]{border-radius:.75rem}.\\!border-none[data-v-0aa89a86]{border-style:none!important}.border-dashed[data-v-0aa89a86]{border-style:dashed}.bg-\\[\\#1e1e1e\\][data-v-0aa89a86]{--un-bg-opacity:1;background-color:rgb(30 30 30 / var(--un-bg-opacity))}.bg-\\[\\#27c93f\\][data-v-0aa89a86]{--un-bg-opacity:1;background-color:rgb(39 201 63 / var(--un-bg-opacity))}.bg-\\[\\#2d2d2d\\][data-v-0aa89a86]{--un-bg-opacity:1;background-color:rgb(45 45 45 / var(--un-bg-opacity))}.bg-\\[\\#34c759\\][data-v-0aa89a86]{--un-bg-opacity:1;background-color:rgb(52 199 89 / var(--un-bg-opacity))}.bg-\\[\\#ff5f56\\][data-v-0aa89a86]{--un-bg-opacity:1;background-color:rgb(255 95 86 / var(--un-bg-opacity))}.bg-\\[\\#ffbd2e\\][data-v-0aa89a86]{--un-bg-opacity:1;background-color:rgb(255 189 46 / var(--un-bg-opacity))}.bg-\\[var\\(--td-bg-color-container\\)\\][data-v-0aa89a86]{background-color:var(--td-bg-color-container)}.bg-\\[var\\(--td-bg-color-secondarycontainer\\)\\][data-v-0aa89a86]{background-color:var(--td-bg-color-secondarycontainer)}.bg-\\[var\\(--td-text-color-placeholder\\)\\][data-v-0aa89a86]{background-color:var(--td-text-color-placeholder)}.p-3[data-v-0aa89a86]{padding:.75rem}.p-4[data-v-0aa89a86]{padding:1rem}.p-5[data-v-0aa89a86]{padding:1.25rem}.\\!px-1\\.5[data-v-0aa89a86]{padding-left:.375rem!important;padding-right:.375rem!important}.px-2[data-v-0aa89a86]{padding-left:.5rem;padding-right:.5rem}.px-3[data-v-0aa89a86]{padding-left:.75rem;padding-right:.75rem}.px-4[data-v-0aa89a86]{padding-left:1rem;padding-right:1rem}.py-1[data-v-0aa89a86]{padding-top:.25rem;padding-bottom:.25rem}.py-16[data-v-0aa89a86]{padding-top:4rem;padding-bottom:4rem}.py-2\\.5[data-v-0aa89a86]{padding-top:.625rem;padding-bottom:.625rem}.py-24[data-v-0aa89a86]{padding-top:6rem;padding-bottom:6rem}.pb-2[data-v-0aa89a86]{padding-bottom:.5rem}.pb-5[data-v-0aa89a86]{padding-bottom:1.25rem}.pt-4[data-v-0aa89a86]{padding-top:1rem}.text-left[data-v-0aa89a86]{text-align:left}.text-right[data-v-0aa89a86]{text-align:right}.\\!text-\\[10px\\][data-v-0aa89a86]{font-size:10px!important}.\\!text-\\[9px\\][data-v-0aa89a86]{font-size:9px!important}.text-\\[10px\\][data-v-0aa89a86]{font-size:10px}.text-\\[13px\\][data-v-0aa89a86]{font-size:13px}.text-base[data-v-0aa89a86]{font-size:1rem;line-height:1.5rem}.text-lg[data-v-0aa89a86]{font-size:1.125rem;line-height:1.75rem}.text-sm[data-v-0aa89a86]{font-size:.875rem;line-height:1.25rem}.text-xs[data-v-0aa89a86]{font-size:.75rem;line-height:1rem}.text-\\[\\#34c759\\][data-v-0aa89a86]{--un-text-opacity:1;color:rgb(52 199 89 / var(--un-text-opacity))}.text-\\[\\#56b6c2\\][data-v-0aa89a86]{--un-text-opacity:1;color:rgb(86 182 194 / var(--un-text-opacity))}.text-\\[\\#858585\\][data-v-0aa89a86]{--un-text-opacity:1;color:rgb(133 133 133 / var(--un-text-opacity))}.text-\\[\\#d4d4d4\\][data-v-0aa89a86]{--un-text-opacity:1;color:rgb(212 212 212 / var(--un-text-opacity))}.text-\\[var\\(--color-primary\\)\\][data-v-0aa89a86]{color:var(--color-primary)}.text-\\[var\\(--color-success\\)\\][data-v-0aa89a86]{color:var(--color-success)}.text-\\[var\\(--color-warning\\)\\][data-v-0aa89a86]{color:var(--color-warning)}.text-\\[var\\(--td-error-color\\)\\][data-v-0aa89a86]{color:var(--td-error-color)}.text-\\[var\\(--td-text-color-placeholder\\)\\][data-v-0aa89a86]{color:var(--td-text-color-placeholder)}.text-\\[var\\(--td-text-color-primary\\)\\][data-v-0aa89a86]{color:var(--td-text-color-primary)}.text-\\[var\\(--td-text-color-secondary\\)\\][data-v-0aa89a86]{color:var(--td-text-color-secondary)}.hover\\:text-\\[var\\(--td-brand-color\\)\\][data-v-0aa89a86]:hover{color:var(--td-brand-color)}.font-black[data-v-0aa89a86]{font-weight:900}.font-bold[data-v-0aa89a86]{font-weight:700}.leading-relaxed[data-v-0aa89a86]{line-height:1.625}.tracking-tight[data-v-0aa89a86]{letter-spacing:-.025em}.tracking-tighter[data-v-0aa89a86]{letter-spacing:-.05em}.tracking-widest[data-v-0aa89a86]{letter-spacing:.1em}.font-mono[data-v-0aa89a86]{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}.font-sans[data-v-0aa89a86]{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji"}.uppercase[data-v-0aa89a86]{text-transform:uppercase}.italic[data-v-0aa89a86]{font-style:italic}.opacity-40[data-v-0aa89a86]{opacity:.4}.opacity-70[data-v-0aa89a86]{opacity:.7}.hover\\:opacity-100[data-v-0aa89a86]:hover{opacity:1}.shadow-2xl[data-v-0aa89a86]{--un-shadow:var(--un-shadow-inset) 0 25px 50px -12px var(--un-shadow-color, rgb(0 0 0 / .25));box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.shadow-inner[data-v-0aa89a86]{--un-shadow:inset 0 2px 4px 0 var(--un-shadow-color, rgb(0 0 0 / .05));box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.shadow-sm[data-v-0aa89a86]{--un-shadow:var(--un-shadow-inset) 0 1px 2px 0 var(--un-shadow-color, rgb(0 0 0 / .05));box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.hover\\:shadow-md[data-v-0aa89a86]:hover{--un-shadow:var(--un-shadow-inset) 0 4px 6px -1px var(--un-shadow-color, rgb(0 0 0 / .1)),var(--un-shadow-inset) 0 2px 4px -2px var(--un-shadow-color, rgb(0 0 0 / .1));box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.light .light-outline[data-v-0aa89a86],.outline[data-v-0aa89a86]{outline-style:solid}.transition-all[data-v-0aa89a86]{transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-colors[data-v-0aa89a86]{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.duration-300[data-v-0aa89a86]{transition-duration:.3s}@media(min-width:640px){.sm\\:grid-cols-2[data-v-0aa89a86]{grid-template-columns:repeat(2,minmax(0,1fr))}.sm\\:flex-row[data-v-0aa89a86]{flex-direction:row}.sm\\:items-center[data-v-0aa89a86]{align-items:center}.sm\\:gap-3[data-v-0aa89a86]{gap:.75rem}}@media(min-width:1024px){.lg\\:grid-cols-3[data-v-0aa89a86]{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(min-width:1536px){.\\32xl\\:grid-cols-4[data-v-0aa89a86]{grid-template-columns:repeat(4,minmax(0,1fr))}}')),document.head.appendChild(a)}}catch(t){console.error("vite-plugin-css-injected-by-js",t)}})();
 function Je(t) {
   return t && t.__esModule && Object.prototype.hasOwnProperty.call(t, "default") ? t.default : t;
 }
-var Q, ue;
+var Y, ue;
 function Ge() {
-  return ue || (ue = 1, Q = Vue), Q;
+  return ue || (ue = 1, Y = Vue), Y;
 }
-var n = Ge(), ee, de;
-function Ye() {
+var r = Ge(), ee, de;
+function Qe() {
   return de || (de = 1, ee = TDesign), ee;
 }
-var T = Ye();
+var T = Qe();
 function z(t) {
   "@babel/helpers - typeof";
   return z = typeof Symbol == "function" && typeof Symbol.iterator == "symbol" ? function(e) {
@@ -19,18 +19,18 @@ function z(t) {
     return e && typeof Symbol == "function" && e.constructor === Symbol && e !== Symbol.prototype ? "symbol" : typeof e;
   }, z(t);
 }
-function Qe(t, e) {
+function Ye(t, e) {
   if (z(t) != "object" || !t) return t;
   var o = t[Symbol.toPrimitive];
   if (o !== void 0) {
-    var r = o.call(t, e);
-    if (z(r) != "object") return r;
+    var n = o.call(t, e);
+    if (z(n) != "object") return n;
     throw new TypeError("@@toPrimitive must return a primitive value.");
   }
   return (e === "string" ? String : Number)(t);
 }
 function et(t) {
-  var e = Qe(t, "string");
+  var e = Ye(t, "string");
   return z(e) == "symbol" ? e : e + "";
 }
 function O(t, e, o) {
@@ -47,15 +47,15 @@ var he = (t) => {
 }, N = (t, e) => {
   var o = {};
   if (t.attrs)
-    for (var [r, i] of Object.entries(t.attrs))
+    for (var [n, i] of Object.entries(t.attrs))
       if (typeof i == "string" && i.startsWith("props.")) {
         var s = i.split(".")[1];
-        o[he(r)] = e[s];
+        o[he(n)] = e[s];
       } else
-        o[he(r)] = i;
+        o[he(n)] = i;
   t.tag === "svg" && (o.class = e.class, o.style = e.style, o.onClick = e.onClick);
   var l = t.children ? t.children.map((c) => N(c, e)) : [];
-  return n.h(t.tag, o, l);
+  return r.h(t.tag, o, l);
 }, tt = "t", ot = {
   classPrefix: tt
 };
@@ -92,31 +92,31 @@ function rt() {
   };
 }
 function D(t) {
-  var e = rt().SIZE, o = n.computed(() => t.value in e ? e[t.value] : ""), r = n.computed(() => t.value === void 0 || t.value in e ? {} : {
+  var e = rt().SIZE, o = r.computed(() => t.value in e ? e[t.value] : ""), n = r.computed(() => t.value === void 0 || t.value in e ? {} : {
     fontSize: t.value
   });
   return {
-    style: r,
+    style: n,
     className: o
   };
 }
 function fe(t, e) {
   var o = Object.keys(t);
   if (Object.getOwnPropertySymbols) {
-    var r = Object.getOwnPropertySymbols(t);
-    e && (r = r.filter(function(i) {
+    var n = Object.getOwnPropertySymbols(t);
+    e && (n = n.filter(function(i) {
       return Object.getOwnPropertyDescriptor(t, i).enumerable;
-    })), o.push.apply(o, r);
+    })), o.push.apply(o, n);
   }
   return o;
 }
 function ge(t) {
   for (var e = 1; e < arguments.length; e++) {
     var o = arguments[e] != null ? arguments[e] : {};
-    e % 2 ? fe(Object(o), !0).forEach(function(r) {
-      O(t, r, o[r]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : fe(Object(o)).forEach(function(r) {
-      Object.defineProperty(t, r, Object.getOwnPropertyDescriptor(o, r));
+    e % 2 ? fe(Object(o), !0).forEach(function(n) {
+      O(t, n, o[n]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : fe(Object(o)).forEach(function(n) {
+      Object.defineProperty(t, n, Object.getOwnPropertyDescriptor(o, n));
     });
   }
   return t;
@@ -145,7 +145,7 @@ var nt = {
       }
     }]
   }]
-}, it = n.defineComponent({
+}, it = r.defineComponent({
   name: "AddIcon",
   props: {
     size: {
@@ -167,20 +167,20 @@ var nt = {
   setup(t, e) {
     var {
       attrs: o
-    } = e, r = n.computed(() => t.size), i = n.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), s = n.computed(() => {
+    } = e, n = r.computed(() => t.size), i = r.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), s = r.computed(() => {
       var u;
       return t.strokeColor ? Array.isArray(t.strokeColor) ? (u = t.strokeColor[1]) !== null && u !== void 0 ? u : t.strokeColor[0] : t.strokeColor : "currentColor";
-    }), l = n.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), c = n.computed(() => {
+    }), l = r.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), c = r.computed(() => {
       var u;
       return t.fillColor ? Array.isArray(t.fillColor) ? (u = t.fillColor[1]) !== null && u !== void 0 ? u : t.fillColor[0] : t.fillColor : "transparent";
-    }), d = n.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
+    }), d = r.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
       className: h,
       style: f
-    } = D(r), C = n.computed(() => ["t-icon", "t-icon-add", h.value]), v = n.computed(() => ge(ge({
+    } = D(n), m = r.computed(() => ["t-icon", "t-icon-add", h.value]), y = r.computed(() => ge(ge({
       fill: "none"
-    }, f.value), o.style)), y = n.computed(() => ({
-      class: C.value,
-      style: v.value,
+    }, f.value), o.style)), C = r.computed(() => ({
+      class: m.value,
+      style: y.value,
       onClick: (u) => {
         var g;
         return (g = t.onClick) === null || g === void 0 ? void 0 : g.call(t, {
@@ -194,26 +194,26 @@ var nt = {
       strokeWidth: t.strokeWidth || 2,
       filledColor: d.value
     }));
-    return () => N(nt, y.value);
+    return () => N(nt, C.value);
   }
 });
 function pe(t, e) {
   var o = Object.keys(t);
   if (Object.getOwnPropertySymbols) {
-    var r = Object.getOwnPropertySymbols(t);
-    e && (r = r.filter(function(i) {
+    var n = Object.getOwnPropertySymbols(t);
+    e && (n = n.filter(function(i) {
       return Object.getOwnPropertyDescriptor(t, i).enumerable;
-    })), o.push.apply(o, r);
+    })), o.push.apply(o, n);
   }
   return o;
 }
 function _e(t) {
   for (var e = 1; e < arguments.length; e++) {
     var o = arguments[e] != null ? arguments[e] : {};
-    e % 2 ? pe(Object(o), !0).forEach(function(r) {
-      O(t, r, o[r]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : pe(Object(o)).forEach(function(r) {
-      Object.defineProperty(t, r, Object.getOwnPropertyDescriptor(o, r));
+    e % 2 ? pe(Object(o), !0).forEach(function(n) {
+      O(t, n, o[n]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : pe(Object(o)).forEach(function(n) {
+      Object.defineProperty(t, n, Object.getOwnPropertyDescriptor(o, n));
     });
   }
   return t;
@@ -258,7 +258,7 @@ var st = {
       }
     }]
   }]
-}, lt = n.defineComponent({
+}, lt = r.defineComponent({
   name: "DeleteIcon",
   props: {
     size: {
@@ -280,20 +280,20 @@ var st = {
   setup(t, e) {
     var {
       attrs: o
-    } = e, r = n.computed(() => t.size), i = n.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), s = n.computed(() => {
+    } = e, n = r.computed(() => t.size), i = r.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), s = r.computed(() => {
       var u;
       return t.strokeColor ? Array.isArray(t.strokeColor) ? (u = t.strokeColor[1]) !== null && u !== void 0 ? u : t.strokeColor[0] : t.strokeColor : "currentColor";
-    }), l = n.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), c = n.computed(() => {
+    }), l = r.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), c = r.computed(() => {
       var u;
       return t.fillColor ? Array.isArray(t.fillColor) ? (u = t.fillColor[1]) !== null && u !== void 0 ? u : t.fillColor[0] : t.fillColor : "transparent";
-    }), d = n.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
+    }), d = r.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
       className: h,
       style: f
-    } = D(r), C = n.computed(() => ["t-icon", "t-icon-delete", h.value]), v = n.computed(() => _e(_e({
+    } = D(n), m = r.computed(() => ["t-icon", "t-icon-delete", h.value]), y = r.computed(() => _e(_e({
       fill: "none"
-    }, f.value), o.style)), y = n.computed(() => ({
-      class: C.value,
-      style: v.value,
+    }, f.value), o.style)), C = r.computed(() => ({
+      class: m.value,
+      style: y.value,
       onClick: (u) => {
         var g;
         return (g = t.onClick) === null || g === void 0 ? void 0 : g.call(t, {
@@ -307,26 +307,26 @@ var st = {
       strokeWidth: t.strokeWidth || 2,
       filledColor: d.value
     }));
-    return () => N(st, y.value);
+    return () => N(st, C.value);
   }
 });
 function me(t, e) {
   var o = Object.keys(t);
   if (Object.getOwnPropertySymbols) {
-    var r = Object.getOwnPropertySymbols(t);
-    e && (r = r.filter(function(i) {
+    var n = Object.getOwnPropertySymbols(t);
+    e && (n = n.filter(function(i) {
       return Object.getOwnPropertyDescriptor(t, i).enumerable;
-    })), o.push.apply(o, r);
+    })), o.push.apply(o, n);
   }
   return o;
 }
-function Ce(t) {
+function ve(t) {
   for (var e = 1; e < arguments.length; e++) {
     var o = arguments[e] != null ? arguments[e] : {};
-    e % 2 ? me(Object(o), !0).forEach(function(r) {
-      O(t, r, o[r]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : me(Object(o)).forEach(function(r) {
-      Object.defineProperty(t, r, Object.getOwnPropertyDescriptor(o, r));
+    e % 2 ? me(Object(o), !0).forEach(function(n) {
+      O(t, n, o[n]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : me(Object(o)).forEach(function(n) {
+      Object.defineProperty(t, n, Object.getOwnPropertyDescriptor(o, n));
     });
   }
   return t;
@@ -371,7 +371,7 @@ var at = {
       }
     }]
   }]
-}, ct = n.defineComponent({
+}, ct = r.defineComponent({
   name: "EditIcon",
   props: {
     size: {
@@ -393,20 +393,20 @@ var at = {
   setup(t, e) {
     var {
       attrs: o
-    } = e, r = n.computed(() => t.size), i = n.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), s = n.computed(() => {
+    } = e, n = r.computed(() => t.size), i = r.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), s = r.computed(() => {
       var u;
       return t.strokeColor ? Array.isArray(t.strokeColor) ? (u = t.strokeColor[1]) !== null && u !== void 0 ? u : t.strokeColor[0] : t.strokeColor : "currentColor";
-    }), l = n.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), c = n.computed(() => {
+    }), l = r.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), c = r.computed(() => {
       var u;
       return t.fillColor ? Array.isArray(t.fillColor) ? (u = t.fillColor[1]) !== null && u !== void 0 ? u : t.fillColor[0] : t.fillColor : "transparent";
-    }), d = n.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
+    }), d = r.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
       className: h,
       style: f
-    } = D(r), C = n.computed(() => ["t-icon", "t-icon-edit", h.value]), v = n.computed(() => Ce(Ce({
+    } = D(n), m = r.computed(() => ["t-icon", "t-icon-edit", h.value]), y = r.computed(() => ve(ve({
       fill: "none"
-    }, f.value), o.style)), y = n.computed(() => ({
-      class: C.value,
-      style: v.value,
+    }, f.value), o.style)), C = r.computed(() => ({
+      class: m.value,
+      style: y.value,
       onClick: (u) => {
         var g;
         return (g = t.onClick) === null || g === void 0 ? void 0 : g.call(t, {
@@ -420,26 +420,26 @@ var at = {
       strokeWidth: t.strokeWidth || 2,
       filledColor: d.value
     }));
-    return () => N(at, y.value);
+    return () => N(at, C.value);
   }
 });
-function ve(t, e) {
+function Ce(t, e) {
   var o = Object.keys(t);
   if (Object.getOwnPropertySymbols) {
-    var r = Object.getOwnPropertySymbols(t);
-    e && (r = r.filter(function(i) {
+    var n = Object.getOwnPropertySymbols(t);
+    e && (n = n.filter(function(i) {
       return Object.getOwnPropertyDescriptor(t, i).enumerable;
-    })), o.push.apply(o, r);
+    })), o.push.apply(o, n);
   }
   return o;
 }
 function ye(t) {
   for (var e = 1; e < arguments.length; e++) {
     var o = arguments[e] != null ? arguments[e] : {};
-    e % 2 ? ve(Object(o), !0).forEach(function(r) {
-      O(t, r, o[r]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : ve(Object(o)).forEach(function(r) {
-      Object.defineProperty(t, r, Object.getOwnPropertyDescriptor(o, r));
+    e % 2 ? Ce(Object(o), !0).forEach(function(n) {
+      O(t, n, o[n]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : Ce(Object(o)).forEach(function(n) {
+      Object.defineProperty(t, n, Object.getOwnPropertyDescriptor(o, n));
     });
   }
   return t;
@@ -483,7 +483,7 @@ var ut = {
       }
     }]
   }]
-}, dt = n.defineComponent({
+}, dt = r.defineComponent({
   name: "FileCopyIcon",
   props: {
     size: {
@@ -505,20 +505,20 @@ var ut = {
   setup(t, e) {
     var {
       attrs: o
-    } = e, r = n.computed(() => t.size), i = n.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), s = n.computed(() => {
+    } = e, n = r.computed(() => t.size), i = r.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), s = r.computed(() => {
       var u;
       return t.strokeColor ? Array.isArray(t.strokeColor) ? (u = t.strokeColor[1]) !== null && u !== void 0 ? u : t.strokeColor[0] : t.strokeColor : "currentColor";
-    }), l = n.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), c = n.computed(() => {
+    }), l = r.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), c = r.computed(() => {
       var u;
       return t.fillColor ? Array.isArray(t.fillColor) ? (u = t.fillColor[1]) !== null && u !== void 0 ? u : t.fillColor[0] : t.fillColor : "transparent";
-    }), d = n.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
+    }), d = r.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
       className: h,
       style: f
-    } = D(r), C = n.computed(() => ["t-icon", "t-icon-file-copy", h.value]), v = n.computed(() => ye(ye({
+    } = D(n), m = r.computed(() => ["t-icon", "t-icon-file-copy", h.value]), y = r.computed(() => ye(ye({
       fill: "none"
-    }, f.value), o.style)), y = n.computed(() => ({
-      class: C.value,
-      style: v.value,
+    }, f.value), o.style)), C = r.computed(() => ({
+      class: m.value,
+      style: y.value,
       onClick: (u) => {
         var g;
         return (g = t.onClick) === null || g === void 0 ? void 0 : g.call(t, {
@@ -532,26 +532,26 @@ var ut = {
       strokeWidth: t.strokeWidth || 2,
       filledColor: d.value
     }));
-    return () => N(ut, y.value);
+    return () => N(ut, C.value);
   }
 });
 function be(t, e) {
   var o = Object.keys(t);
   if (Object.getOwnPropertySymbols) {
-    var r = Object.getOwnPropertySymbols(t);
-    e && (r = r.filter(function(i) {
+    var n = Object.getOwnPropertySymbols(t);
+    e && (n = n.filter(function(i) {
       return Object.getOwnPropertyDescriptor(t, i).enumerable;
-    })), o.push.apply(o, r);
+    })), o.push.apply(o, n);
   }
   return o;
 }
 function ke(t) {
   for (var e = 1; e < arguments.length; e++) {
     var o = arguments[e] != null ? arguments[e] : {};
-    e % 2 ? be(Object(o), !0).forEach(function(r) {
-      O(t, r, o[r]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : be(Object(o)).forEach(function(r) {
-      Object.defineProperty(t, r, Object.getOwnPropertyDescriptor(o, r));
+    e % 2 ? be(Object(o), !0).forEach(function(n) {
+      O(t, n, o[n]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : be(Object(o)).forEach(function(n) {
+      Object.defineProperty(t, n, Object.getOwnPropertyDescriptor(o, n));
     });
   }
   return t;
@@ -596,7 +596,7 @@ var ht = {
       }
     }]
   }]
-}, ft = n.defineComponent({
+}, ft = r.defineComponent({
   name: "InfoCircleIcon",
   props: {
     size: {
@@ -618,20 +618,20 @@ var ht = {
   setup(t, e) {
     var {
       attrs: o
-    } = e, r = n.computed(() => t.size), i = n.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), s = n.computed(() => {
+    } = e, n = r.computed(() => t.size), i = r.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), s = r.computed(() => {
       var u;
       return t.strokeColor ? Array.isArray(t.strokeColor) ? (u = t.strokeColor[1]) !== null && u !== void 0 ? u : t.strokeColor[0] : t.strokeColor : "currentColor";
-    }), l = n.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), c = n.computed(() => {
+    }), l = r.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), c = r.computed(() => {
       var u;
       return t.fillColor ? Array.isArray(t.fillColor) ? (u = t.fillColor[1]) !== null && u !== void 0 ? u : t.fillColor[0] : t.fillColor : "transparent";
-    }), d = n.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
+    }), d = r.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
       className: h,
       style: f
-    } = D(r), C = n.computed(() => ["t-icon", "t-icon-info-circle", h.value]), v = n.computed(() => ke(ke({
+    } = D(n), m = r.computed(() => ["t-icon", "t-icon-info-circle", h.value]), y = r.computed(() => ke(ke({
       fill: "none"
-    }, f.value), o.style)), y = n.computed(() => ({
-      class: C.value,
-      style: v.value,
+    }, f.value), o.style)), C = r.computed(() => ({
+      class: m.value,
+      style: y.value,
       onClick: (u) => {
         var g;
         return (g = t.onClick) === null || g === void 0 ? void 0 : g.call(t, {
@@ -645,26 +645,26 @@ var ht = {
       strokeWidth: t.strokeWidth || 2,
       filledColor: d.value
     }));
-    return () => N(ht, y.value);
+    return () => N(ht, C.value);
   }
 });
 function we(t, e) {
   var o = Object.keys(t);
   if (Object.getOwnPropertySymbols) {
-    var r = Object.getOwnPropertySymbols(t);
-    e && (r = r.filter(function(i) {
+    var n = Object.getOwnPropertySymbols(t);
+    e && (n = n.filter(function(i) {
       return Object.getOwnPropertyDescriptor(t, i).enumerable;
-    })), o.push.apply(o, r);
+    })), o.push.apply(o, n);
   }
   return o;
 }
 function Se(t) {
   for (var e = 1; e < arguments.length; e++) {
     var o = arguments[e] != null ? arguments[e] : {};
-    e % 2 ? we(Object(o), !0).forEach(function(r) {
-      O(t, r, o[r]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : we(Object(o)).forEach(function(r) {
-      Object.defineProperty(t, r, Object.getOwnPropertyDescriptor(o, r));
+    e % 2 ? we(Object(o), !0).forEach(function(n) {
+      O(t, n, o[n]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : we(Object(o)).forEach(function(n) {
+      Object.defineProperty(t, n, Object.getOwnPropertyDescriptor(o, n));
     });
   }
   return t;
@@ -696,7 +696,7 @@ var gt = {
       }
     }]
   }]
-}, pt = n.defineComponent({
+}, pt = r.defineComponent({
   name: "PlayCircleIcon",
   props: {
     size: {
@@ -718,20 +718,20 @@ var gt = {
   setup(t, e) {
     var {
       attrs: o
-    } = e, r = n.computed(() => t.size), i = n.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), s = n.computed(() => {
+    } = e, n = r.computed(() => t.size), i = r.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), s = r.computed(() => {
       var u;
       return t.strokeColor ? Array.isArray(t.strokeColor) ? (u = t.strokeColor[1]) !== null && u !== void 0 ? u : t.strokeColor[0] : t.strokeColor : "currentColor";
-    }), l = n.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), c = n.computed(() => {
+    }), l = r.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), c = r.computed(() => {
       var u;
       return t.fillColor ? Array.isArray(t.fillColor) ? (u = t.fillColor[1]) !== null && u !== void 0 ? u : t.fillColor[0] : t.fillColor : "transparent";
-    }), d = n.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
+    }), d = r.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
       className: h,
       style: f
-    } = D(r), C = n.computed(() => ["t-icon", "t-icon-play-circle", h.value]), v = n.computed(() => Se(Se({
+    } = D(n), m = r.computed(() => ["t-icon", "t-icon-play-circle", h.value]), y = r.computed(() => Se(Se({
       fill: "none"
-    }, f.value), o.style)), y = n.computed(() => ({
-      class: C.value,
-      style: v.value,
+    }, f.value), o.style)), C = r.computed(() => ({
+      class: m.value,
+      style: y.value,
       onClick: (u) => {
         var g;
         return (g = t.onClick) === null || g === void 0 ? void 0 : g.call(t, {
@@ -745,26 +745,26 @@ var gt = {
       strokeWidth: t.strokeWidth || 2,
       filledColor: d.value
     }));
-    return () => N(gt, y.value);
+    return () => N(gt, C.value);
   }
 });
 function xe(t, e) {
   var o = Object.keys(t);
   if (Object.getOwnPropertySymbols) {
-    var r = Object.getOwnPropertySymbols(t);
-    e && (r = r.filter(function(i) {
+    var n = Object.getOwnPropertySymbols(t);
+    e && (n = n.filter(function(i) {
       return Object.getOwnPropertyDescriptor(t, i).enumerable;
-    })), o.push.apply(o, r);
+    })), o.push.apply(o, n);
   }
   return o;
 }
 function Ee(t) {
   for (var e = 1; e < arguments.length; e++) {
     var o = arguments[e] != null ? arguments[e] : {};
-    e % 2 ? xe(Object(o), !0).forEach(function(r) {
-      O(t, r, o[r]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : xe(Object(o)).forEach(function(r) {
-      Object.defineProperty(t, r, Object.getOwnPropertyDescriptor(o, r));
+    e % 2 ? xe(Object(o), !0).forEach(function(n) {
+      O(t, n, o[n]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : xe(Object(o)).forEach(function(n) {
+      Object.defineProperty(t, n, Object.getOwnPropertyDescriptor(o, n));
     });
   }
   return t;
@@ -793,7 +793,7 @@ var _t = {
       }
     }]
   }]
-}, mt = n.defineComponent({
+}, mt = r.defineComponent({
   name: "RefreshIcon",
   props: {
     size: {
@@ -815,20 +815,20 @@ var _t = {
   setup(t, e) {
     var {
       attrs: o
-    } = e, r = n.computed(() => t.size), i = n.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), s = n.computed(() => {
+    } = e, n = r.computed(() => t.size), i = r.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), s = r.computed(() => {
       var u;
       return t.strokeColor ? Array.isArray(t.strokeColor) ? (u = t.strokeColor[1]) !== null && u !== void 0 ? u : t.strokeColor[0] : t.strokeColor : "currentColor";
-    }), l = n.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), c = n.computed(() => {
+    }), l = r.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), c = r.computed(() => {
       var u;
       return t.fillColor ? Array.isArray(t.fillColor) ? (u = t.fillColor[1]) !== null && u !== void 0 ? u : t.fillColor[0] : t.fillColor : "transparent";
-    }), d = n.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
+    }), d = r.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
       className: h,
       style: f
-    } = D(r), C = n.computed(() => ["t-icon", "t-icon-refresh", h.value]), v = n.computed(() => Ee(Ee({
+    } = D(n), m = r.computed(() => ["t-icon", "t-icon-refresh", h.value]), y = r.computed(() => Ee(Ee({
       fill: "none"
-    }, f.value), o.style)), y = n.computed(() => ({
-      class: C.value,
-      style: v.value,
+    }, f.value), o.style)), C = r.computed(() => ({
+      class: m.value,
+      style: y.value,
       onClick: (u) => {
         var g;
         return (g = t.onClick) === null || g === void 0 ? void 0 : g.call(t, {
@@ -842,31 +842,31 @@ var _t = {
       strokeWidth: t.strokeWidth || 2,
       filledColor: d.value
     }));
-    return () => N(_t, y.value);
+    return () => N(_t, C.value);
   }
 });
 function Pe(t, e) {
   var o = Object.keys(t);
   if (Object.getOwnPropertySymbols) {
-    var r = Object.getOwnPropertySymbols(t);
-    e && (r = r.filter(function(i) {
+    var n = Object.getOwnPropertySymbols(t);
+    e && (n = n.filter(function(i) {
       return Object.getOwnPropertyDescriptor(t, i).enumerable;
-    })), o.push.apply(o, r);
+    })), o.push.apply(o, n);
   }
   return o;
 }
 function Ie(t) {
   for (var e = 1; e < arguments.length; e++) {
     var o = arguments[e] != null ? arguments[e] : {};
-    e % 2 ? Pe(Object(o), !0).forEach(function(r) {
-      O(t, r, o[r]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : Pe(Object(o)).forEach(function(r) {
-      Object.defineProperty(t, r, Object.getOwnPropertyDescriptor(o, r));
+    e % 2 ? Pe(Object(o), !0).forEach(function(n) {
+      O(t, n, o[n]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : Pe(Object(o)).forEach(function(n) {
+      Object.defineProperty(t, n, Object.getOwnPropertyDescriptor(o, n));
     });
   }
   return t;
 }
-var Ct = {
+var vt = {
   tag: "svg",
   attrs: {
     fill: "none",
@@ -893,7 +893,7 @@ var Ct = {
       }
     }]
   }]
-}, vt = n.defineComponent({
+}, Ct = r.defineComponent({
   name: "StopCircleIcon",
   props: {
     size: {
@@ -915,20 +915,20 @@ var Ct = {
   setup(t, e) {
     var {
       attrs: o
-    } = e, r = n.computed(() => t.size), i = n.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), s = n.computed(() => {
+    } = e, n = r.computed(() => t.size), i = r.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), s = r.computed(() => {
       var u;
       return t.strokeColor ? Array.isArray(t.strokeColor) ? (u = t.strokeColor[1]) !== null && u !== void 0 ? u : t.strokeColor[0] : t.strokeColor : "currentColor";
-    }), l = n.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), c = n.computed(() => {
+    }), l = r.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), c = r.computed(() => {
       var u;
       return t.fillColor ? Array.isArray(t.fillColor) ? (u = t.fillColor[1]) !== null && u !== void 0 ? u : t.fillColor[0] : t.fillColor : "transparent";
-    }), d = n.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
+    }), d = r.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
       className: h,
       style: f
-    } = D(r), C = n.computed(() => ["t-icon", "t-icon-stop-circle", h.value]), v = n.computed(() => Ie(Ie({
+    } = D(n), m = r.computed(() => ["t-icon", "t-icon-stop-circle", h.value]), y = r.computed(() => Ie(Ie({
       fill: "none"
-    }, f.value), o.style)), y = n.computed(() => ({
-      class: C.value,
-      style: v.value,
+    }, f.value), o.style)), C = r.computed(() => ({
+      class: m.value,
+      style: y.value,
       onClick: (u) => {
         var g;
         return (g = t.onClick) === null || g === void 0 ? void 0 : g.call(t, {
@@ -942,26 +942,26 @@ var Ct = {
       strokeWidth: t.strokeWidth || 2,
       filledColor: d.value
     }));
-    return () => N(Ct, y.value);
+    return () => N(vt, C.value);
   }
 });
 function Te(t, e) {
   var o = Object.keys(t);
   if (Object.getOwnPropertySymbols) {
-    var r = Object.getOwnPropertySymbols(t);
-    e && (r = r.filter(function(i) {
+    var n = Object.getOwnPropertySymbols(t);
+    e && (n = n.filter(function(i) {
       return Object.getOwnPropertyDescriptor(t, i).enumerable;
-    })), o.push.apply(o, r);
+    })), o.push.apply(o, n);
   }
   return o;
 }
 function $e(t) {
   for (var e = 1; e < arguments.length; e++) {
     var o = arguments[e] != null ? arguments[e] : {};
-    e % 2 ? Te(Object(o), !0).forEach(function(r) {
-      O(t, r, o[r]);
-    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : Te(Object(o)).forEach(function(r) {
-      Object.defineProperty(t, r, Object.getOwnPropertyDescriptor(o, r));
+    e % 2 ? Te(Object(o), !0).forEach(function(n) {
+      O(t, n, o[n]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o)) : Te(Object(o)).forEach(function(n) {
+      Object.defineProperty(t, n, Object.getOwnPropertyDescriptor(o, n));
     });
   }
   return t;
@@ -990,7 +990,7 @@ var yt = {
       }
     }]
   }]
-}, bt = n.defineComponent({
+}, bt = r.defineComponent({
   name: "TerminalIcon",
   props: {
     size: {
@@ -1012,20 +1012,20 @@ var yt = {
   setup(t, e) {
     var {
       attrs: o
-    } = e, r = n.computed(() => t.size), i = n.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), s = n.computed(() => {
+    } = e, n = r.computed(() => t.size), i = r.computed(() => t.strokeColor ? Array.isArray(t.strokeColor) ? t.strokeColor[0] : t.strokeColor : "currentColor"), s = r.computed(() => {
       var u;
       return t.strokeColor ? Array.isArray(t.strokeColor) ? (u = t.strokeColor[1]) !== null && u !== void 0 ? u : t.strokeColor[0] : t.strokeColor : "currentColor";
-    }), l = n.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), c = n.computed(() => {
+    }), l = r.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "transparent"), c = r.computed(() => {
       var u;
       return t.fillColor ? Array.isArray(t.fillColor) ? (u = t.fillColor[1]) !== null && u !== void 0 ? u : t.fillColor[0] : t.fillColor : "transparent";
-    }), d = n.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
+    }), d = r.computed(() => t.fillColor ? Array.isArray(t.fillColor) ? t.fillColor[0] : t.fillColor : "currentColor"), {
       className: h,
       style: f
-    } = D(r), C = n.computed(() => ["t-icon", "t-icon-terminal", h.value]), v = n.computed(() => $e($e({
+    } = D(n), m = r.computed(() => ["t-icon", "t-icon-terminal", h.value]), y = r.computed(() => $e($e({
       fill: "none"
-    }, f.value), o.style)), y = n.computed(() => ({
-      class: C.value,
-      style: v.value,
+    }, f.value), o.style)), C = r.computed(() => ({
+      class: m.value,
+      style: y.value,
       onClick: (u) => {
         var g;
         return (g = t.onClick) === null || g === void 0 ? void 0 : g.call(t, {
@@ -1039,18 +1039,18 @@ var yt = {
       strokeWidth: t.strokeWidth || 2,
       filledColor: d.value
     }));
-    return () => N(yt, y.value);
+    return () => N(yt, C.value);
   }
 });
-class R extends Error {
+class j extends Error {
   /** Constructs a new instance of {@link @microsoft/signalr.HttpError}.
    *
    * @param {string} errorMessage A descriptive error message.
    * @param {number} statusCode The HTTP status code represented by this error.
    */
   constructor(e, o) {
-    const r = new.target.prototype;
-    super(`${e}: Status code '${o}'`), this.statusCode = o, this.__proto__ = r;
+    const n = new.target.prototype;
+    super(`${e}: Status code '${o}'`), this.statusCode = o, this.__proto__ = n;
   }
 }
 class re extends Error {
@@ -1080,8 +1080,8 @@ class kt extends Error {
    * @param {HttpTransportType} transport The {@link @microsoft/signalr.HttpTransportType} this error occurred on.
    */
   constructor(e, o) {
-    const r = new.target.prototype;
-    super(e), this.transport = o, this.errorType = "UnsupportedTransportError", this.__proto__ = r;
+    const n = new.target.prototype;
+    super(e), this.transport = o, this.errorType = "UnsupportedTransportError", this.__proto__ = n;
   }
 }
 class wt extends Error {
@@ -1091,8 +1091,8 @@ class wt extends Error {
    * @param {HttpTransportType} transport The {@link @microsoft/signalr.HttpTransportType} this error occurred on.
    */
   constructor(e, o) {
-    const r = new.target.prototype;
-    super(e), this.transport = o, this.errorType = "DisabledTransportError", this.__proto__ = r;
+    const n = new.target.prototype;
+    super(e), this.transport = o, this.errorType = "DisabledTransportError", this.__proto__ = n;
   }
 }
 class St extends Error {
@@ -1102,8 +1102,8 @@ class St extends Error {
    * @param {HttpTransportType} transport The {@link @microsoft/signalr.HttpTransportType} this error occurred on.
    */
   constructor(e, o) {
-    const r = new.target.prototype;
-    super(e), this.transport = o, this.errorType = "FailedToStartTransportError", this.__proto__ = r;
+    const n = new.target.prototype;
+    super(e), this.transport = o, this.errorType = "FailedToStartTransportError", this.__proto__ = n;
   }
 }
 class Ae extends Error {
@@ -1123,13 +1123,13 @@ class xt extends Error {
    * @param {Error[]} innerErrors The collection of errors this error is aggregating.
    */
   constructor(e, o) {
-    const r = new.target.prototype;
-    super(e), this.innerErrors = o, this.__proto__ = r;
+    const n = new.target.prototype;
+    super(e), this.innerErrors = o, this.__proto__ = n;
   }
 }
 class Ve {
-  constructor(e, o, r) {
-    this.statusCode = e, this.statusText = o, this.content = r;
+  constructor(e, o, n) {
+    this.statusCode = e, this.statusText = o, this.content = n;
   }
 }
 class J {
@@ -1187,9 +1187,9 @@ class x {
     if (!e || e.match(/^\s*$/))
       throw new Error(`The '${o}' argument should not be empty.`);
   }
-  static isIn(e, o, r) {
+  static isIn(e, o, n) {
     if (!(e in o))
-      throw new Error(`Unknown ${r} value: ${e}.`);
+      throw new Error(`Unknown ${n} value: ${e}.`);
   }
 }
 class w {
@@ -1218,19 +1218,19 @@ function q(t, e) {
 function Pt(t) {
   const e = new Uint8Array(t);
   let o = "";
-  return e.forEach((r) => {
-    const i = r < 16 ? "0" : "";
-    o += `0x${i}${r.toString(16)} `;
+  return e.forEach((n) => {
+    const i = n < 16 ? "0" : "";
+    o += `0x${i}${n.toString(16)} `;
   }), o.substring(0, o.length - 1);
 }
 function V(t) {
   return t && typeof ArrayBuffer < "u" && (t instanceof ArrayBuffer || // Sometimes we get an ArrayBuffer that doesn't satisfy instanceof
   t.constructor && t.constructor.name === "ArrayBuffer");
 }
-async function Me(t, e, o, r, i, s) {
+async function Me(t, e, o, n, i, s) {
   const l = {}, [c, d] = W();
   l[c] = d, t.log(a.Trace, `(${e} transport) sending data. ${q(i, s.logMessageContent)}.`);
-  const h = V(i) ? "arraybuffer" : "text", f = await o.post(r, {
+  const h = V(i) ? "arraybuffer" : "text", f = await o.post(n, {
     content: i,
     headers: { ...l, ...s.headers },
     responseType: h,
@@ -1258,20 +1258,20 @@ class X {
   }
   log(e, o) {
     if (e >= this._minLevel) {
-      const r = `[${(/* @__PURE__ */ new Date()).toISOString()}] ${a[e]}: ${o}`;
+      const n = `[${(/* @__PURE__ */ new Date()).toISOString()}] ${a[e]}: ${o}`;
       switch (e) {
         case a.Critical:
         case a.Error:
-          this.out.error(r);
+          this.out.error(n);
           break;
         case a.Warning:
-          this.out.warn(r);
+          this.out.warn(n);
           break;
         case a.Information:
-          this.out.info(r);
+          this.out.info(n);
           break;
         default:
-          this.out.log(r);
+          this.out.log(n);
           break;
       }
     }
@@ -1281,10 +1281,10 @@ function W() {
   let t = "X-SignalR-User-Agent";
   return w.isNode && (t = "User-Agent"), [t, $t(Et, At(), Ot(), Nt())];
 }
-function $t(t, e, o, r) {
+function $t(t, e, o, n) {
   let i = "Microsoft SignalR/";
   const s = t.split(".");
-  return i += `${s[0]}.${s[1]}`, i += ` (${t}; `, e && e !== "" ? i += `${e}; ` : i += "Unknown OS; ", i += `${o}`, r ? i += `; ${r}` : i += "; Unknown Runtime Version", i += ")", i;
+  return i += `${s[0]}.${s[1]}`, i += ` (${t}; `, e && e !== "" ? i += `${e}; ` : i += "Unknown OS; ", i += `${o}`, n ? i += `; ${n}` : i += "; Unknown Runtime Version", i += ")", i;
 }
 function At() {
   if (w.isNode)
@@ -1322,7 +1322,7 @@ function Dt() {
     return global;
   throw new Error("could not find global");
 }
-class Rt extends J {
+class jt extends J {
   constructor(e) {
     if (super(), this._logger = e, typeof fetch > "u" || w.isNode) {
       const o = typeof __webpack_require__ == "function" ? __non_webpack_require__ : require;
@@ -1344,15 +1344,15 @@ class Rt extends J {
     if (!e.url)
       throw new Error("No url defined.");
     const o = new this._abortControllerType();
-    let r;
+    let n;
     e.abortSignal && (e.abortSignal.onabort = () => {
-      o.abort(), r = new A();
+      o.abort(), n = new A();
     });
     let i = null;
     if (e.timeout) {
       const d = e.timeout;
       i = setTimeout(() => {
-        o.abort(), this._logger.log(a.Warning, "Timeout from HTTP request."), r = new re();
+        o.abort(), this._logger.log(a.Warning, "Timeout from HTTP request."), n = new re();
       }, d);
     }
     e.content === "" && (e.content = void 0), e.content && (e.headers = e.headers || {}, V(e.content) ? e.headers["Content-Type"] = "application/octet-stream" : e.headers["Content-Type"] = "text/plain;charset=UTF-8");
@@ -1372,20 +1372,20 @@ class Rt extends J {
         signal: o.signal
       });
     } catch (d) {
-      throw r || (this._logger.log(a.Warning, `Error from HTTP request. ${d}.`), d);
+      throw n || (this._logger.log(a.Warning, `Error from HTTP request. ${d}.`), d);
     } finally {
       i && clearTimeout(i), e.abortSignal && (e.abortSignal.onabort = null);
     }
     if (!s.ok) {
       const d = await Ne(s, "text");
-      throw new R(d || s.statusText, s.status);
+      throw new j(d || s.statusText, s.status);
     }
     const c = await Ne(s, e.responseType);
     return new Ve(s.status, s.statusText, c);
   }
   getCookieString(e) {
     let o = "";
-    return w.isNode && this._jar && this._jar.getCookies(e, (r, i) => o = i.join("; ")), o;
+    return w.isNode && this._jar && this._jar.getCookies(e, (n, i) => o = i.join("; ")), o;
   }
 }
 function Ne(t, e) {
@@ -1407,26 +1407,26 @@ function Ne(t, e) {
   }
   return o;
 }
-class jt extends J {
+class Rt extends J {
   constructor(e) {
     super(), this._logger = e;
   }
   /** @inheritDoc */
   send(e) {
-    return e.abortSignal && e.abortSignal.aborted ? Promise.reject(new A()) : e.method ? e.url ? new Promise((o, r) => {
+    return e.abortSignal && e.abortSignal.aborted ? Promise.reject(new A()) : e.method ? e.url ? new Promise((o, n) => {
       const i = new XMLHttpRequest();
       i.open(e.method, e.url, !0), i.withCredentials = e.withCredentials === void 0 ? !0 : e.withCredentials, i.setRequestHeader("X-Requested-With", "XMLHttpRequest"), e.content === "" && (e.content = void 0), e.content && (V(e.content) ? i.setRequestHeader("Content-Type", "application/octet-stream") : i.setRequestHeader("Content-Type", "text/plain;charset=UTF-8"));
       const s = e.headers;
       s && Object.keys(s).forEach((l) => {
         i.setRequestHeader(l, s[l]);
       }), e.responseType && (i.responseType = e.responseType), e.abortSignal && (e.abortSignal.onabort = () => {
-        i.abort(), r(new A());
+        i.abort(), n(new A());
       }), e.timeout && (i.timeout = e.timeout), i.onload = () => {
-        e.abortSignal && (e.abortSignal.onabort = null), i.status >= 200 && i.status < 300 ? o(new Ve(i.status, i.statusText, i.response || i.responseText)) : r(new R(i.response || i.responseText || i.statusText, i.status));
+        e.abortSignal && (e.abortSignal.onabort = null), i.status >= 200 && i.status < 300 ? o(new Ve(i.status, i.statusText, i.response || i.responseText)) : n(new j(i.response || i.responseText || i.statusText, i.status));
       }, i.onerror = () => {
-        this._logger.log(a.Warning, `Error from HTTP request. ${i.status}: ${i.statusText}.`), r(new R(i.statusText, i.status));
+        this._logger.log(a.Warning, `Error from HTTP request. ${i.status}: ${i.statusText}.`), n(new j(i.statusText, i.status));
       }, i.ontimeout = () => {
-        this._logger.log(a.Warning, "Timeout from HTTP request."), r(new re());
+        this._logger.log(a.Warning, "Timeout from HTTP request."), n(new re());
       }, i.send(e.content);
     }) : Promise.reject(new Error("No url defined.")) : Promise.reject(new Error("No method defined."));
   }
@@ -1435,9 +1435,9 @@ class Vt extends J {
   /** Creates a new instance of the {@link @microsoft/signalr.DefaultHttpClient}, using the provided {@link @microsoft/signalr.ILogger} to log messages. */
   constructor(e) {
     if (super(), typeof fetch < "u" || w.isNode)
-      this._httpClient = new Rt(e);
-    else if (typeof XMLHttpRequest < "u")
       this._httpClient = new jt(e);
+    else if (typeof XMLHttpRequest < "u")
+      this._httpClient = new Rt(e);
     else
       throw new Error("No usable HttpClient found.");
   }
@@ -1468,24 +1468,24 @@ class Mt {
     return I.write(JSON.stringify(e));
   }
   parseHandshakeResponse(e) {
-    let o, r;
+    let o, n;
     if (V(e)) {
       const c = new Uint8Array(e), d = c.indexOf(I.RecordSeparatorCode);
       if (d === -1)
         throw new Error("Message is incomplete.");
       const h = d + 1;
-      o = String.fromCharCode.apply(null, Array.prototype.slice.call(c.slice(0, h))), r = c.byteLength > h ? c.slice(h).buffer : null;
+      o = String.fromCharCode.apply(null, Array.prototype.slice.call(c.slice(0, h))), n = c.byteLength > h ? c.slice(h).buffer : null;
     } else {
       const c = e, d = c.indexOf(I.RecordSeparator);
       if (d === -1)
         throw new Error("Message is incomplete.");
       const h = d + 1;
-      o = c.substring(0, h), r = c.length > h ? c.substring(h) : null;
+      o = c.substring(0, h), n = c.length > h ? c.substring(h) : null;
     }
     const i = I.parse(o), s = JSON.parse(i[0]);
     if (s.type)
       throw new Error("Expected a handshake response from the server.");
-    return [r, s];
+    return [n, s];
   }
 }
 var p;
@@ -1512,35 +1512,35 @@ class Wt {
     return this.observers.push(e), new Tt(this, e);
   }
 }
-class Lt {
-  constructor(e, o, r) {
-    this._bufferSize = 1e5, this._messages = [], this._totalMessageCount = 0, this._waitForSequenceMessage = !1, this._nextReceivingSequenceId = 1, this._latestReceivedSequenceId = 0, this._bufferedByteCount = 0, this._reconnectInProgress = !1, this._protocol = e, this._connection = o, this._bufferSize = r;
+class Bt {
+  constructor(e, o, n) {
+    this._bufferSize = 1e5, this._messages = [], this._totalMessageCount = 0, this._waitForSequenceMessage = !1, this._nextReceivingSequenceId = 1, this._latestReceivedSequenceId = 0, this._bufferedByteCount = 0, this._reconnectInProgress = !1, this._protocol = e, this._connection = o, this._bufferSize = n;
   }
   async _send(e) {
     const o = this._protocol.writeMessage(e);
-    let r = Promise.resolve();
+    let n = Promise.resolve();
     if (this._isInvocationMessage(e)) {
       this._totalMessageCount++;
       let i = () => {
       }, s = () => {
       };
-      V(o) ? this._bufferedByteCount += o.byteLength : this._bufferedByteCount += o.length, this._bufferedByteCount >= this._bufferSize && (r = new Promise((l, c) => {
+      V(o) ? this._bufferedByteCount += o.byteLength : this._bufferedByteCount += o.length, this._bufferedByteCount >= this._bufferSize && (n = new Promise((l, c) => {
         i = l, s = c;
-      })), this._messages.push(new Bt(o, this._totalMessageCount, i, s));
+      })), this._messages.push(new Lt(o, this._totalMessageCount, i, s));
     }
     try {
       this._reconnectInProgress || await this._connection.send(o);
     } catch {
       this._disconnected();
     }
-    await r;
+    await n;
   }
   _ack(e) {
     let o = -1;
-    for (let r = 0; r < this._messages.length; r++) {
-      const i = this._messages[r];
+    for (let n = 0; n < this._messages.length; n++) {
+      const i = this._messages[n];
       if (i._id <= e.sequenceId)
-        o = r, V(i._message) ? this._bufferedByteCount -= i._message.byteLength : this._bufferedByteCount -= i._message.length, i._resolver();
+        o = n, V(i._message) ? this._bufferedByteCount -= i._message.byteLength : this._bufferedByteCount -= i._message.length, i._resolver();
       else if (this._bufferedByteCount < this._bufferSize)
         i._resolver();
       else
@@ -1570,8 +1570,8 @@ class Lt {
     const e = this._messages.length !== 0 ? this._messages[0]._id : this._totalMessageCount + 1;
     await this._connection.send(this._protocol.writeMessage({ type: p.Sequence, sequenceId: e }));
     const o = this._messages;
-    for (const r of o)
-      await this._connection.send(r._message);
+    for (const n of o)
+      await this._connection.send(n._message);
     this._reconnectInProgress = !1;
   }
   _dispose(e) {
@@ -1604,9 +1604,9 @@ class Lt {
     }, 1e3));
   }
 }
-class Bt {
-  constructor(e, o, r, i) {
-    this._message = e, this._id = o, this._resolver = r, this._rejector = i;
+class Lt {
+  constructor(e, o, n, i) {
+    this._message = e, this._id = o, this._resolver = n, this._rejector = i;
   }
 }
 const Ht = 30 * 1e3, Ut = 15 * 1e3, zt = 1e5;
@@ -1620,13 +1620,13 @@ class ne {
   // create method that can be used by HubConnectionBuilder. An "internal" constructor would just
   // be stripped away and the '.d.ts' file would have no constructor, which is interpreted as a
   // public parameter-less constructor.
-  static create(e, o, r, i, s, l, c) {
-    return new ne(e, o, r, i, s, l, c);
+  static create(e, o, n, i, s, l, c) {
+    return new ne(e, o, n, i, s, l, c);
   }
-  constructor(e, o, r, i, s, l, c) {
+  constructor(e, o, n, i, s, l, c) {
     this._nextKeepAlive = 0, this._freezeEventListener = () => {
       this._logger.log(a.Warning, "The page is being frozen, this will likely lead to the connection being closed and messages being lost. For more information see the docs at https://learn.microsoft.com/aspnet/core/signalr/javascript-client#bsleep");
-    }, x.isRequired(e, "connection"), x.isRequired(o, "logger"), x.isRequired(r, "protocol"), this.serverTimeoutInMilliseconds = s ?? Ht, this.keepAliveIntervalInMilliseconds = l ?? Ut, this._statefulReconnectBufferSize = c ?? zt, this._logger = o, this._protocol = r, this.connection = e, this._reconnectPolicy = i, this._handshakeProtocol = new Mt(), this.connection.onreceive = (d) => this._processIncomingData(d), this.connection.onclose = (d) => this._connectionClosed(d), this._callbacks = {}, this._methods = {}, this._closedCallbacks = [], this._reconnectingCallbacks = [], this._reconnectedCallbacks = [], this._invocationId = 0, this._receivedHandshakeResponse = !1, this._connectionState = k.Disconnected, this._connectionStarted = !1, this._cachedPingMessage = this._protocol.writeMessage({ type: p.Ping });
+    }, x.isRequired(e, "connection"), x.isRequired(o, "logger"), x.isRequired(n, "protocol"), this.serverTimeoutInMilliseconds = s ?? Ht, this.keepAliveIntervalInMilliseconds = l ?? Ut, this._statefulReconnectBufferSize = c ?? zt, this._logger = o, this._protocol = n, this.connection = e, this._reconnectPolicy = i, this._handshakeProtocol = new Mt(), this.connection.onreceive = (d) => this._processIncomingData(d), this.connection.onclose = (d) => this._connectionClosed(d), this._callbacks = {}, this._methods = {}, this._closedCallbacks = [], this._reconnectingCallbacks = [], this._reconnectedCallbacks = [], this._invocationId = 0, this._receivedHandshakeResponse = !1, this._connectionState = k.Disconnected, this._connectionStarted = !1, this._cachedPingMessage = this._protocol.writeMessage({ type: p.Ping });
   }
   /** Indicates the state of the {@link HubConnection} to the server. */
   get state() {
@@ -1673,20 +1673,20 @@ class ne {
   }
   async _startInternal() {
     this._stopDuringStartError = void 0, this._receivedHandshakeResponse = !1;
-    const e = new Promise((o, r) => {
-      this._handshakeResolver = o, this._handshakeRejecter = r;
+    const e = new Promise((o, n) => {
+      this._handshakeResolver = o, this._handshakeRejecter = n;
     });
     await this.connection.start(this._protocol.transferFormat);
     try {
       let o = this._protocol.version;
       this.connection.features.reconnect || (o = 1);
-      const r = {
+      const n = {
         protocol: this._protocol.name,
         version: o
       };
-      if (this._logger.log(a.Debug, "Sending handshake request."), await this._sendMessage(this._handshakeProtocol.writeHandshakeRequest(r)), this._logger.log(a.Information, `Using HubProtocol '${this._protocol.name}'.`), this._cleanupTimeout(), this._resetTimeoutPeriod(), this._resetKeepAliveInterval(), await e, this._stopDuringStartError)
+      if (this._logger.log(a.Debug, "Sending handshake request."), await this._sendMessage(this._handshakeProtocol.writeHandshakeRequest(n)), this._logger.log(a.Information, `Using HubProtocol '${this._protocol.name}'.`), this._cleanupTimeout(), this._resetTimeoutPeriod(), this._resetKeepAliveInterval(), await e, this._stopDuringStartError)
         throw this._stopDuringStartError;
-      this.connection.features.reconnect && (this._messageBuffer = new Lt(this._protocol, this.connection, this._statefulReconnectBufferSize), this.connection.features.disconnected = this._messageBuffer._disconnected.bind(this._messageBuffer), this.connection.features.resend = () => {
+      this.connection.features.reconnect && (this._messageBuffer = new Bt(this._protocol, this.connection, this._statefulReconnectBufferSize), this.connection.features.disconnected = this._messageBuffer._disconnected.bind(this._messageBuffer), this.connection.features.resend = () => {
         if (this._messageBuffer)
           return this._messageBuffer._resend();
       }), this.connection.features.inherentKeepAlive || await this._sendMessage(this._cachedPingMessage);
@@ -1728,7 +1728,7 @@ class ne {
    * @returns {IStreamResult<T>} An object that yields results from the server as they are received.
    */
   stream(e, ...o) {
-    const [r, i] = this._replaceStreamingParams(o), s = this._createStreamInvocation(e, o, i);
+    const [n, i] = this._replaceStreamingParams(o), s = this._createStreamInvocation(e, o, i);
     let l;
     const c = new Wt();
     return c.cancelCallback = () => {
@@ -1741,7 +1741,7 @@ class ne {
       } else d && (d.type === p.Completion ? d.error ? c.error(new Error(d.error)) : c.complete() : c.next(d.item));
     }, l = this._sendWithProtocol(s).catch((d) => {
       c.error(d), delete this._callbacks[s.invocationId];
-    }), this._launchStreams(r, l), c;
+    }), this._launchStreams(n, l), c;
   }
   _sendMessage(e) {
     return this._resetKeepAliveInterval(), this.connection.send(e);
@@ -1763,8 +1763,8 @@ class ne {
    * @returns {Promise<void>} A Promise that resolves when the invocation has been successfully sent, or rejects with an error.
    */
   send(e, ...o) {
-    const [r, i] = this._replaceStreamingParams(o), s = this._sendWithProtocol(this._createInvocation(e, o, !0, i));
-    return this._launchStreams(r, s), s;
+    const [n, i] = this._replaceStreamingParams(o), s = this._sendWithProtocol(this._createInvocation(e, o, !0, i));
+    return this._launchStreams(n, s), s;
   }
   /** Invokes a hub method on the server using the specified name and arguments.
    *
@@ -1778,18 +1778,18 @@ class ne {
    * @returns {Promise<T>} A Promise that resolves with the result of the server method (if any), or rejects with an error.
    */
   invoke(e, ...o) {
-    const [r, i] = this._replaceStreamingParams(o), s = this._createInvocation(e, o, !1, i);
+    const [n, i] = this._replaceStreamingParams(o), s = this._createInvocation(e, o, !1, i);
     return new Promise((c, d) => {
-      this._callbacks[s.invocationId] = (f, C) => {
-        if (C) {
-          d(C);
+      this._callbacks[s.invocationId] = (f, m) => {
+        if (m) {
+          d(m);
           return;
         } else f && (f.type === p.Completion ? f.error ? d(new Error(f.error)) : c(f.result) : d(new Error(`Unexpected message type: ${f.type}`)));
       };
       const h = this._sendWithProtocol(s).catch((f) => {
         d(f), delete this._callbacks[s.invocationId];
       });
-      this._launchStreams(r, h);
+      this._launchStreams(n, h);
     });
   }
   on(e, o) {
@@ -1799,11 +1799,11 @@ class ne {
     if (!e)
       return;
     e = e.toLowerCase();
-    const r = this._methods[e];
-    if (r)
+    const n = this._methods[e];
+    if (n)
       if (o) {
-        const i = r.indexOf(o);
-        i !== -1 && (r.splice(i, 1), r.length === 0 && delete this._methods[e]);
+        const i = n.indexOf(o);
+        i !== -1 && (n.splice(i, 1), n.length === 0 && delete this._methods[e]);
       } else
         delete this._methods[e];
   }
@@ -1831,21 +1831,21 @@ class ne {
   _processIncomingData(e) {
     if (this._cleanupTimeout(), this._receivedHandshakeResponse || (e = this._processHandshakeResponse(e), this._receivedHandshakeResponse = !0), e) {
       const o = this._protocol.parseMessages(e, this._logger);
-      for (const r of o)
-        if (!(this._messageBuffer && !this._messageBuffer._shouldProcessMessage(r)))
-          switch (r.type) {
+      for (const n of o)
+        if (!(this._messageBuffer && !this._messageBuffer._shouldProcessMessage(n)))
+          switch (n.type) {
             case p.Invocation:
-              this._invokeClientMethod(r).catch((i) => {
+              this._invokeClientMethod(n).catch((i) => {
                 this._logger.log(a.Error, `Invoke client method threw error: ${te(i)}`);
               });
               break;
             case p.StreamItem:
             case p.Completion: {
-              const i = this._callbacks[r.invocationId];
+              const i = this._callbacks[n.invocationId];
               if (i) {
-                r.type === p.Completion && delete this._callbacks[r.invocationId];
+                n.type === p.Completion && delete this._callbacks[n.invocationId];
                 try {
-                  i(r);
+                  i(n);
                 } catch (s) {
                   this._logger.log(a.Error, `Stream callback threw error: ${te(s)}`);
                 }
@@ -1856,27 +1856,27 @@ class ne {
               break;
             case p.Close: {
               this._logger.log(a.Information, "Close message received from server.");
-              const i = r.error ? new Error("Server returned an error on close: " + r.error) : void 0;
-              r.allowReconnect === !0 ? this.connection.stop(i) : this._stopPromise = this._stopInternal(i);
+              const i = n.error ? new Error("Server returned an error on close: " + n.error) : void 0;
+              n.allowReconnect === !0 ? this.connection.stop(i) : this._stopPromise = this._stopInternal(i);
               break;
             }
             case p.Ack:
-              this._messageBuffer && this._messageBuffer._ack(r);
+              this._messageBuffer && this._messageBuffer._ack(n);
               break;
             case p.Sequence:
-              this._messageBuffer && this._messageBuffer._resetSequence(r);
+              this._messageBuffer && this._messageBuffer._resetSequence(n);
               break;
             default:
-              this._logger.log(a.Warning, `Invalid message type: ${r.type}.`);
+              this._logger.log(a.Warning, `Invalid message type: ${n.type}.`);
               break;
           }
     }
     this._resetTimeoutPeriod();
   }
   _processHandshakeResponse(e) {
-    let o, r;
+    let o, n;
     try {
-      [r, o] = this._handshakeProtocol.parseHandshakeResponse(e);
+      [n, o] = this._handshakeProtocol.parseHandshakeResponse(e);
     } catch (i) {
       const s = "Error parsing handshake response: " + i;
       this._logger.log(a.Error, s);
@@ -1890,7 +1890,7 @@ class ne {
       throw this._handshakeRejecter(s), s;
     } else
       this._logger.log(a.Debug, "Server handshake complete.");
-    return this._handshakeResolver(), r;
+    return this._handshakeResolver(), n;
   }
   _resetKeepAliveInterval() {
     this.connection.features.inherentKeepAlive || (this._nextKeepAlive = (/* @__PURE__ */ new Date()).getTime() + this.keepAliveIntervalInMilliseconds, this._cleanupPingTimer());
@@ -1913,12 +1913,12 @@ class ne {
     this.connection.stop(new Error("Server timeout elapsed without receiving a message from the server."));
   }
   async _invokeClientMethod(e) {
-    const o = e.target.toLowerCase(), r = this._methods[o];
-    if (!r) {
+    const o = e.target.toLowerCase(), n = this._methods[o];
+    if (!n) {
       this._logger.log(a.Warning, `No client method with the name '${o}' found.`), e.invocationId && (this._logger.log(a.Warning, `No result given for '${o}' method and invocation ID '${e.invocationId}'.`), await this._sendWithProtocol(this._createCompletionMessage(e.invocationId, "Client didn't provide a result.", null)));
       return;
     }
-    const i = r.slice(), s = !!e.invocationId;
+    const i = n.slice(), s = !!e.invocationId;
     let l, c, d;
     for (const h of i)
       try {
@@ -1944,7 +1944,7 @@ class ne {
   }
   async _reconnect(e) {
     const o = Date.now();
-    let r = 0, i = e !== void 0 ? e : new Error("Attempting to reconnect due to a unknown error."), s = this._getNextRetryDelay(r, 0, i);
+    let n = 0, i = e !== void 0 ? e : new Error("Attempting to reconnect due to a unknown error."), s = this._getNextRetryDelay(n, 0, i);
     if (s === null) {
       this._logger.log(a.Debug, "Connection not reconnecting because the IRetryPolicy returned null on the first reconnect attempt."), this._completeClose(e);
       return;
@@ -1961,7 +1961,7 @@ class ne {
       }
     }
     for (; s !== null; ) {
-      if (this._logger.log(a.Information, `Reconnect attempt number ${r + 1} will start in ${s} ms.`), await new Promise((l) => {
+      if (this._logger.log(a.Information, `Reconnect attempt number ${n + 1} will start in ${s} ms.`), await new Promise((l) => {
         this._reconnectDelayHandle = setTimeout(l, s);
       }), this._reconnectDelayHandle = void 0, this._connectionState !== k.Reconnecting) {
         this._logger.log(a.Debug, "Connection left the reconnecting state during reconnect delay. Done reconnecting.");
@@ -1980,17 +1980,17 @@ class ne {
           this._logger.log(a.Debug, `Connection moved to the '${this._connectionState}' from the reconnecting state during reconnect attempt. Done reconnecting.`), this._connectionState === k.Disconnecting && this._completeClose();
           return;
         }
-        r++, i = l instanceof Error ? l : new Error(l.toString()), s = this._getNextRetryDelay(r, Date.now() - o, i);
+        n++, i = l instanceof Error ? l : new Error(l.toString()), s = this._getNextRetryDelay(n, Date.now() - o, i);
       }
     }
-    this._logger.log(a.Information, `Reconnect retries have been exhausted after ${Date.now() - o} ms and ${r} failed attempts. Connection disconnecting.`), this._completeClose();
+    this._logger.log(a.Information, `Reconnect retries have been exhausted after ${Date.now() - o} ms and ${n} failed attempts. Connection disconnecting.`), this._completeClose();
   }
-  _getNextRetryDelay(e, o, r) {
+  _getNextRetryDelay(e, o, n) {
     try {
       return this._reconnectPolicy.nextRetryDelayInMilliseconds({
         elapsedMilliseconds: o,
         previousRetryCount: e,
-        retryReason: r
+        retryReason: n
       });
     } catch (i) {
       return this._logger.log(a.Error, `IRetryPolicy.nextRetryDelayInMilliseconds(${e}, ${o}) threw error '${i}'.`), null;
@@ -1998,8 +1998,8 @@ class ne {
   }
   _cancelCallbacksWithError(e) {
     const o = this._callbacks;
-    this._callbacks = {}, Object.keys(o).forEach((r) => {
-      const i = o[r];
+    this._callbacks = {}, Object.keys(o).forEach((n) => {
+      const i = o[n];
       try {
         i(null, e);
       } catch (s) {
@@ -2013,8 +2013,8 @@ class ne {
   _cleanupTimeout() {
     this._timeoutHandle && clearTimeout(this._timeoutHandle);
   }
-  _createInvocation(e, o, r, i) {
-    if (r)
+  _createInvocation(e, o, n, i) {
+    if (n)
       return i.length !== 0 ? {
         target: e,
         arguments: o,
@@ -2044,42 +2044,42 @@ class ne {
   _launchStreams(e, o) {
     if (e.length !== 0) {
       o || (o = Promise.resolve());
-      for (const r in e)
-        e[r].subscribe({
+      for (const n in e)
+        e[n].subscribe({
           complete: () => {
-            o = o.then(() => this._sendWithProtocol(this._createCompletionMessage(r)));
+            o = o.then(() => this._sendWithProtocol(this._createCompletionMessage(n)));
           },
           error: (i) => {
             let s;
-            i instanceof Error ? s = i.message : i && i.toString ? s = i.toString() : s = "Unknown error", o = o.then(() => this._sendWithProtocol(this._createCompletionMessage(r, s)));
+            i instanceof Error ? s = i.message : i && i.toString ? s = i.toString() : s = "Unknown error", o = o.then(() => this._sendWithProtocol(this._createCompletionMessage(n, s)));
           },
           next: (i) => {
-            o = o.then(() => this._sendWithProtocol(this._createStreamItemMessage(r, i)));
+            o = o.then(() => this._sendWithProtocol(this._createStreamItemMessage(n, i)));
           }
         });
     }
   }
   _replaceStreamingParams(e) {
-    const o = [], r = [];
+    const o = [], n = [];
     for (let i = 0; i < e.length; i++) {
       const s = e[i];
       if (this._isObservable(s)) {
         const l = this._invocationId;
-        this._invocationId++, o[l] = s, r.push(l.toString()), e.splice(i, 1);
+        this._invocationId++, o[l] = s, n.push(l.toString()), e.splice(i, 1);
       }
     }
-    return [o, r];
+    return [o, n];
   }
   _isObservable(e) {
     return e && e.subscribe && typeof e.subscribe == "function";
   }
-  _createStreamInvocation(e, o, r) {
+  _createStreamInvocation(e, o, n) {
     const i = this._invocationId;
-    return this._invocationId++, r.length !== 0 ? {
+    return this._invocationId++, n.length !== 0 ? {
       target: e,
       arguments: o,
       invocationId: i.toString(),
-      streamIds: r,
+      streamIds: n,
       type: p.StreamInvocation
     } : {
       target: e,
@@ -2101,14 +2101,14 @@ class ne {
       type: p.StreamItem
     };
   }
-  _createCompletionMessage(e, o, r) {
+  _createCompletionMessage(e, o, n) {
     return o ? {
       error: o,
       invocationId: e,
       type: p.Completion
     } : {
       invocationId: e,
-      result: r,
+      result: n,
       type: p.Completion
     };
   }
@@ -2132,10 +2132,10 @@ class Oe {
     return this._retryDelays[e.previousRetryCount];
   }
 }
-class j {
+class R {
 }
-j.Authorization = "Authorization";
-j.Cookie = "Cookie";
+R.Authorization = "Authorization";
+R.Cookie = "Cookie";
 class qt extends J {
   constructor(e, o) {
     super(), this._innerClient = e, this._accessTokenFactory = o;
@@ -2143,11 +2143,11 @@ class qt extends J {
   async send(e) {
     let o = !0;
     this._accessTokenFactory && (!this._accessToken || e.url && e.url.indexOf("/negotiate?") > 0) && (o = !1, this._accessToken = await this._accessTokenFactory()), this._setAuthorizationHeader(e);
-    const r = await this._innerClient.send(e);
-    return o && r.statusCode === 401 && this._accessTokenFactory ? (this._accessToken = await this._accessTokenFactory(), this._setAuthorizationHeader(e), await this._innerClient.send(e)) : r;
+    const n = await this._innerClient.send(e);
+    return o && n.statusCode === 401 && this._accessTokenFactory ? (this._accessToken = await this._accessTokenFactory(), this._setAuthorizationHeader(e), await this._innerClient.send(e)) : n;
   }
   _setAuthorizationHeader(e) {
-    e.headers || (e.headers = {}), this._accessToken ? e.headers[j.Authorization] = `Bearer ${this._accessToken}` : this._accessTokenFactory && e.headers[j.Authorization] && delete e.headers[j.Authorization];
+    e.headers || (e.headers = {}), this._accessToken ? e.headers[R.Authorization] = `Bearer ${this._accessToken}` : this._accessTokenFactory && e.headers[R.Authorization] && delete e.headers[R.Authorization];
   }
   getCookieString(e) {
     return this._innerClient.getCookieString(e);
@@ -2180,13 +2180,13 @@ class De {
   get pollAborted() {
     return this._pollAbort.aborted;
   }
-  constructor(e, o, r) {
-    this._httpClient = e, this._logger = o, this._pollAbort = new Kt(), this._options = r, this._running = !1, this.onreceive = null, this.onclose = null;
+  constructor(e, o, n) {
+    this._httpClient = e, this._logger = o, this._pollAbort = new Kt(), this._options = n, this._running = !1, this.onreceive = null, this.onclose = null;
   }
   async connect(e, o) {
     if (x.isRequired(e, "url"), x.isRequired(o, "transferFormat"), x.isIn(o, E, "transferFormat"), this._url = e, this._logger.log(a.Trace, "(LongPolling transport) Connecting."), o === E.Binary && typeof XMLHttpRequest < "u" && typeof new XMLHttpRequest().responseType != "string")
       throw new Error("Binary protocols over XmlHttpRequest not implementing advanced features are not supported.");
-    const [r, i] = W(), s = { [r]: i, ...this._options.headers }, l = {
+    const [n, i] = W(), s = { [n]: i, ...this._options.headers }, l = {
       abortSignal: this._pollAbort.signal,
       headers: s,
       timeout: 1e5,
@@ -2196,18 +2196,18 @@ class De {
     const c = `${e}&_=${Date.now()}`;
     this._logger.log(a.Trace, `(LongPolling transport) polling: ${c}.`);
     const d = await this._httpClient.get(c, l);
-    d.statusCode !== 200 ? (this._logger.log(a.Error, `(LongPolling transport) Unexpected response code: ${d.statusCode}.`), this._closeError = new R(d.statusText || "", d.statusCode), this._running = !1) : this._running = !0, this._receiving = this._poll(this._url, l);
+    d.statusCode !== 200 ? (this._logger.log(a.Error, `(LongPolling transport) Unexpected response code: ${d.statusCode}.`), this._closeError = new j(d.statusText || "", d.statusCode), this._running = !1) : this._running = !0, this._receiving = this._poll(this._url, l);
   }
   async _poll(e, o) {
     try {
       for (; this._running; )
         try {
-          const r = `${e}&_=${Date.now()}`;
-          this._logger.log(a.Trace, `(LongPolling transport) polling: ${r}.`);
-          const i = await this._httpClient.get(r, o);
-          i.statusCode === 204 ? (this._logger.log(a.Information, "(LongPolling transport) Poll terminated by server."), this._running = !1) : i.statusCode !== 200 ? (this._logger.log(a.Error, `(LongPolling transport) Unexpected response code: ${i.statusCode}.`), this._closeError = new R(i.statusText || "", i.statusCode), this._running = !1) : i.content ? (this._logger.log(a.Trace, `(LongPolling transport) data received. ${q(i.content, this._options.logMessageContent)}.`), this.onreceive && this.onreceive(i.content)) : this._logger.log(a.Trace, "(LongPolling transport) Poll timed out, reissuing.");
-        } catch (r) {
-          this._running ? r instanceof re ? this._logger.log(a.Trace, "(LongPolling transport) Poll timed out, reissuing.") : (this._closeError = r, this._running = !1) : this._logger.log(a.Trace, `(LongPolling transport) Poll errored after shutdown: ${r.message}`);
+          const n = `${e}&_=${Date.now()}`;
+          this._logger.log(a.Trace, `(LongPolling transport) polling: ${n}.`);
+          const i = await this._httpClient.get(n, o);
+          i.statusCode === 204 ? (this._logger.log(a.Information, "(LongPolling transport) Poll terminated by server."), this._running = !1) : i.statusCode !== 200 ? (this._logger.log(a.Error, `(LongPolling transport) Unexpected response code: ${i.statusCode}.`), this._closeError = new j(i.statusText || "", i.statusCode), this._running = !1) : i.content ? (this._logger.log(a.Trace, `(LongPolling transport) data received. ${q(i.content, this._options.logMessageContent)}.`), this.onreceive && this.onreceive(i.content)) : this._logger.log(a.Trace, "(LongPolling transport) Poll timed out, reissuing.");
+        } catch (n) {
+          this._running ? n instanceof re ? this._logger.log(a.Trace, "(LongPolling transport) Poll timed out, reissuing.") : (this._closeError = n, this._running = !1) : this._logger.log(a.Trace, `(LongPolling transport) Poll errored after shutdown: ${n.message}`);
         }
     } finally {
       this._logger.log(a.Trace, "(LongPolling transport) Polling complete."), this.pollAborted || this._raiseOnClose();
@@ -2220,8 +2220,8 @@ class De {
     this._logger.log(a.Trace, "(LongPolling transport) Stopping polling."), this._running = !1, this._pollAbort.abort();
     try {
       await this._receiving, this._logger.log(a.Trace, `(LongPolling transport) sending DELETE request to ${this._url}.`);
-      const e = {}, [o, r] = W();
-      e[o] = r;
+      const e = {}, [o, n] = W();
+      e[o] = n;
       const i = {
         headers: { ...e, ...this._options.headers },
         timeout: this._options.timeout,
@@ -2233,7 +2233,7 @@ class De {
       } catch (l) {
         s = l;
       }
-      s ? s instanceof R && (s.statusCode === 404 ? this._logger.log(a.Trace, "(LongPolling transport) A 404 response was returned from sending a DELETE request.") : this._logger.log(a.Trace, `(LongPolling transport) Error sending a DELETE request: ${s}`)) : this._logger.log(a.Trace, "(LongPolling transport) DELETE request accepted.");
+      s ? s instanceof j && (s.statusCode === 404 ? this._logger.log(a.Trace, "(LongPolling transport) A 404 response was returned from sending a DELETE request.") : this._logger.log(a.Trace, `(LongPolling transport) Error sending a DELETE request: ${s}`)) : this._logger.log(a.Trace, "(LongPolling transport) DELETE request accepted.");
     } finally {
       this._logger.log(a.Trace, "(LongPolling transport) Stop finished."), this._raiseOnClose();
     }
@@ -2246,11 +2246,11 @@ class De {
   }
 }
 class Zt {
-  constructor(e, o, r, i) {
-    this._httpClient = e, this._accessToken = o, this._logger = r, this._options = i, this.onreceive = null, this.onclose = null;
+  constructor(e, o, n, i) {
+    this._httpClient = e, this._accessToken = o, this._logger = n, this._options = i, this.onreceive = null, this.onclose = null;
   }
   async connect(e, o) {
-    return x.isRequired(e, "url"), x.isRequired(o, "transferFormat"), x.isIn(o, E, "transferFormat"), this._logger.log(a.Trace, "(SSE transport) Connecting."), this._url = e, this._accessToken && (e += (e.indexOf("?") < 0 ? "?" : "&") + `access_token=${encodeURIComponent(this._accessToken)}`), new Promise((r, i) => {
+    return x.isRequired(e, "url"), x.isRequired(o, "transferFormat"), x.isIn(o, E, "transferFormat"), this._logger.log(a.Trace, "(SSE transport) Connecting."), this._url = e, this._accessToken && (e += (e.indexOf("?") < 0 ? "?" : "&") + `access_token=${encodeURIComponent(this._accessToken)}`), new Promise((n, i) => {
       let s = !1;
       if (o !== E.Text) {
         i(new Error("The Server-Sent Events transport only supports the 'Text' transfer format"));
@@ -2277,7 +2277,7 @@ class Zt {
         }, l.onerror = (c) => {
           s ? this._close() : i(new Error("EventSource failed to connect. The connection could not be found on the server, either the connection ID is not present on the server, or a proxy is refusing/buffering the connection. If you have multiple servers check that sticky sessions are enabled."));
         }, l.onopen = () => {
-          this._logger.log(a.Information, `SSE connected to ${this._url}`), this._eventSource = l, s = !0, r();
+          this._logger.log(a.Information, `SSE connected to ${this._url}`), this._eventSource = l, s = !0, n();
         };
       } catch (c) {
         i(c);
@@ -2296,24 +2296,24 @@ class Zt {
   }
 }
 class Xt {
-  constructor(e, o, r, i, s, l) {
-    this._logger = r, this._accessTokenFactory = o, this._logMessageContent = i, this._webSocketConstructor = s, this._httpClient = e, this.onreceive = null, this.onclose = null, this._headers = l;
+  constructor(e, o, n, i, s, l) {
+    this._logger = n, this._accessTokenFactory = o, this._logMessageContent = i, this._webSocketConstructor = s, this._httpClient = e, this.onreceive = null, this.onclose = null, this._headers = l;
   }
   async connect(e, o) {
     x.isRequired(e, "url"), x.isRequired(o, "transferFormat"), x.isIn(o, E, "transferFormat"), this._logger.log(a.Trace, "(WebSockets transport) Connecting.");
-    let r;
-    return this._accessTokenFactory && (r = await this._accessTokenFactory()), new Promise((i, s) => {
+    let n;
+    return this._accessTokenFactory && (n = await this._accessTokenFactory()), new Promise((i, s) => {
       e = e.replace(/^http/, "ws");
       let l;
       const c = this._httpClient.getCookieString(e);
       let d = !1;
       if (w.isNode || w.isReactNative) {
-        const h = {}, [f, C] = W();
-        h[f] = C, r && (h[j.Authorization] = `Bearer ${r}`), c && (h[j.Cookie] = c), l = new this._webSocketConstructor(e, void 0, {
+        const h = {}, [f, m] = W();
+        h[f] = m, n && (h[R.Authorization] = `Bearer ${n}`), c && (h[R.Cookie] = c), l = new this._webSocketConstructor(e, void 0, {
           headers: { ...h, ...this._headers }
         });
       } else
-        r && (e += (e.indexOf("?") < 0 ? "?" : "&") + `access_token=${encodeURIComponent(r)}`);
+        n && (e += (e.indexOf("?") < 0 ? "?" : "&") + `access_token=${encodeURIComponent(n)}`);
       l || (l = new this._webSocketConstructor(e)), o === E.Binary && (l.binaryType = "arraybuffer"), l.onopen = (h) => {
         this._logger.log(a.Information, `WebSocket connected to ${e}.`), this._webSocket = l, d = !0, i();
       }, l.onerror = (h) => {
@@ -2353,7 +2353,7 @@ class Xt {
     return e && typeof e.wasClean == "boolean" && typeof e.code == "number";
   }
 }
-const Re = 100;
+const je = 100;
 class Jt {
   constructor(e, o = {}) {
     if (this._stopPromiseResolver = () => {
@@ -2362,12 +2362,12 @@ class Jt {
     else
       throw new Error("withCredentials option was not a 'boolean' or 'undefined' value");
     o.timeout = o.timeout === void 0 ? 100 * 1e3 : o.timeout;
-    let r = null, i = null;
+    let n = null, i = null;
     if (w.isNode && typeof require < "u") {
       const s = typeof __webpack_require__ == "function" ? __non_webpack_require__ : require;
-      r = s("ws"), i = s("eventsource");
+      n = s("ws"), i = s("eventsource");
     }
-    !w.isNode && typeof WebSocket < "u" && !o.WebSocket ? o.WebSocket = WebSocket : w.isNode && !o.WebSocket && r && (o.WebSocket = r), !w.isNode && typeof EventSource < "u" && !o.EventSource ? o.EventSource = EventSource : w.isNode && !o.EventSource && typeof i < "u" && (o.EventSource = i), this._httpClient = new qt(o.httpClient || new Vt(this._logger), o.accessTokenFactory), this._connectionState = "Disconnected", this._connectionStarted = !1, this._options = o, this.onreceive = null, this.onclose = null;
+    !w.isNode && typeof WebSocket < "u" && !o.WebSocket ? o.WebSocket = WebSocket : w.isNode && !o.WebSocket && n && (o.WebSocket = n), !w.isNode && typeof EventSource < "u" && !o.EventSource ? o.EventSource = EventSource : w.isNode && !o.EventSource && typeof i < "u" && (o.EventSource = i), this._httpClient = new qt(o.httpClient || new Vt(this._logger), o.accessTokenFactory), this._connectionState = "Disconnected", this._connectionStarted = !1, this._options = o, this.onreceive = null, this.onclose = null;
   }
   async start(e) {
     if (e = e || E.Binary, x.isIn(e, E, "transferFormat"), this._logger.log(a.Debug, `Starting connection with transfer format '${E[e]}'.`), this._connectionState !== "Disconnected")
@@ -2419,32 +2419,32 @@ class Jt {
         else
           throw new Error("Negotiation can only be skipped when using the WebSocket transport directly.");
       else {
-        let r = null, i = 0;
+        let n = null, i = 0;
         do {
-          if (r = await this._getNegotiationResponse(o), this._connectionState === "Disconnecting" || this._connectionState === "Disconnected")
+          if (n = await this._getNegotiationResponse(o), this._connectionState === "Disconnecting" || this._connectionState === "Disconnected")
             throw new A("The connection was stopped during negotiation.");
-          if (r.error)
-            throw new Error(r.error);
-          if (r.ProtocolVersion)
+          if (n.error)
+            throw new Error(n.error);
+          if (n.ProtocolVersion)
             throw new Error("Detected a connection attempt to an ASP.NET SignalR Server. This client only supports connecting to an ASP.NET Core SignalR Server. See https://aka.ms/signalr-core-differences for details.");
-          if (r.url && (o = r.url), r.accessToken) {
-            const s = r.accessToken;
+          if (n.url && (o = n.url), n.accessToken) {
+            const s = n.accessToken;
             this._accessTokenFactory = () => s, this._httpClient._accessToken = s, this._httpClient._accessTokenFactory = void 0;
           }
           i++;
-        } while (r.url && i < Re);
-        if (i === Re && r.url)
+        } while (n.url && i < je);
+        if (i === je && n.url)
           throw new Error("Negotiate redirection limit exceeded.");
-        await this._createTransport(o, this._options.transport, r, e);
+        await this._createTransport(o, this._options.transport, n, e);
       }
       this.transport instanceof De && (this.features.inherentKeepAlive = !0), this._connectionState === "Connecting" && (this._logger.log(a.Debug, "The HttpConnection connected successfully."), this._connectionState = "Connected");
-    } catch (r) {
-      return this._logger.log(a.Error, "Failed to start the connection: " + r), this._connectionState = "Disconnected", this.transport = void 0, this._stopPromiseResolver(), Promise.reject(r);
+    } catch (n) {
+      return this._logger.log(a.Error, "Failed to start the connection: " + n), this._connectionState = "Disconnected", this.transport = void 0, this._stopPromiseResolver(), Promise.reject(n);
     }
   }
   async _getNegotiationResponse(e) {
-    const o = {}, [r, i] = W();
-    o[r] = i;
+    const o = {}, [n, i] = W();
+    o[n] = i;
     const s = this._resolveNegotiateUrl(e);
     this._logger.log(a.Debug, `Sending negotiation request: ${s}.`);
     try {
@@ -2460,20 +2460,20 @@ class Jt {
       return (!c.negotiateVersion || c.negotiateVersion < 1) && (c.connectionToken = c.connectionId), c.useStatefulReconnect && this._options._useStatefulReconnect !== !0 ? Promise.reject(new Ae("Client didn't negotiate Stateful Reconnect but the server did.")) : c;
     } catch (l) {
       let c = "Failed to complete negotiation with the server: " + l;
-      return l instanceof R && l.statusCode === 404 && (c = c + " Either this is not a SignalR endpoint or there is a proxy blocking the connection."), this._logger.log(a.Error, c), Promise.reject(new Ae(c));
+      return l instanceof j && l.statusCode === 404 && (c = c + " Either this is not a SignalR endpoint or there is a proxy blocking the connection."), this._logger.log(a.Error, c), Promise.reject(new Ae(c));
     }
   }
   _createConnectUrl(e, o) {
     return o ? e + (e.indexOf("?") === -1 ? "?" : "&") + `id=${o}` : e;
   }
-  async _createTransport(e, o, r, i) {
-    let s = this._createConnectUrl(e, r.connectionToken);
+  async _createTransport(e, o, n, i) {
+    let s = this._createConnectUrl(e, n.connectionToken);
     if (this._isITransport(o)) {
-      this._logger.log(a.Debug, "Connection was provided an instance of ITransport, using that directly."), this.transport = o, await this._startTransport(s, i), this.connectionId = r.connectionId;
+      this._logger.log(a.Debug, "Connection was provided an instance of ITransport, using that directly."), this.transport = o, await this._startTransport(s, i), this.connectionId = n.connectionId;
       return;
     }
-    const l = [], c = r.availableTransports || [];
-    let d = r;
+    const l = [], c = n.availableTransports || [];
+    let d = n;
     for (const h of c) {
       const f = this._resolveTransportOrError(h, o, i, d?.useStatefulReconnect === !0);
       if (f instanceof Error)
@@ -2482,18 +2482,18 @@ class Jt {
         if (this.transport = f, !d) {
           try {
             d = await this._getNegotiationResponse(e);
-          } catch (C) {
-            return Promise.reject(C);
+          } catch (m) {
+            return Promise.reject(m);
           }
           s = this._createConnectUrl(e, d.connectionToken);
         }
         try {
           await this._startTransport(s, i), this.connectionId = d.connectionId;
           return;
-        } catch (C) {
-          if (this._logger.log(a.Error, `Failed to start the transport '${h.transport}': ${C}`), d = void 0, l.push(new St(`${h.transport} failed: ${C}`, S[h.transport])), this._connectionState !== "Connecting") {
-            const v = "Failed to select transport before stop() was called.";
-            return this._logger.log(a.Debug, v), Promise.reject(new A(v));
+        } catch (m) {
+          if (this._logger.log(a.Error, `Failed to start the transport '${h.transport}': ${m}`), d = void 0, l.push(new St(`${h.transport} failed: ${m}`, S[h.transport])), this._connectionState !== "Connecting") {
+            const y = "Failed to select transport before stop() was called.";
+            return this._logger.log(a.Debug, y), Promise.reject(new A(y));
           }
         }
       }
@@ -2517,7 +2517,7 @@ class Jt {
     }
   }
   _startTransport(e, o) {
-    return this.transport.onreceive = this.onreceive, this.features.reconnect ? this.transport.onclose = async (r) => {
+    return this.transport.onreceive = this.onreceive, this.features.reconnect ? this.transport.onclose = async (n) => {
       let i = !1;
       if (this.features.reconnect)
         try {
@@ -2526,18 +2526,18 @@ class Jt {
           i = !0;
         }
       else {
-        this._stopConnection(r);
+        this._stopConnection(n);
         return;
       }
-      i && this._stopConnection(r);
-    } : this.transport.onclose = (r) => this._stopConnection(r), this.transport.connect(e, o);
+      i && this._stopConnection(n);
+    } : this.transport.onclose = (n) => this._stopConnection(n), this.transport.connect(e, o);
   }
-  _resolveTransportOrError(e, o, r, i) {
+  _resolveTransportOrError(e, o, n, i) {
     const s = S[e.transport];
     if (s == null)
       return this._logger.log(a.Debug, `Skipping transport '${e.transport}' because it is not supported by this client.`), new Error(`Skipping transport '${e.transport}' because it is not supported by this client.`);
     if (Gt(o, s))
-      if (e.transferFormats.map((c) => E[c]).indexOf(r) >= 0) {
+      if (e.transferFormats.map((c) => E[c]).indexOf(n) >= 0) {
         if (s === S.WebSockets && !this._options.WebSocket || s === S.ServerSentEvents && !this._options.EventSource)
           return this._logger.log(a.Debug, `Skipping transport '${S[s]}' because it is not supported in your environment.'`), new kt(`'${S[s]}' is not supported in your environment.`, s);
         this._logger.log(a.Debug, `Selecting transport '${S[s]}'.`);
@@ -2547,7 +2547,7 @@ class Jt {
           return c;
         }
       } else
-        return this._logger.log(a.Debug, `Skipping transport '${S[s]}' because it does not support the requested transfer format '${E[r]}'.`), new Error(`'${S[s]}' does not support ${E[r]}.`);
+        return this._logger.log(a.Debug, `Skipping transport '${S[s]}' because it does not support the requested transfer format '${E[n]}'.`), new Error(`'${S[s]}' does not support ${E[n]}.`);
     else
       return this._logger.log(a.Debug, `Skipping transport '${S[s]}' because it was disabled by the client.`), new wt(`'${S[s]}' is disabled by the client.`, s);
   }
@@ -2583,8 +2583,8 @@ class Jt {
   _resolveNegotiateUrl(e) {
     const o = new URL(e);
     o.pathname.endsWith("/") ? o.pathname += "negotiate" : o.pathname += "/negotiate";
-    const r = new URLSearchParams(o.searchParams);
-    return r.has("negotiateVersion") || r.append("negotiateVersion", this._negotiateVersion.toString()), r.has("useStatefulReconnect") ? r.get("useStatefulReconnect") === "true" && (this._options._useStatefulReconnect = !0) : this._options._useStatefulReconnect === !0 && r.append("useStatefulReconnect", "true"), o.search = r.toString(), o.toString();
+    const n = new URLSearchParams(o.searchParams);
+    return n.has("negotiateVersion") || n.append("negotiateVersion", this._negotiateVersion.toString()), n.has("useStatefulReconnect") ? n.get("useStatefulReconnect") === "true" && (this._options._useStatefulReconnect = !0) : this._options._useStatefulReconnect === !0 && n.append("useStatefulReconnect", "true"), o.search = n.toString(), o.toString();
   }
 }
 function Gt(t, e) {
@@ -2618,17 +2618,17 @@ class ie {
       this._buffer.length = 0;
       try {
         await this._transport.send(o), e.resolve();
-      } catch (r) {
-        e.reject(r);
+      } catch (n) {
+        e.reject(n);
       }
     }
   }
   static _concatBuffers(e) {
-    const o = e.map((s) => s.byteLength).reduce((s, l) => s + l), r = new Uint8Array(o);
+    const o = e.map((s) => s.byteLength).reduce((s, l) => s + l), n = new Uint8Array(o);
     let i = 0;
     for (const s of e)
-      r.set(new Uint8Array(s), i), i += s.byteLength;
-    return r.buffer;
+      n.set(new Uint8Array(s), i), i += s.byteLength;
+    return n.buffer;
   }
 }
 class Z {
@@ -2642,10 +2642,10 @@ class Z {
     this._rejecter(e);
   }
 }
-const Yt = "json";
-class Qt {
+const Qt = "json";
+class Yt {
   constructor() {
-    this.name = Yt, this.version = 2, this.transferFormat = E.Text;
+    this.name = Qt, this.version = 2, this.transferFormat = E.Text;
   }
   /** Creates an array of {@link @microsoft/signalr.HubMessage} objects from the specified serialized representation.
    *
@@ -2658,8 +2658,8 @@ class Qt {
     if (!e)
       return [];
     o === null && (o = F.instance);
-    const r = I.parse(e), i = [];
-    for (const s of r) {
+    const n = I.parse(e), i = [];
+    for (const s of n) {
       const l = JSON.parse(s);
       if (typeof l.type != "number")
         throw new Error("Invalid payload.");
@@ -2800,27 +2800,27 @@ class oo {
     if (e.logger === void 0 && (e.logger = this.logger), !this.url)
       throw new Error("The 'HubConnectionBuilder.withUrl' method must be called before building the connection.");
     const o = new Jt(this.url, e);
-    return ne.create(o, this.logger || F.instance, this.protocol || new Qt(), this.reconnectPolicy, this._serverTimeoutInMilliseconds, this._keepAliveIntervalInMilliseconds, this._statefulReconnectBufferSize);
+    return ne.create(o, this.logger || F.instance, this.protocol || new Yt(), this.reconnectPolicy, this._serverTimeoutInMilliseconds, this._keepAliveIntervalInMilliseconds, this._statefulReconnectBufferSize);
   }
 }
 function ro(t) {
   return t.log !== void 0;
 }
-var oe, je;
+var oe, Re;
 function no() {
-  return je || (je = 1, oe = mslxRequest), oe;
+  return Re || (Re = 1, oe = mslxRequest), oe;
 }
 var io = no();
-const L = /* @__PURE__ */ Je(io), B = "/api/plugins/mslx-plugin-stun/tunnels", so = () => L.get({ url: `${B}/list` }), lo = (t) => L.post({ url: `${B}/create`, data: t }), ao = (t) => L.post({ url: `${B}/update`, data: t }), co = (t) => L.post({ url: `${B}/delete?id=${t}` }), uo = (t) => L.post({ url: `${B}/start?id=${t}` }), ho = (t) => L.post({ url: `${B}/stop?id=${t}` }), fo = /* @__PURE__ */ n.defineComponent({
+const B = /* @__PURE__ */ Je(io), L = "/api/plugins/mslx-plugin-stun/tunnels", so = () => B.get({ url: `${L}/list` }), lo = (t) => B.post({ url: `${L}/create`, data: t }), ao = (t) => B.post({ url: `${L}/update`, data: t }), co = (t) => B.post({ url: `${L}/delete?id=${t}` }), uo = (t) => B.post({ url: `${L}/start?id=${t}` }), ho = (t) => B.post({ url: `${L}/stop?id=${t}` }), fo = /* @__PURE__ */ r.defineComponent({
   __name: "STUNPage",
   setup(t) {
-    const o = window.MSLX_Stores?.getUserStore?.(), r = n.ref(!0), i = n.ref(!1), s = n.ref([]), l = n.ref(/* @__PURE__ */ new Set()), c = n.ref(!1), d = n.ref(!1), h = n.ref({
+    const o = window.MSLX_Stores?.getUserStore?.(), n = r.ref(!0), i = r.ref(!1), s = r.ref([]), l = r.ref(/* @__PURE__ */ new Set()), c = r.ref(!1), d = r.ref(!1), h = r.ref({
       name: "我的 STUN 隧道",
       localIp: "127.0.0.1",
       localPort: 25565,
       enableProxyProtocolV2: !1,
       maxConnections: 128
-    }), f = n.ref(!1), C = n.ref(null), v = n.ref([]), y = n.ref(null), u = n.ref(null);
+    }), f = r.ref(!1), m = r.ref(null), y = r.ref([]), C = r.ref(null), u = r.ref(null);
     let g = null;
     const G = (_) => {
       if (!_) return "0 B";
@@ -2830,8 +2830,8 @@ const L = /* @__PURE__ */ Je(io), B = "/api/plugins/mslx-plugin-stun/tunnels", s
       const P = b / 1024;
       return P < 1024 ? `${P.toFixed(2)} MB` : `${(P / 1024).toFixed(2)} GB`;
     }, We = async () => {
-      await n.nextTick(), u.value && (u.value.scrollTop = u.value.scrollHeight);
-    }, Le = async (_) => {
+      await r.nextTick(), u.value && (u.value.scrollTop = u.value.scrollHeight);
+    }, Be = async (_) => {
       if (!(!_ || _ === "未分配"))
         try {
           await navigator.clipboard.writeText(_), T.MessagePlugin.success("公网地址已复制");
@@ -2840,13 +2840,13 @@ const L = /* @__PURE__ */ Je(io), B = "/api/plugins/mslx-plugin-stun/tunnels", s
         }
     }, M = async () => {
       try {
-        r.value = !0, i.value = !1;
+        n.value = !0, i.value = !1;
         const _ = await so();
         _?.code === 200 && Array.isArray(_?.data) ? s.value = _.data : _?.data?.code === 200 && Array.isArray(_?.data?.data) ? s.value = _.data.data : Array.isArray(_) ? s.value = _ : s.value = [];
       } catch (_) {
         console.error(_), i.value = !0, T.MessagePlugin.error(`拉取隧道列表失败: ${_.message}`);
       } finally {
-        r.value = !1;
+        n.value = !1;
       }
     }, se = () => {
       d.value = !1, h.value = {
@@ -2856,7 +2856,7 @@ const L = /* @__PURE__ */ Je(io), B = "/api/plugins/mslx-plugin-stun/tunnels", s
         enableProxyProtocolV2: !1,
         maxConnections: 128
       }, c.value = !0;
-    }, Be = (_) => {
+    }, Le = (_) => {
       d.value = !0, h.value = { ..._ }, c.value = !0;
     }, He = async () => {
       try {
@@ -2892,244 +2892,244 @@ const L = /* @__PURE__ */ Je(io), B = "/api/plugins/mslx-plugin-stun/tunnels", s
         }
       });
     }, Fe = async (_) => {
-      C.value = _, v.value = [], y.value = null, f.value = !0;
+      m.value = _, y.value = [], C.value = null, f.value = !0;
       try {
         const { baseUrl: b, token: P } = o || {}, $ = new URL("/api/hubs/plugins/mslx-plugin-stun/stun", b || window.location.origin);
         P && $.searchParams.append("x-user-token", P), g = new oo().withUrl($.href, {
           skipNegotiation: !0,
           transport: S.WebSockets
         }).withAutomaticReconnect().build(), g.on("ReceiveLog", (H) => {
-          v.value.push(H), v.value.length > 500 && v.value.shift(), We();
+          y.value.push(H), y.value.length > 500 && y.value.shift(), We();
         }), g.on("ReceiveStats", (H) => {
-          y.value = H;
-        }), await g.start(), await g.invoke("JoinGroup", _.id), v.value.push(`// MSLX 控制台：成功连接到隧道 [${_.name}] 日志流...`);
+          C.value = H;
+        }), await g.start(), await g.invoke("JoinGroup", _.id), y.value.push(`// MSLX 控制台：成功连接到隧道 [${_.name}] 日志流...`);
       } catch (b) {
-        v.value.push(`// 连接控制台失败: ${b}`);
+        y.value.push(`// 连接控制台失败: ${b}`);
       }
     }, qe = async () => {
-      if (g && C.value)
+      if (g && m.value)
         try {
-          await g.invoke("LeaveGroup", C.value.id), await g.stop();
+          await g.invoke("LeaveGroup", m.value.id), await g.stop();
         } catch (_) {
           console.error("关闭 SignalR 失败", _);
         }
-      g = null, C.value = null, f.value = !1;
+      g = null, m.value = null, f.value = !1;
     };
-    return n.onMounted(() => {
+    return r.onMounted(() => {
       M();
-    }), n.onBeforeUnmount(() => {
+    }), r.onBeforeUnmount(() => {
       g && g.stop();
     }), (_, b) => {
-      const P = n.resolveComponent("t-tag"), $ = n.resolveComponent("t-button"), H = n.resolveComponent("t-loading"), le = n.resolveComponent("t-input"), U = n.resolveComponent("t-form-item"), ae = n.resolveComponent("t-input-number"), Ke = n.resolveComponent("t-switch"), Ze = n.resolveComponent("t-popup"), Xe = n.resolveComponent("t-form"), ce = n.resolveComponent("t-dialog");
-      return n.openBlock(), n.createElementBlock("div", { class: "mx-auto flex flex-col gap-6 text-[var(--td-text-color-primary)] pb-5" }, [
-        n.createElementVNode("div", { class: "design-card flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-5 bg-[var(--td-bg-color-container)] rounded-2xl border border-[var(--td-component-border)] shadow-sm text-left" }, [
-          n.createElementVNode("div", { class: "flex flex-col gap-1 items-start" }, [
-            n.createElementVNode("h2", { class: "text-lg font-bold tracking-tight text-[var(--td-text-color-primary)] m-0 flex items-center gap-2" }, [
-              n.createTextVNode(" STUN 隧道管理 "),
-              n.createVNode(P, {
+      const P = r.resolveComponent("t-tag"), $ = r.resolveComponent("t-button"), H = r.resolveComponent("t-loading"), le = r.resolveComponent("t-input"), U = r.resolveComponent("t-form-item"), ae = r.resolveComponent("t-input-number"), Ke = r.resolveComponent("t-switch"), Ze = r.resolveComponent("t-popup"), Xe = r.resolveComponent("t-form"), ce = r.resolveComponent("t-dialog");
+      return r.openBlock(), r.createElementBlock("div", { class: "mx-auto flex flex-col gap-6 text-[var(--td-text-color-primary)] pb-5" }, [
+        r.createElementVNode("div", { class: "design-card flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-5 bg-[var(--td-bg-color-container)] rounded-2xl border border-[var(--td-component-border)] shadow-sm text-left" }, [
+          r.createElementVNode("div", { class: "flex flex-col gap-1 items-start" }, [
+            r.createElementVNode("h2", { class: "text-lg font-bold tracking-tight text-[var(--td-text-color-primary)] m-0 flex items-center gap-2" }, [
+              r.createTextVNode(" STUN 隧道管理 "),
+              r.createVNode(P, {
                 theme: "success",
                 variant: "light-outline",
                 size: "small",
                 shape: "round"
               }, {
-                default: n.withCtx(() => [
-                  n.createTextVNode("NAT1 穿透")
+                default: r.withCtx(() => [
+                  r.createTextVNode("NAT1 穿透")
                 ]),
                 _: 1
               })
             ]),
-            n.createElementVNode("p", { class: "text-sm text-[var(--td-text-color-secondary)] m-0" }, " 利用 STUN 技术，在 NAT1 环境下获取公网端口，支持多开与流量监控。 ")
+            r.createElementVNode("p", { class: "text-sm text-[var(--td-text-color-secondary)] m-0" }, " 利用 STUN 技术，在 NAT1 环境下获取公网端口，支持多开与流量监控。 ")
           ]),
-          n.createElementVNode("div", { class: "flex items-center gap-2 sm:gap-3 flex-wrap" }, [
-            n.createVNode($, {
+          r.createElementVNode("div", { class: "flex items-center gap-2 sm:gap-3 flex-wrap" }, [
+            r.createVNode($, {
               variant: "dashed",
               onClick: M,
-              loading: r.value
+              loading: n.value
             }, {
-              icon: n.withCtx(() => [
-                n.createVNode(n.unref(mt))
+              icon: r.withCtx(() => [
+                r.createVNode(r.unref(mt))
               ]),
-              default: n.withCtx(() => [
-                n.createTextVNode(" 刷新 ")
+              default: r.withCtx(() => [
+                r.createTextVNode(" 刷新 ")
               ]),
               _: 1
             }, 8, ["loading"]),
-            n.createVNode($, {
+            r.createVNode($, {
               theme: "primary",
               onClick: se
             }, {
-              icon: n.withCtx(() => [
-                n.createVNode(n.unref(it))
+              icon: r.withCtx(() => [
+                r.createVNode(r.unref(it))
               ]),
-              default: n.withCtx(() => [
-                n.createTextVNode(" 创建隧道 ")
+              default: r.withCtx(() => [
+                r.createTextVNode(" 创建隧道 ")
               ]),
               _: 1
             })
           ])
         ]),
-        n.createElementVNode("div", { class: "relative min-h-[400px]" }, [
-          r.value && s.value.length === 0 ? (n.openBlock(), n.createElementBlock("div", {
+        r.createElementVNode("div", { class: "relative min-h-[400px]" }, [
+          n.value && s.value.length === 0 ? (r.openBlock(), r.createElementBlock("div", {
             key: 0,
             class: "flex flex-col items-center justify-center py-24"
           }, [
-            n.createVNode(H, {
+            r.createVNode(H, {
               size: "medium",
               text: "正在获取隧道信息..."
             })
-          ])) : i.value ? (n.openBlock(), n.createElementBlock("div", {
+          ])) : i.value ? (r.openBlock(), r.createElementBlock("div", {
             key: 1,
             class: "flex flex-col items-center justify-center py-16 design-card rounded-2xl border border-[var(--td-error-color)]"
           }, [
-            n.createElementVNode("div", { class: "text-[var(--td-error-color)] font-bold mb-3" }, "数据获取失败"),
-            n.createElementVNode("p", { class: "text-sm text-[var(--td-text-color-secondary)] mb-4" }, "无法连接到服务器，请检查网络"),
-            n.createVNode($, {
+            r.createElementVNode("div", { class: "text-[var(--td-error-color)] font-bold mb-3" }, "数据获取失败"),
+            r.createElementVNode("p", { class: "text-sm text-[var(--td-text-color-secondary)] mb-4" }, "无法连接到服务器，请检查网络"),
+            r.createVNode($, {
               theme: "primary",
               onClick: M
             }, {
-              default: n.withCtx(() => [
-                n.createTextVNode("重试")
+              default: r.withCtx(() => [
+                r.createTextVNode("重试")
               ]),
               _: 1
             })
-          ])) : s.value.length === 0 ? (n.openBlock(), n.createElementBlock("div", {
+          ])) : s.value.length === 0 ? (r.openBlock(), r.createElementBlock("div", {
             key: 2,
             class: "flex flex-col items-center justify-center py-24 design-card bg-[var(--td-bg-color-container)] rounded-2xl border-2 border-dashed border-[var(--td-component-border)]"
           }, [
-            n.createElementVNode("div", { class: "text-[var(--td-text-color-primary)] font-bold mb-2" }, "暂无隧道"),
-            n.createElementVNode("p", { class: "text-sm text-[var(--td-text-color-secondary)] mb-4" }, "当前配置列表为空，快去创建一个吧"),
-            n.createVNode($, {
+            r.createElementVNode("div", { class: "text-[var(--td-text-color-primary)] font-bold mb-2" }, "暂无隧道"),
+            r.createElementVNode("p", { class: "text-sm text-[var(--td-text-color-secondary)] mb-4" }, "当前配置列表为空，快去创建一个吧"),
+            r.createVNode($, {
               theme: "primary",
               onClick: se
             }, {
-              default: n.withCtx(() => [
-                n.createTextVNode("立即创建")
+              default: r.withCtx(() => [
+                r.createTextVNode("立即创建")
               ]),
               _: 1
             })
-          ])) : (n.openBlock(), n.createElementBlock("div", {
+          ])) : (r.openBlock(), r.createElementBlock("div", {
             key: 3,
             class: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4"
           }, [
-            (n.openBlock(!0), n.createElementBlock(n.Fragment, null, n.renderList(s.value, (m, Y) => (n.openBlock(), n.createElementBlock("div", {
-              key: m.config.id,
-              style: n.normalizeStyle({ animationDelay: `${Y * 0.05}s` }),
+            (r.openBlock(!0), r.createElementBlock(r.Fragment, null, r.renderList(s.value, (v, Q) => (r.openBlock(), r.createElementBlock("div", {
+              key: v.config.id,
+              style: r.normalizeStyle({ animationDelay: `${Q * 0.05}s` }),
               class: "list-item-anim design-card group flex flex-col bg-[var(--td-bg-color-container)] rounded-2xl border border-[var(--td-component-border)] shadow-sm hover:shadow-md hover:border-[var(--color-primary)] transition-all duration-300 p-5 gap-5"
             }, [
-              n.createElementVNode("div", { class: "flex items-center justify-between gap-3" }, [
-                n.createElementVNode("div", { class: "flex items-center gap-2.5 min-w-0" }, [
-                  n.createElementVNode("div", { class: "relative flex items-center justify-center shrink-0" }, [
-                    m.stats?.isRunning ? (n.openBlock(), n.createElementBlock("span", {
+              r.createElementVNode("div", { class: "flex items-center justify-between gap-3" }, [
+                r.createElementVNode("div", { class: "flex items-center gap-2.5 min-w-0" }, [
+                  r.createElementVNode("div", { class: "relative flex items-center justify-center shrink-0" }, [
+                    v.stats?.isRunning ? (r.openBlock(), r.createElementBlock("span", {
                       key: 0,
                       class: "absolute w-2.5 h-2.5 bg-[#34c759] rounded-full animate-ping"
-                    })) : n.createCommentVNode("", !0),
-                    n.createElementVNode("span", {
-                      class: n.normalizeClass([m.stats?.isRunning ? "bg-[#34c759]" : "bg-[var(--td-text-color-placeholder)]", "relative w-2 h-2 rounded-full"])
+                    })) : r.createCommentVNode("", !0),
+                    r.createElementVNode("span", {
+                      class: r.normalizeClass([v.stats?.isRunning ? "bg-[#34c759]" : "bg-[var(--td-text-color-placeholder)]", "relative w-2 h-2 rounded-full"])
                     }, null, 2)
                   ]),
-                  n.createElementVNode("h4", { class: "text-base font-bold text-[var(--td-text-color-primary)] truncate tracking-tight" }, n.toDisplayString(m.config.name), 1)
+                  r.createElementVNode("h4", { class: "text-base font-bold text-[var(--td-text-color-primary)] truncate tracking-tight" }, r.toDisplayString(v.config.name), 1)
                 ]),
-                n.createElementVNode("div", { class: "flex items-center gap-1 shrink-0" }, [
-                  n.createVNode($, {
+                r.createElementVNode("div", { class: "flex items-center gap-1 shrink-0" }, [
+                  r.createVNode($, {
                     shape: "circle",
                     variant: "text",
                     size: "small",
-                    onClick: (K) => Be(m.config)
+                    onClick: (K) => Le(v.config)
                   }, {
-                    icon: n.withCtx(() => [
-                      n.createVNode(n.unref(ct), { size: "16" })
+                    icon: r.withCtx(() => [
+                      r.createVNode(r.unref(ct), { size: "16" })
                     ]),
                     _: 1
                   }, 8, ["onClick"]),
-                  n.createVNode($, {
+                  r.createVNode($, {
                     shape: "circle",
                     theme: "danger",
                     variant: "text",
                     size: "small",
-                    onClick: n.withModifiers((K) => ze(m.config.id), ["stop"])
+                    onClick: r.withModifiers((K) => ze(v.config.id), ["stop"])
                   }, {
-                    icon: n.withCtx(() => [
-                      n.createVNode(n.unref(lt), { size: "16" })
+                    icon: r.withCtx(() => [
+                      r.createVNode(r.unref(lt), { size: "16" })
                     ]),
                     _: 1
                   }, 8, ["onClick"])
                 ])
               ]),
-              n.createElementVNode("div", { class: "flex flex-col gap-3 text-sm flex-grow" }, [
-                n.createElementVNode("div", { class: "flex flex-col gap-1" }, [
-                  n.createElementVNode("span", { class: "text-[10px] text-[var(--td-text-color-secondary)] uppercase tracking-widest font-black" }, "本地目标映射"),
-                  n.createElementVNode("span", { class: "font-mono text-[var(--td-text-color-primary)] font-bold bg-[var(--td-bg-color-secondarycontainer)] px-2 py-1 rounded inline-block w-fit" }, n.toDisplayString(m.config.localIp) + ":" + n.toDisplayString(m.config.localPort), 1)
+              r.createElementVNode("div", { class: "flex flex-col gap-3 text-sm flex-grow" }, [
+                r.createElementVNode("div", { class: "flex flex-col gap-1" }, [
+                  r.createElementVNode("span", { class: "text-[10px] text-[var(--td-text-color-secondary)] uppercase tracking-widest font-black" }, "本地目标映射"),
+                  r.createElementVNode("span", { class: "font-mono text-[var(--td-text-color-primary)] font-bold bg-[var(--td-bg-color-secondarycontainer)] px-2 py-1 rounded inline-block w-fit" }, r.toDisplayString(v.config.localIp) + ":" + r.toDisplayString(v.config.localPort), 1)
                 ]),
-                n.createElementVNode("div", { class: "flex flex-col gap-1" }, [
-                  n.createElementVNode("span", { class: "text-[10px] text-[var(--td-text-color-secondary)] uppercase tracking-widest font-black" }, "公网访问地址"),
-                  n.createElementVNode("div", {
-                    class: n.normalizeClass(["flex items-center gap-2 font-mono font-bold", m.stats?.isRunning ? "text-[var(--color-primary)] cursor-pointer" : "text-[var(--td-text-color-placeholder)]"]),
-                    onClick: (K) => Le(m.stats?.outerAddress),
+                r.createElementVNode("div", { class: "flex flex-col gap-1" }, [
+                  r.createElementVNode("span", { class: "text-[10px] text-[var(--td-text-color-secondary)] uppercase tracking-widest font-black" }, "公网访问地址"),
+                  r.createElementVNode("div", {
+                    class: r.normalizeClass(["flex items-center gap-2 font-mono font-bold", v.stats?.isRunning ? "text-[var(--color-primary)] cursor-pointer" : "text-[var(--td-text-color-placeholder)]"]),
+                    onClick: (K) => Be(v.stats?.outerAddress),
                     title: "点击复制地址"
                   }, [
-                    n.createTextVNode(n.toDisplayString(m.stats?.outerAddress || "隧道未启动") + " ", 1),
-                    m.stats?.isRunning ? (n.openBlock(), n.createBlock(n.unref(dt), {
+                    r.createTextVNode(r.toDisplayString(v.stats?.outerAddress || "隧道未启动") + " ", 1),
+                    v.stats?.isRunning ? (r.openBlock(), r.createBlock(r.unref(dt), {
                       key: 0,
                       size: "14px",
                       class: "opacity-70 hover:opacity-100"
-                    })) : n.createCommentVNode("", !0)
+                    })) : r.createCommentVNode("", !0)
                   ], 10, ["onClick"])
                 ]),
-                n.createElementVNode("div", { class: "flex items-center gap-2 mt-2" }, [
-                  m.config.enableProxyProtocolV2 ? (n.openBlock(), n.createBlock(P, {
+                r.createElementVNode("div", { class: "flex items-center gap-2 mt-2" }, [
+                  v.config.enableProxyProtocolV2 ? (r.openBlock(), r.createBlock(P, {
                     key: 0,
                     theme: "warning",
                     variant: "light-outline",
                     size: "small",
                     class: "!text-[10px] font-black italic tracking-tighter"
                   }, {
-                    default: n.withCtx(() => [
-                      n.createTextVNode("PROXY V2")
+                    default: r.withCtx(() => [
+                      r.createTextVNode("Proxy Protocol V2")
                     ]),
                     _: 1
-                  })) : n.createCommentVNode("", !0),
-                  n.createVNode(P, {
+                  })) : r.createCommentVNode("", !0),
+                  r.createVNode(P, {
                     theme: "default",
                     variant: "light-outline",
                     size: "small",
                     class: "!text-[10px] font-black tracking-tighter"
                   }, {
-                    default: n.withCtx(() => [
-                      n.createTextVNode("最大连接数: " + n.toDisplayString(m.config.maxConnections), 1)
+                    default: r.withCtx(() => [
+                      r.createTextVNode("最大连接数: " + r.toDisplayString(v.config.maxConnections), 1)
                     ]),
                     _: 2
                   }, 1024)
                 ])
               ]),
-              n.createElementVNode("div", { class: "flex items-center justify-between pt-4 mt-auto border-t border-dashed border-[var(--td-border-level-2-color)] gap-3" }, [
-                n.createVNode($, {
+              r.createElementVNode("div", { class: "flex items-center justify-between pt-4 mt-auto border-t border-dashed border-[var(--td-border-level-2-color)] gap-3" }, [
+                r.createVNode($, {
                   class: "flex-1",
-                  theme: m.stats?.isRunning ? "danger" : "primary",
+                  theme: v.stats?.isRunning ? "danger" : "primary",
                   variant: "outline",
-                  loading: l.value.has(m.config.id),
-                  onClick: (K) => Ue(m)
-                }, n.createSlots({
-                  default: n.withCtx(() => [
-                    n.createTextVNode(" " + n.toDisplayString(m.stats?.isRunning ? "停止运行" : "启动隧道"), 1)
+                  loading: l.value.has(v.config.id),
+                  onClick: (K) => Ue(v)
+                }, r.createSlots({
+                  default: r.withCtx(() => [
+                    r.createTextVNode(" " + r.toDisplayString(v.stats?.isRunning ? "停止运行" : "启动隧道"), 1)
                   ]),
                   _: 2
                 }, [
-                  l.value.has(m.config.id) ? void 0 : {
+                  l.value.has(v.config.id) ? void 0 : {
                     name: "icon",
-                    fn: n.withCtx(() => [
-                      m.stats?.isRunning ? (n.openBlock(), n.createBlock(n.unref(vt), { key: 0 })) : (n.openBlock(), n.createBlock(n.unref(pt), { key: 1 }))
+                    fn: r.withCtx(() => [
+                      v.stats?.isRunning ? (r.openBlock(), r.createBlock(r.unref(Ct), { key: 0 })) : (r.openBlock(), r.createBlock(r.unref(pt), { key: 1 }))
                     ]),
                     key: "0"
                   }
                 ]), 1032, ["theme", "loading", "onClick"]),
-                n.createVNode($, {
+                r.createVNode($, {
                   theme: "default",
                   variant: "dashed",
-                  onClick: (K) => Fe(m.config),
+                  onClick: (K) => Fe(v.config),
                   class: "shrink-0 px-3"
                 }, {
-                  icon: n.withCtx(() => [
-                    n.createVNode(n.unref(bt))
+                  icon: r.withCtx(() => [
+                    r.createVNode(r.unref(bt))
                   ]),
                   _: 1
                 }, 8, ["onClick"])
@@ -3137,57 +3137,57 @@ const L = /* @__PURE__ */ Je(io), B = "/api/plugins/mslx-plugin-stun/tunnels", s
             ], 4))), 128))
           ]))
         ]),
-        n.createVNode(ce, {
+        r.createVNode(ce, {
           visible: c.value,
-          "onUpdate:visible": b[5] || (b[5] = (m) => c.value = m),
+          "onUpdate:visible": b[5] || (b[5] = (v) => c.value = v),
           header: d.value ? "编辑 STUN 隧道" : "新建 STUN 隧道",
           placement: "center",
           width: "480px",
           confirmBtn: d.value ? "保存修改" : "确认创建",
           onConfirm: He
         }, {
-          default: n.withCtx(() => [
-            n.createElementVNode("div", { class: "pt-4 pb-2" }, [
-              n.createVNode(Xe, {
+          default: r.withCtx(() => [
+            r.createElementVNode("div", { class: "pt-4 pb-2" }, [
+              r.createVNode(Xe, {
                 data: h.value,
                 "label-width": "110px",
                 "label-align": "left"
               }, {
-                default: n.withCtx(() => [
-                  n.createVNode(U, {
+                default: r.withCtx(() => [
+                  r.createVNode(U, {
                     label: "隧道名称",
                     name: "name"
                   }, {
-                    default: n.withCtx(() => [
-                      n.createVNode(le, {
+                    default: r.withCtx(() => [
+                      r.createVNode(le, {
                         modelValue: h.value.name,
-                        "onUpdate:modelValue": b[0] || (b[0] = (m) => h.value.name = m),
+                        "onUpdate:modelValue": b[0] || (b[0] = (v) => h.value.name = v),
                         placeholder: "例如: Minecraft 生存服"
                       }, null, 8, ["modelValue"])
                     ]),
                     _: 1
                   }),
-                  n.createVNode(U, {
+                  r.createVNode(U, {
                     label: "本地 IP",
                     name: "localIp"
                   }, {
-                    default: n.withCtx(() => [
-                      n.createVNode(le, {
+                    default: r.withCtx(() => [
+                      r.createVNode(le, {
                         modelValue: h.value.localIp,
-                        "onUpdate:modelValue": b[1] || (b[1] = (m) => h.value.localIp = m),
+                        "onUpdate:modelValue": b[1] || (b[1] = (v) => h.value.localIp = v),
                         placeholder: "例如: 127.0.0.1"
                       }, null, 8, ["modelValue"])
                     ]),
                     _: 1
                   }),
-                  n.createVNode(U, {
+                  r.createVNode(U, {
                     label: "本地端口",
                     name: "localPort"
                   }, {
-                    default: n.withCtx(() => [
-                      n.createVNode(ae, {
+                    default: r.withCtx(() => [
+                      r.createVNode(ae, {
                         modelValue: h.value.localPort,
-                        "onUpdate:modelValue": b[2] || (b[2] = (m) => h.value.localPort = m),
+                        "onUpdate:modelValue": b[2] || (b[2] = (v) => h.value.localPort = v),
                         min: 1,
                         max: 65535,
                         theme: "normal",
@@ -3196,14 +3196,14 @@ const L = /* @__PURE__ */ Je(io), B = "/api/plugins/mslx-plugin-stun/tunnels", s
                     ]),
                     _: 1
                   }),
-                  n.createVNode(U, {
+                  r.createVNode(U, {
                     label: "最大连接数",
                     name: "maxConnections"
                   }, {
-                    default: n.withCtx(() => [
-                      n.createVNode(ae, {
+                    default: r.withCtx(() => [
+                      r.createVNode(ae, {
                         modelValue: h.value.maxConnections,
-                        "onUpdate:modelValue": b[3] || (b[3] = (m) => h.value.maxConnections = m),
+                        "onUpdate:modelValue": b[3] || (b[3] = (v) => h.value.maxConnections = v),
                         min: 1,
                         max: 1024,
                         theme: "normal",
@@ -3212,26 +3212,26 @@ const L = /* @__PURE__ */ Je(io), B = "/api/plugins/mslx-plugin-stun/tunnels", s
                     ]),
                     _: 1
                   }),
-                  n.createVNode(U, {
+                  r.createVNode(U, {
                     label: "透传玩家IP",
                     name: "enableProxyProtocolV2"
                   }, {
-                    default: n.withCtx(() => [
-                      n.createElementVNode("div", { class: "flex items-center gap-2" }, [
-                        n.createVNode(Ke, {
+                    default: r.withCtx(() => [
+                      r.createElementVNode("div", { class: "flex items-center gap-2" }, [
+                        r.createVNode(Ke, {
                           modelValue: h.value.enableProxyProtocolV2,
-                          "onUpdate:modelValue": b[4] || (b[4] = (m) => h.value.enableProxyProtocolV2 = m)
+                          "onUpdate:modelValue": b[4] || (b[4] = (v) => h.value.enableProxyProtocolV2 = v)
                         }, null, 8, ["modelValue"]),
-                        n.createVNode(Ze, {
+                        r.createVNode(Ze, {
                           placement: "top",
                           content: "传递玩家真实IP。仅限后端服务端(如 Velocity / Paper / 插件或模组)支持并开启 Proxy Protocol 时使用，否则会导致玩家无法连接！"
                         }, {
-                          default: n.withCtx(() => [
-                            n.createVNode(n.unref(ft), { class: "text-[var(--td-text-color-placeholder)] cursor-help hover:text-[var(--td-brand-color)] transition-colors" })
+                          default: r.withCtx(() => [
+                            r.createVNode(r.unref(ft), { class: "text-[var(--td-text-color-placeholder)] cursor-help hover:text-[var(--td-brand-color)] transition-colors" })
                           ]),
                           _: 1
                         }),
-                        n.createTextVNode(" 请确认服务端支持，否则会无法连接游戏。 ")
+                        r.createTextVNode(" Proxy Protocol V2协议，请确认服务端支持，否则会无法连接游戏。 ")
                       ])
                     ]),
                     _: 1
@@ -3243,66 +3243,95 @@ const L = /* @__PURE__ */ Je(io), B = "/api/plugins/mslx-plugin-stun/tunnels", s
           ]),
           _: 1
         }, 8, ["visible", "header", "confirmBtn"]),
-        n.createVNode(ce, {
+        r.createVNode(ce, {
           visible: f.value,
-          "onUpdate:visible": b[6] || (b[6] = (m) => f.value = m),
-          header: `终端 - ${C.value?.name || "未知"}`,
+          "onUpdate:visible": b[6] || (b[6] = (v) => f.value = v),
+          header: `隧道监控 - ${m.value?.name || "未知"}`,
           placement: "center",
           width: "800px",
           footer: !1,
           onClose: qe
         }, {
-          default: n.withCtx(() => [
-            n.createElementVNode("div", { class: "flex flex-col h-[500px] mt-2" }, [
-              n.createElementVNode("div", { class: "grid grid-cols-4 gap-3 mb-4" }, [
-                n.createElementVNode("div", { class: "bg-[var(--td-bg-color-secondarycontainer)] p-3 rounded-xl border border-[var(--td-component-border)]" }, [
-                  n.createElementVNode("div", { class: "text-xs text-[var(--td-text-color-secondary)] mb-1 font-bold" }, "上行速度"),
-                  n.createElementVNode("div", { class: "font-mono font-bold text-[var(--color-primary)]" }, n.toDisplayString(y.value ? G(y.value.speedUpload) : "0 B") + "/s", 1)
+          default: r.withCtx(() => [
+            r.createElementVNode("div", { class: "flex flex-col h-[520px] mt-2 gap-4" }, [
+              r.createElementVNode("div", { class: "flex items-center justify-between px-4 py-2.5 bg-[var(--td-bg-color-secondarycontainer)] rounded-xl border border-[var(--td-component-border)] text-xs font-mono" }, [
+                r.createElementVNode("div", { class: "flex flex-col gap-0.5" }, [
+                  r.createElementVNode("span", { class: "text-[var(--td-text-color-secondary)] font-sans scale-95 origin-left" }, "本地目标"),
+                  r.createElementVNode("span", { class: "text-[var(--td-text-color-primary)] font-bold" }, r.toDisplayString(m.value?.localIp) + ":" + r.toDisplayString(m.value?.localPort), 1)
                 ]),
-                n.createElementVNode("div", { class: "bg-[var(--td-bg-color-secondarycontainer)] p-3 rounded-xl border border-[var(--td-component-border)]" }, [
-                  n.createElementVNode("div", { class: "text-xs text-[var(--td-text-color-secondary)] mb-1 font-bold" }, "下行速度"),
-                  n.createElementVNode("div", { class: "font-mono font-bold text-[var(--color-success)]" }, n.toDisplayString(y.value ? G(y.value.speedDownload) : "0 B") + "/s", 1)
+                r.createElementVNode("div", { class: "flex-grow flex items-center justify-center px-4 opacity-40" }, [
+                  r.createElementVNode("div", { class: "h-[1px] bg-[var(--td-text-color-placeholder)] flex-grow relative" }, [
+                    r.createElementVNode("div", { class: "absolute right-0 top-1/2 -translate-y-1/2 border-t-4 border-b-4 border-l-4 border-transparent border-l-[var(--td-text-color-placeholder)]" })
+                  ])
                 ]),
-                n.createElementVNode("div", { class: "bg-[var(--td-bg-color-secondarycontainer)] p-3 rounded-xl border border-[var(--td-component-border)]" }, [
-                  n.createElementVNode("div", { class: "text-xs text-[var(--td-text-color-secondary)] mb-1 font-bold" }, "活跃连接"),
-                  n.createElementVNode("div", { class: "font-mono font-bold text-[var(--color-warning)]" }, n.toDisplayString(y.value?.activeConnections || 0) + " / " + n.toDisplayString(C.value?.maxConnections || 128), 1)
-                ]),
-                n.createElementVNode("div", { class: "bg-[var(--td-bg-color-secondarycontainer)] p-3 rounded-xl border border-[var(--td-component-border)]" }, [
-                  n.createElementVNode("div", { class: "text-xs text-[var(--td-text-color-secondary)] mb-1 font-bold" }, "总流量"),
-                  n.createElementVNode("div", { class: "font-mono font-bold text-[var(--td-text-color-primary)]" }, n.toDisplayString(y.value ? G(y.value.totalUpload + y.value.totalDownload) : "0 B"), 1)
+                r.createElementVNode("div", { class: "flex flex-col gap-0.5 text-right" }, [
+                  r.createElementVNode("span", { class: "text-[var(--td-text-color-secondary)] font-sans scale-95 origin-right" }, "公网直连"),
+                  r.createElementVNode("span", { class: "font-bold text-[var(--color-primary)]" }, r.toDisplayString(C.value?.outerAddress || "分配中..."), 1)
                 ])
               ]),
-              n.createElementVNode("div", { class: "relative w-full flex-grow rounded-xl border border-[var(--td-component-border)] bg-[#1e1e1e] overflow-hidden shadow-inner flex flex-col" }, [
-                n.createElementVNode("div", { class: "flex items-center px-4 py-2.5 bg-[#2d2d2d] border-b border-[#404040]" }, [
-                  n.createElementVNode("div", { class: "flex gap-1.5" }, [
-                    n.createElementVNode("div", { class: "w-3 h-3 rounded-full bg-[#ff5f56]" }),
-                    n.createElementVNode("div", { class: "w-3 h-3 rounded-full bg-[#ffbd2e]" }),
-                    n.createElementVNode("div", { class: "w-3 h-3 rounded-full bg-[#27c93f]" })
+              r.createElementVNode("div", { class: "grid grid-cols-4 gap-3" }, [
+                r.createElementVNode("div", { class: "bg-[var(--td-bg-color-secondarycontainer)] p-3 rounded-xl border border-[var(--td-component-border)] flex flex-col justify-between" }, [
+                  r.createElementVNode("div", { class: "text-xs text-[var(--td-text-color-secondary)] font-bold mb-1" }, "上行速度"),
+                  r.createElementVNode("div", { class: "font-mono font-bold text-[var(--color-primary)] text-sm" }, r.toDisplayString(C.value ? G(C.value.speedUpload) : "0 B") + "/s ", 1)
+                ]),
+                r.createElementVNode("div", { class: "bg-[var(--td-bg-color-secondarycontainer)] p-3 rounded-xl border border-[var(--td-component-border)] flex flex-col justify-between" }, [
+                  r.createElementVNode("div", { class: "text-xs text-[var(--td-text-color-secondary)] font-bold mb-1" }, "下行速度"),
+                  r.createElementVNode("div", { class: "font-mono font-bold text-[var(--color-success)] text-sm" }, r.toDisplayString(C.value ? G(C.value.speedDownload) : "0 B") + "/s ", 1)
+                ]),
+                r.createElementVNode("div", { class: "bg-[var(--td-bg-color-secondarycontainer)] p-3 rounded-xl border border-[var(--td-component-border)] flex flex-col justify-between" }, [
+                  r.createElementVNode("div", { class: "text-xs text-[var(--td-text-color-secondary)] font-bold mb-1" }, "活跃连接"),
+                  r.createElementVNode("div", { class: "font-mono font-bold text-[var(--color-warning)] text-sm" }, r.toDisplayString(C.value?.activeConnections || 0) + " / " + r.toDisplayString(m.value?.maxConnections || 128), 1)
+                ]),
+                r.createElementVNode("div", { class: "bg-[var(--td-bg-color-secondarycontainer)] p-3 rounded-xl border border-[var(--td-component-border)] flex flex-col justify-between gap-1" }, [
+                  r.createElementVNode("div", { class: "flex items-center justify-between" }, [
+                    r.createElementVNode("span", { class: "text-xs text-[var(--td-text-color-secondary)] font-bold" }, "总流量"),
+                    m.value?.enableProxyProtocolV2 ? (r.openBlock(), r.createBlock(P, {
+                      key: 0,
+                      theme: "warning",
+                      variant: "light",
+                      size: "small",
+                      class: "!border-none !text-[9px] !h-4 !px-1.5"
+                    }, {
+                      default: r.withCtx(() => [
+                        r.createTextVNode(" Proxy V2 ")
+                      ]),
+                      _: 1
+                    })) : r.createCommentVNode("", !0)
                   ]),
-                  n.createElementVNode("span", { class: "ml-4 text-xs font-mono text-[#858585]" }, "mslx-stun-daemon"),
-                  y.value?.isRunning ? (n.openBlock(), n.createElementBlock("span", {
+                  r.createElementVNode("div", { class: "font-mono font-bold text-[var(--td-text-color-primary)] text-sm truncate" }, r.toDisplayString(C.value ? G(C.value.totalUpload + C.value.totalDownload) : "0 B"), 1)
+                ])
+              ]),
+              r.createElementVNode("div", { class: "relative w-full flex-grow rounded-xl border border-[var(--td-component-border)] bg-[#1e1e1e] overflow-hidden shadow-inner flex flex-col" }, [
+                r.createElementVNode("div", { class: "flex items-center px-4 py-2.5 bg-[#2d2d2d] border-b border-[#404040]" }, [
+                  r.createElementVNode("div", { class: "flex gap-1.5" }, [
+                    r.createElementVNode("div", { class: "w-3 h-3 rounded-full bg-[#ff5f56]" }),
+                    r.createElementVNode("div", { class: "w-3 h-3 rounded-full bg-[#ffbd2e]" }),
+                    r.createElementVNode("div", { class: "w-3 h-3 rounded-full bg-[#27c93f]" })
+                  ]),
+                  r.createElementVNode("span", { class: "ml-4 text-xs font-mono text-[#858585]" }, "mslx-stun-daemon"),
+                  C.value?.isRunning ? (r.openBlock(), r.createElementBlock("span", {
                     key: 0,
                     class: "ml-auto text-xs text-[#34c759] flex items-center gap-1 font-bold"
                   }, [
-                    n.createElementVNode("div", { class: "w-2 h-2 rounded-full bg-[#34c759] animate-pulse" }),
-                    n.createTextVNode(" 运行中 ")
-                  ])) : n.createCommentVNode("", !0)
+                    r.createElementVNode("div", { class: "w-2 h-2 rounded-full bg-[#34c759] animate-pulse" }),
+                    r.createTextVNode(" 运行中 ")
+                  ])) : r.createCommentVNode("", !0)
                 ]),
-                n.createElementVNode("div", {
+                r.createElementVNode("div", {
                   ref_key: "logContainerRef",
                   ref: u,
                   class: "p-4 overflow-y-auto h-full flex-grow custom-scrollbar"
                 }, [
-                  n.createElementVNode("pre", { class: "m-0 text-[13px] font-mono leading-relaxed text-[#d4d4d4] whitespace-pre-wrap" }, [
-                    (n.openBlock(!0), n.createElementBlock(n.Fragment, null, n.renderList(v.value, (m, Y) => (n.openBlock(), n.createElementBlock("code", {
-                      key: Y,
+                  r.createElementVNode("pre", { class: "m-0 text-[13px] font-mono leading-relaxed text-[#d4d4d4] whitespace-pre-wrap" }, [
+                    (r.openBlock(!0), r.createElementBlock(r.Fragment, null, r.renderList(y.value, (v, Q) => (r.openBlock(), r.createElementBlock("code", {
+                      key: Q,
                       class: "block"
-                    }, n.toDisplayString(m), 1))), 128))
+                    }, r.toDisplayString(v), 1))), 128))
                   ]),
-                  v.value.length === 0 ? (n.openBlock(), n.createElementBlock("div", {
+                  y.value.length === 0 ? (r.openBlock(), r.createElementBlock("div", {
                     key: 0,
                     class: "text-[#56b6c2] text-sm font-mono mt-2"
-                  }, " > 正在挂起连接，等待输出... ")) : n.createCommentVNode("", !0)
+                  }, " > 正在挂起连接，等待输出... ")) : r.createCommentVNode("", !0)
                 ], 512)
               ])
             ])
@@ -3314,10 +3343,10 @@ const L = /* @__PURE__ */ Je(io), B = "/api/plugins/mslx-plugin-stun/tunnels", s
   }
 }), go = (t, e) => {
   const o = t.__vccOpts || t;
-  for (const [r, i] of e)
-    o[r] = i;
+  for (const [n, i] of e)
+    o[n] = i;
   return o;
-}, po = /* @__PURE__ */ go(fo, [["__scopeId", "data-v-91375417"]]), mo = {
+}, po = /* @__PURE__ */ go(fo, [["__scopeId", "data-v-0aa89a86"]]), mo = {
   name: "STunPlugin",
   version: "1.0.0",
   // 注入路由
