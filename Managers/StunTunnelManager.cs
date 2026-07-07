@@ -60,7 +60,7 @@ public class StunTunnelManager
 
     private void LogToSignalR(string tunnelId, string formattedLog)
     {
-        SDK.MSLX.Logger.Debug(formattedLog); // 同步输出到 MSLX 核心控制台
+        SDK.MSLX.Logger.Debug(formattedLog);
         _hubContext?.Clients.Group(tunnelId).SendAsync("ReceiveLog", formattedLog);
     }
 

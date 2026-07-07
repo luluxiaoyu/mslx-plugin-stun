@@ -13,7 +13,6 @@ public class StunController : ControllerBase
 {
     public StunController(IHubContext<StunHub> hubContext)
     {
-        // 将 Hub 注入管理器中以实现后台推送
         StunTunnelManager.Instance.SetHubContext(hubContext);
     }
 
