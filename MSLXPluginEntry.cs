@@ -11,7 +11,7 @@ public class MSLXPluginEntry : IPlugin
     public string Id => "mslx-plugin-stun";
     public string Name => "STUN 隧道";
     public string Description => "利用 STUN 技术，在 NAT1 环境下获取公网端口，支持多开与流量监控。";
-    public string Version => "1.0.0。1";
+    public string Version => "1.0.1";
     public string Icon => "icon.png";
     public string MinSDKVersion => "1.4.9";
     public string Developer => "xiaoyu";
