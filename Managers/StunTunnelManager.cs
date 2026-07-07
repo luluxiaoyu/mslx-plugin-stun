@@ -25,7 +25,6 @@ public class StunTunnelManager
         LoadConfigs();
     }
 
-    // Controller 会在首次请求或注入时把 Hub 上下文传进来
     public void SetHubContext(IHubContext<StunHub> hubContext)
     {
         if (_hubContext == null)

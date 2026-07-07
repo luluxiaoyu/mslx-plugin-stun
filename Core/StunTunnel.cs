@@ -16,9 +16,8 @@ public class StunTunnel
     private TcpListener? _natterListener;
 
     private readonly ConcurrentQueue<string> _logHistory = new();
-    private const int MaxLogHistory = 200; // 最多保留200行历史日志
+    private const int MaxLogHistory = 200;
 
-    // 统计数据
     private long _totalUploadBytes;
     private long _totalDownloadBytes;
     private long _lastUploadBytes;
@@ -28,12 +27,12 @@ public class StunTunnel
     private readonly Action<string, string> _logAction;
 
     private readonly string[] _stunServers = {
-            "fwa.lifesizecloud.com",
-            "global.turn.twilio.com",
-            "turn.cloudflare.com",
-            "stun.nextcloud.com",
-            "stun.freeswitch.org"
-        };
+        "fwa.lifesizecloud.com",
+        "global.turn.twilio.com",
+        "turn.cloudflare.com",
+        "stun.nextcloud.com",
+        "stun.freeswitch.org"
+    };
 
     public StunTunnel(TunnelConfig config, Action<string, string> logAction)
     {
@@ -41,21 +40,13 @@ public class StunTunnel
         _logAction = logAction;
     }
 
-    // 获取历史日志的方法
-    public IEnumerable<string> GetLogHistory()
-    {
-        return _logHistory.ToArray();
-    }
+    public IEnumerable<string> GetLogHistory() => _logHistory.ToArray();
 
-    // 日志
     private void Log(string msg)
     {
         string formattedLog = $"{DateTime.Now:yyyy-MM-dd HH:mm:ss} [{Config.Name}] {msg}";
-
         _logHistory.Enqueue(formattedLog);
-
         while (_logHistory.Count > MaxLogHistory && _logHistory.TryDequeue(out _)) { }
-
         _logAction?.Invoke(Config.Id, formattedLog);
     }
 
@@ -70,13 +61,14 @@ public class StunTunnel
 
         try
         {
-            await Task.Run(() => DoNat1SocketForwardWork(_tunnelCts.Token));
+            _ = Task.Run(() => DoNat1SocketForwardWork(_tunnelCts.Token), _tunnelCts.Token);
         }
         catch (Exception ex)
         {
             Log($"[ERROR] 隧道宿主崩溃: {ex.Message}");
             Stop();
         }
+        await Task.CompletedTask;
     }
 
     public void Stop()
@@ -101,7 +93,7 @@ public class StunTunnel
             foreach (var server in _stunServers)
             {
                 if (token.IsCancellationRequested) return;
-                Log($"[INFO] 正在尝试探测: {server}...");
+                Log($"[INFO] 正在尝试从 STUN 服务器探测: {server}...");
                 try
                 {
                     OuterEndPoint = GetCleanStunMapping(server, out allocatedLocalPort);
@@ -115,7 +107,7 @@ public class StunTunnel
 
             if (OuterEndPoint == null)
             {
-                Log("[ERROR] 启动失败，无法获取公网 IP。");
+                Log("[ERROR] 隧道启动失败，请更换使用 Frp映射或点对点联机服务...");
                 Stop();
                 return;
             }
@@ -124,7 +116,7 @@ public class StunTunnel
 
             using (var linkedCts = CancellationTokenSource.CreateLinkedTokenSource(token))
             {
-                Task.Run(() => StartWindowsKeepAlivePump(allocatedLocalPort, linkedCts.Token), linkedCts.Token);
+                _ = Task.Run(() => StartWindowsKeepAlivePump(allocatedLocalPort, linkedCts.Token), linkedCts.Token);
 
                 try
                 {
@@ -132,7 +124,9 @@ public class StunTunnel
                     _natterListener.Server.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReuseAddress, true);
                     _natterListener.Start(5);
 
-                    Log($"[INFO] 服务已就绪！远程地址: tcp://{OuterEndPoint}");
+                    Log($"[INFO] 隧道服务已就绪！");
+                    Log($"[INFO] tcp://127.0.0.1:{Config.LocalPort} 隧道到 tcp://0.0.0.0:{allocatedLocalPort}");
+                    Log($"[INFO] 远程地址 tcp://{OuterEndPoint}");
 
                     var listenTask = Task.Run(() =>
                     {
@@ -143,12 +137,12 @@ public class StunTunnel
                                 TcpClient inboundClient = _natterListener.AcceptTcpClient();
                                 if (_activeConnections >= Config.MaxConnections)
                                 {
-                                    Log($"[WARN] 拒绝连接：已达最大并发 {Config.MaxConnections}。");
+                                    Log($"[WARN] 拒绝来自 {inboundClient.Client.RemoteEndPoint} 的连接：已达到最大并发连接数 {Config.MaxConnections}。");
                                     inboundClient.Close();
                                     continue;
                                 }
 
-                                Task.Run(async () =>
+                                _ = Task.Run(async () =>
                                 {
                                     Interlocked.Increment(ref _activeConnections);
                                     await HandleTcpSocketForward(inboundClient, linkedCts.Token);
@@ -159,7 +153,6 @@ public class StunTunnel
                         catch { }
                     }, linkedCts.Token);
 
-                    // IP 变动检测循环
                     int checkCounter = 0;
                     while (!linkedCts.Token.IsCancellationRequested)
                     {
@@ -181,7 +174,7 @@ public class StunTunnel
 
                             if (currentOuter != null && !currentOuter.Address.Equals(basePublicIP))
                             {
-                                Log($"[WARN] 公网 IP 变动！旧: {basePublicIP} -> 新: {currentOuter.Address}");
+                                Log($"[WARN] 检测到公网 IP 发生变动！旧IP: {basePublicIP} -> 新IP: {currentOuter.Address}");
                                 Log("[INFO] 正在重载隧道服务...");
                                 linkedCts.Cancel();
                                 _natterListener?.Stop();
@@ -192,7 +185,7 @@ public class StunTunnel
                 }
                 catch (Exception ex)
                 {
-                    Log($"[ERROR] 底层管道异常: {ex.Message}，10秒后重试...");
+                    Log($"[ERROR] 底层管道产生异常: {ex.Message}，10秒后进行重试...");
                     try { Task.Delay(10000, token).Wait(token); } catch { return; }
                 }
                 finally
@@ -210,18 +203,14 @@ public class StunTunnel
 
     private async Task HandleTcpSocketForward(TcpClient inboundClient, CancellationToken token)
     {
-        string remoteEpStr = inboundClient.Client.RemoteEndPoint?.ToString() ?? "未知客户端";
-        Log($"[CONN] 收到请求: [{remoteEpStr}]");
-
         using (inboundClient)
         using (TcpClient localBackendClient = new TcpClient())
         {
             try
             {
-                var result = localBackendClient.BeginConnect(Config.LocalIp, Config.LocalPort, null, null);
+                var result = localBackendClient.BeginConnect("127.0.0.1", Config.LocalPort, null, null);
                 if (!result.AsyncWaitHandle.WaitOne(TimeSpan.FromSeconds(3)))
                 {
-                    Log($"[CONN] 转发失败：无法连接 {Config.LocalIp}:{Config.LocalPort}");
                     return;
                 }
                 localBackendClient.EndConnect(result);
@@ -229,28 +218,28 @@ public class StunTunnel
                 using (NetworkStream extStream = inboundClient.GetStream())
                 using (NetworkStream localStream = localBackendClient.GetStream())
                 {
-                    if (Config.EnableProxyProtocolV2 && inboundClient.Client.RemoteEndPoint is IPEndPoint remoteEp && localBackendClient.Client.LocalEndPoint is IPEndPoint localEp)
+                    if (Config.EnableProxyProtocolV2)
                     {
-                        byte[] proxyHeader = BuildProxyProtocolV2Header(remoteEp, localEp);
-                        await localStream.WriteAsync(proxyHeader, 0, proxyHeader.Length, token);
-                        await localStream.FlushAsync(token);
+                        var remoteEp = inboundClient.Client.RemoteEndPoint as IPEndPoint;
+                        var localEp = (localBackendClient.Client.LocalEndPoint as IPEndPoint)
+                                          ?? new IPEndPoint(IPAddress.Parse(Config.LocalIp), Config.LocalPort);
+
+                        if (remoteEp != null)
+                        {
+                            byte[] proxyHeader = BuildProxyProtocolV2Header(remoteEp, localEp);
+
+                            await localStream.WriteAsync(proxyHeader, 0, proxyHeader.Length, token);
+                            await localStream.FlushAsync(token);
+                        }
                     }
 
-                    Log($"[CONN] [{remoteEpStr}] 已连上隧道。");
-
+                    // 挂起双向数据流动管道
                     Task extToLocal = CopySocketStreamAsync(extStream, localStream, false, token);
                     Task localToExt = CopySocketStreamAsync(localStream, extStream, true, token);
                     await Task.WhenAny(extToLocal, localToExt);
                 }
             }
-            catch (Exception ex)
-            {
-                Log($"[CONN] [{remoteEpStr}] 异常断开: {ex.Message}");
-            }
-            finally
-            {
-                Log($"[CONN] [{remoteEpStr}] 释放连接。");
-            }
+            catch { }
         }
     }
 
@@ -272,7 +261,6 @@ public class StunTunnel
         catch { }
     }
 
-    // 原生 STUN 解析逻辑保留
     private IPEndPoint? GetCleanStunMapping(string stunServer, out int localPort)
     {
         localPort = 0;
