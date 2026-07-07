@@ -469,7 +469,7 @@ onBeforeUnmount(() => {
                   size="small"
                   class="!border-none !text-[9px] !h-4 !px-1.5"
               >
-                Proxy V2
+                Proxy Protocol V2
               </t-tag>
             </div>
             <div class="font-mono font-bold text-[var(--td-text-color-primary)] text-sm truncate">
