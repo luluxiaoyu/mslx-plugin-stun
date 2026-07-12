@@ -8,16 +8,18 @@ namespace MSLX.Plugin.Stun.Managers;
 
 public class StunTunnelManager
 {
-    public static StunTunnelManager Instance { get; } = new StunTunnelManager();
-
     private string _configFilePath = "";
     private readonly Dictionary<string, StunTunnel> _tunnels = new();
     private List<TunnelConfig> _configs = new();
 
-    private Timer? _statsTimer;
-    private IHubContext<StunHub>? _hubContext;
+    private readonly Timer _statsTimer;
+    private readonly IHubContext<StunHub> _hubContext;
 
-    private StunTunnelManager() { }
+    public StunTunnelManager(IHubContext<StunHub> hubContext)
+    {
+        _hubContext = hubContext;
+        _statsTimer = new Timer(BroadcastStats, null, 1000, 1000);
+    }
 
     public void Initialize(string dataDir)
     {
@@ -25,19 +27,8 @@ public class StunTunnelManager
         LoadConfigs();
     }
 
-    public void SetHubContext(IHubContext<StunHub> hubContext)
-    {
-        if (_hubContext == null)
-        {
-            _hubContext = hubContext;
-            _statsTimer = new Timer(BroadcastStats, null, 1000, 1000);
-        }
-    }
-
     private async void BroadcastStats(object? state)
     {
-        if (_hubContext == null) return;
-
         foreach (var tunnel in _tunnels.Values.ToList())
         {
             if (tunnel.IsRunning)
@@ -60,7 +51,7 @@ public class StunTunnelManager
     private void LogToSignalR(string tunnelId, string formattedLog)
     {
         SDK.MSLX.Logger.Info(formattedLog);
-        _hubContext?.Clients.Group(tunnelId).SendAsync("ReceiveLog", formattedLog);
+        _hubContext.Clients.Group(tunnelId).SendAsync("ReceiveLog", formattedLog);
     }
 
     public List<TunnelConfig> GetConfigs() => _configs.ToList();
@@ -117,7 +108,7 @@ public class StunTunnelManager
     public void StopAll()
     {
         foreach (var t in _tunnels.Values) t.Stop();
-        _statsTimer?.Dispose();
+        _statsTimer.Dispose();
     }
 
     private void LoadConfigs()

@@ -8,6 +8,13 @@ namespace MSLX.Plugin.Stun.Hubs;
 [Authorize]
 public class StunHub : Hub
 {
+    private readonly StunTunnelManager _tunnelManager;
+
+    public StunHub(StunTunnelManager tunnelManager)
+    {
+        _tunnelManager = tunnelManager;
+    }
+
     private bool HasPermission(string tunnelId)
     {
         var user = Context.User;
@@ -34,9 +41,8 @@ public class StunHub : Hub
 
         await Groups.AddToGroupAsync(Context.ConnectionId, tunnelId);
 
-        var historyLogs = StunTunnelManager.Instance.GetHistoryLogs(tunnelId);
+        var historyLogs = _tunnelManager.GetHistoryLogs(tunnelId);
 
-        // 推送历史日志
         if (historyLogs.Any())
         {
             foreach (var log in historyLogs)

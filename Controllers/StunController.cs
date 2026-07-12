@@ -1,9 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.SignalR;
 using MSLX.SDK.Models;
 using MSLX.Plugin.Stun.Models;
 using MSLX.Plugin.Stun.Managers;
-using MSLX.Plugin.Stun.Hubs;
 
 namespace MSLX.Plugin.Stun.Controllers;
 
@@ -11,34 +9,31 @@ namespace MSLX.Plugin.Stun.Controllers;
 [Route("api/plugins/mslx-plugin-stun/tunnels")]
 public class StunController : ControllerBase
 {
-    public StunController(IHubContext<StunHub> hubContext)
+    private readonly StunTunnelManager _tunnelManager;
+
+    public StunController(StunTunnelManager tunnelManager)
     {
-        StunTunnelManager.Instance.SetHubContext(hubContext);
+        _tunnelManager = tunnelManager;
     }
 
     [HttpGet("list")]
     public IActionResult GetAllTunnels()
     {
-        var configs = StunTunnelManager.Instance.GetConfigs();
+        var configs = _tunnelManager.GetConfigs();
         var result = configs.Select(c => new
         {
             Config = c,
-            Stats = StunTunnelManager.Instance.GetStats(c.Id)
+            Stats = _tunnelManager.GetStats(c.Id)
         });
 
-        return Ok(new ApiResponse<object>
-        {
-            Code = 200,
-            Message = "获取成功",
-            Data = result
-        });
+        return Ok(new ApiResponse<object> { Code = 200, Message = "获取成功", Data = result });
     }
 
     [HttpPost("create")]
     public IActionResult CreateTunnel([FromBody] TunnelConfig config)
     {
         if (string.IsNullOrEmpty(config.Id)) config.Id = Guid.NewGuid().ToString("N");
-        StunTunnelManager.Instance.AddTunnel(config);
+        _tunnelManager.AddTunnel(config);
         return Ok(new ApiResponse<object> { Code = 200, Message = "创建成功", Data = config });
     }
 
@@ -50,7 +45,7 @@ public class StunController : ControllerBase
             return BadRequest(new ApiResponse<object> { Code = 400, Message = "更新失败：缺少隧道ID" });
         }
 
-        StunTunnelManager.Instance.UpdateTunnel(config);
+        _tunnelManager.UpdateTunnel(config);
         return Ok(new ApiResponse<object> { Code = 200, Message = "更新成功" });
     }
 
@@ -62,32 +57,33 @@ public class StunController : ControllerBase
             return BadRequest(new ApiResponse<object> { Code = 400, Message = "删除失败：缺少隧道ID" });
         }
 
-        StunTunnelManager.Instance.RemoveTunnel(id);
+        _tunnelManager.RemoveTunnel(id);
         return Ok(new ApiResponse<object> { Code = 200, Message = "删除成功" });
     }
 
     [HttpPost("start")]
-    public IActionResult StartTunnel([FromQuery] string id)
+    public async Task<IActionResult> StartTunnel([FromQuery] string id)
     {
         if (string.IsNullOrEmpty(id))
         {
             return BadRequest(new ApiResponse<object> { Code = 400, Message = "启动失败：缺少隧道ID" });
         }
 
-        _ = Task.Run(async () =>
+        try
         {
-            try
-            {
-                SDK.MSLX.Logger.Info($"[STUN] 正在启动隧道 {id}...");
-                await StunTunnelManager.Instance.StartTunnel(id);
-            }
-            catch (Exception ex)
-            {
-                SDK.MSLX.Logger.Error($"[STUN] 后台启动隧道 {id} 异常: {ex.Message}");
-            }
-        });
+            SDK.MSLX.Logger.Info($"[STUN] 正在启动隧道 {id}...");
 
-        return Ok(new ApiResponse<object> { Code = 200, Message = "启动指令已下发" });
+            await _tunnelManager.StartTunnel(id);
+
+            SDK.MSLX.Logger.Info($"[STUN] 隧道 {id} 启动成功并已获取最新公网状态。");
+        }
+        catch (Exception ex)
+        {
+            SDK.MSLX.Logger.Error($"[STUN] 启动隧道 {id} 异常: {ex.Message}");
+            return StatusCode(500, new ApiResponse<object> { Code = 500, Message = $"启动异常: {ex.Message}" });
+        }
+
+        return Ok(new ApiResponse<object> { Code = 200, Message = "启动成功" });
     }
 
     [HttpPost("stop")]
@@ -98,7 +94,7 @@ public class StunController : ControllerBase
             return BadRequest(new ApiResponse<object> { Code = 400, Message = "停止失败：缺少隧道ID" });
         }
         SDK.MSLX.Logger.Info($"[STUN] 正在关闭隧道 {id}...");
-        StunTunnelManager.Instance.StopTunnel(id);
+        _tunnelManager.StopTunnel(id);
         return Ok(new ApiResponse<object> { Code = 200, Message = "已停止" });
     }
 }
