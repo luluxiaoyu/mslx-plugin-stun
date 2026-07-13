@@ -1,11 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using MSLX.SDK.Models;
-using MSLX.Plugin.Stun.Models;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using MSLX.Plugin.Stun.Managers;
+using MSLX.Plugin.Stun.Models;
+using MSLX.SDK.Models;
 
 namespace MSLX.Plugin.Stun.Controllers;
 
 [ApiController]
+[Authorize(Roles = "admin")]
 [Route("api/plugins/mslx-plugin-stun/tunnels")]
 public class StunController : ControllerBase
 {

@@ -5,7 +5,7 @@ using MSLX.Plugin.Stun.Managers;
 
 namespace MSLX.Plugin.Stun.Hubs;
 
-[Authorize]
+[Authorize(Roles = "admin")]
 public class StunHub : Hub
 {
     private readonly StunTunnelManager _tunnelManager;
